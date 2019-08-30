@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project name="Emoji catalog" default="diagnostics">
+
+  <defaultexcludes default="true"/><!--Initializing default excludes-->
+  <defaultexcludes add="**/.idea"/>
+  <defaultexcludes add="**/.idea/**"/>
+  <property name="phing.http.proxy" value="${env.http_proxy}"/>
+
+  <target name="diagnostics">
+    <diagnostics/>
+  </target>
+
+  <target name="setup" description="Prepare project for dev" depends="diagnostics, composer:install, phing:visualizer"/>
+  <target name="qa" description="Quality assurance" depends="composer:validate, php:lint"/>
+  <target name="update" description="Update Emoji.php" depends="emoji:download, emoji:parse, emoji:build"/>
+
+  <target name="composer:validate" description="Validate composer.json">
+    <composer command="validate">
+      <arg value="--no-interaction"/>
+      <arg value="--profile"/>
+      <arg value="--strict"/>
+    </composer>
+  </target>
+
+  <target name="phing:visualizer">
+    <visualizer/>
+  </target>
+
+  <target name="composer:install" description="Install for dev">
+    <composer command="install">
+      <arg value="--no-suggest"/>
+      <arg value="--no-interaction"/>
+      <arg value="--profile"/>
+      <arg value="--prefer-dist"/>
+    </composer>
+  </target>
+
+  <target name="git:tag-listing" description="List all git tags">
+    <!--https://stackoverflow.com/a/34239190/4345061-->
+    <exec executable="git" passthru="true">
+      <arg value="log"/>
+      <arg line="--graph --all --decorate --oneline --simplify-by-decoration"/>
+    </exec>
+  </target>
+
+  <target name="changelog:links" description="Update links in composer.json">
+    <composer command="require">
+      <arg value="symplify/changelog-linker"/>
+    </composer>
+    <exec executable="vendor/bin/changelog-linker">
+      <arg value="link"/>
+    </exec>
+    <composer command="remove">
+      <arg value="symplify/changelog-linker"/>
+    </composer>
+  </target>
+
+  <target name="emoji:download">
+    <mkdir dir="resources/unicode/"/>
+    <httpget dir="resources/unicode/" url="https://unicode.org/emoji/charts/full-emoji-list.html"/>
+    <httpget dir="resources/unicode/" url="https://unicode.org/emoji/charts/full-emoji-modifiers.html"/>
+  </target>
+
+  <target name="emoji:parse">
+    <mkdir dir="resources/output"/>
+    <delete file="resources/output/full-emoji-list.txt"/>
+    <xslt file="resources/unicode/full-emoji-list.html"
+          tofile="resources/output/full-emoji-list.txt"
+          style="resources/xslt/emoji.xsl"
+          haltonerror="false"
+          overwrite="true"
+          html="true"/>
+
+    <delete file="resources/output/full-emoji-modifiers.txt"/>
+    <xslt file="resources/unicode/full-emoji-modifiers.html"
+          tofile="resources/output/full-emoji-modifiers.txt"
+          style="resources/xslt/emoji.xsl"
+          haltonerror="false"
+          overwrite="true"
+          html="true"/>
+  </target>
+
+  <target name="emoji:build">
+    <append file="resources/templates/header.php.dist" destFile="src/Emoji.php" append="false" overwrite="true"/>
+    <append file="resources/output/full-emoji-list.txt" destFile="src/Emoji.php"/>
+    <append file="resources/output/full-emoji-modifiers.txt" destFile="src/Emoji.php"/>
+    <append file="resources/templates/footer.php.dist" destFile="src/Emoji.php"/>
+  </target>
+
+  <target name="php:lint" description="Check PHP syntax">
+    <phplint deprecatedAsError="true">
+      <fileset dir="src">
+        <include name="**/*.php"/>
+      </fileset>
+    </phplint>
+  </target>
+
+</project>
