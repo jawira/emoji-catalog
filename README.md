@@ -5,9 +5,9 @@ Get access to +3000 emojis as class constants.
 
 Features:
 
-- 🍼 Really easy to use
+- 🍰 Really easy to use
 - 🔓 Zero dependencies
-- 💪 A lot of emojis
+- 🤩 A lot of emojis
 
 [![Latest Stable Version](https://poser.pugx.org/jawira/emoji-catalog/v/stable)](https://packagist.org/packages/jawira/emoji-catalog)
 ![Emoji](https://img.shields.io/badge/Emoji-v12.0-%235354FE)
@@ -15,6 +15,7 @@ Features:
 [![License](https://poser.pugx.org/jawira/emoji-catalog/license)](https://packagist.org/packages/jawira/emoji-catalog)
 [![composer.lock](https://poser.pugx.org/jawira/emoji-catalog/composerlock)](https://packagist.org/packages/jawira/emoji-catalog)
 [![PDS Skeleton](https://img.shields.io/badge/pds-skeleton-blue.svg)](https://github.com/php-pds/skeleton)
+[![Issues](https://img.shields.io/github/issues/jawira/emoji-catalog.svg?label=HuBoard&color=694DC2)](https://huboard.com/jawira/emoji-catalog)
 
 Usage
 -----
@@ -31,8 +32,8 @@ echo Emoji::HOURGLASS_DONE; // ⌛
 echo Emoji::EJECT_BUTTON;   // ⏏
 ```
 
-Your favorite IDE should give you autocomplete since you are calling class 
-constants:
+Your favorite IDE should give you autocomplete since you are simply calling 
+class constants:
 
 ![Autocomplete](docs/images/autocomplete.png)
 
