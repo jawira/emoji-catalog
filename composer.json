@@ -2,6 +2,15 @@
   "name": "jawira/emoji-catalog",
   "type": "library",
   "description": "Get access to +3000 emojis as class constants",
+  "keywords": [
+    "emoji",
+    "emojis",
+    "emoticons",
+    "smileys",
+    "smilies",
+    "unicode",
+    "catalog"
+  ],
   "license": "MIT",
   "authors": [
     {
@@ -12,8 +21,7 @@
   "require": {
     "php": ">=5.6"
   },
-  "require-dev": {
-  },
+  "require-dev": {},
   "config": {
     "preferred-install": "dist",
     "sort-packages": true
