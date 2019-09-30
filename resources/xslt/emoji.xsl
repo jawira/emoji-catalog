@@ -5,21 +5,41 @@
 
   <xsl:template match="/">
     <xsl:for-each select="//table//tr[./td//img]">
-      <xsl:text>    const </xsl:text>
+      <xsl:text>    /**&#10;</xsl:text>
+      <xsl:text>     * </xsl:text>
       <xsl:call-template name="get-name"/>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:text>     *&#10;</xsl:text>
+      <xsl:text>     * Code point(s): </xsl:text>
+      <xsl:call-template name="get-code"/>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:text>     */&#10;</xsl:text>
+      <xsl:text>    const </xsl:text>
+      <xsl:call-template name="get-constant-name"/>
       <xsl:text> = "</xsl:text>
       <xsl:call-template name="get-alt"/>
-      <xsl:text>";&#10;</xsl:text>
+      <xsl:text>";&#10;&#10;</xsl:text>
     </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template name="get-code">
+    <xsl:value-of select="./td[2]//a/text()"/>
+  </xsl:template>
+
+  <xsl:template name="get-name">
+    <xsl:variable name="short-name" select="./td[last()]/text()"/>
+    <xsl:variable name="removable" select="'⊛⊖'"/>
+    <xsl:variable name="cleaned" select="translate($short-name, $removable, '')"/>
+    <xsl:value-of select="normalize-space($cleaned)"/>
   </xsl:template>
 
   <xsl:template name="get-alt">
     <xsl:value-of select="./td[3]/text()"/>
   </xsl:template>
 
-  <xsl:template name="get-name">
+  <xsl:template name="get-constant-name">
     <xsl:variable name="short-name" select="./td[last()]/text()"/>
-    <xsl:variable name="removable" select="':;.,⊛’!“”()'"/>
+    <xsl:variable name="removable" select="':;.,⊛’!“”()⊖'"/>
     <xsl:variable name="cleaned" select="translate($short-name, $removable, '')"/>
     <xsl:variable name="lowercase" select="'Åãabcçdeéfghíijklmnoôpqrstuvwxyz-&amp;'"/>
     <xsl:variable name="uppercase" select="'AAABCCDEEFGHIIJKLMNOOPQRSTUVWXYZ N'"/>
