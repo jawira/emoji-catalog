@@ -5,9 +5,9 @@ Get access to +3000 emojis as class constants.
 
 Features:
 
-- 🍰 Really easy to use
-- 🔓 Zero dependencies
+- 🍰 Dead easy to use
 - 🤩 A lot of emojis
+- 🔓 Zero dependencies
 
 [![Latest Stable Version](https://poser.pugx.org/jawira/emoji-catalog/v/stable)](https://packagist.org/packages/jawira/emoji-catalog)
 ![Emoji](https://img.shields.io/badge/Emoji-v12.0-%235354FE)

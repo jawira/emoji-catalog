@@ -1,4 +1,6 @@
-<?php
+<?php /** @noinspection PhpUnused */
+
+namespace Jawira\EmojiCatalog;
 
 /**
  * Class Emoji
@@ -6,9 +8,7 @@
  * Get access to all emojis as class constants.
  *
  * @package Jawira\EmojiCatalog
- * @author Jawira Portugal <dev@tugal.be>
+ * @author  Jawira Portugal <dev@tugal.be>
  */
-namespace Jawira\EmojiCatalog;
-
 class Emoji
 {

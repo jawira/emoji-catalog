@@ -1,7 +1,4 @@
-Changelog
-=========
-
-All notable changes to this project will be documented in this file.
+# Changelog
 
 <!--
 ### Added
@@ -12,32 +9,23 @@ All notable changes to this project will be documented in this file.
 ### Security
 -->
 
-Unreleased
-----------
+## Unreleased
 
 ### Added
 
-- Added a change
+- [#2] Added docblock with _name_ and _code point_ to all constants.
 
+### Changed
 
+- [#2] Constant `Emoji::LAPTOP_COMPUTER` was changed to `Emoji::LAPTOP`.
+- [#2] Constant `Emoji::FLAG_ENGLAND` was changed to `Emoji::FLAG_GBENG`.
+- [#2] Constant `Emoji::FLAG_SCOTLAND` was changed to `Emoji::FLAG_GBSCT`.
+- [#2] Constant `Emoji::FLAG_WALES` was changed to `Emoji::FLAG_GBWLS`.
 
-<!---
-Guiding Principles
+## [v0.0.0] - 2019-08-30
 
-    Changelogs are for humans, not machines.
-    There should be an entry for every single version.
-    The same types of changes should be grouped.
-    Versions and sections should be linkable.
-    The latest version comes first.
-    The release date of each versions is displayed.
-    Mention whether you follow Semantic Versioning.
+### Added
 
-Types of changes
+- First working version.
 
-    ### Added       for new features.
-    ### Changed     for changes in existing functionality.
-    ### Deprecated  for soon-to-be removed features.
-    ### Removed     for now removed features.
-    ### Fixed       for any bug fixes.
-    ### Security    in case of vulnerabilities.
--->
+[#2]: https://github.com/jawira/emoji-catalo/pull/2
