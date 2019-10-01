@@ -11,6 +11,8 @@
 
 ## Unreleased
 
+## [v1.0.0] - 2019-10-01
+
 ### Added
 
 - [#2] Added docblock with _name_ and _code point_ to all constants.
@@ -29,3 +31,4 @@
 - First working version.
 
 [#2]: https://github.com/jawira/emoji-catalo/pull/2
+[v1.0.0]: https://github.com/jawira/emoji-catalo/compare/v0.0.0...v1.0.0
