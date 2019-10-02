@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<project name="Emoji catalog" default="diagnostics">
+<project name="Emoji catalog" default="diagnostics" phingVersion="3">
 
   <defaultexcludes default="true"/><!--Initializing default excludes-->
   <defaultexcludes add="**/.idea"/>
@@ -13,7 +13,10 @@
 
   <target name="setup" description="Prepare project for dev" depends="diagnostics, composer:install, phing:visualizer"/>
   <target name="qa" description="Quality assurance" depends="composer:validate, php:lint"/>
-  <target name="update" description="Update Emoji.php" depends="emoji:download, emoji:parse, emoji:build"/>
+  <target name="update" description="Update class and catalog" depends="emoji:update, catalog:update"/>
+  <target name="emoji:update" description="Update Emoji.php" depends="emoji-list:download, emoji:parse, emoji:build"/>
+  <target name="catalog:update" description="Update catalog.md"
+          depends="emoji-list:download, catalog:parse, catalog:build"/>
 
   <target name="composer:validate" description="Validate composer.json">
     <composer command="validate">
@@ -56,7 +59,7 @@
     </composer>
   </target>
 
-  <target name="emoji:download">
+  <target name="emoji-list:download">
     <mkdir dir="resources/unicode/"/>
     <httpget dir="resources/unicode/" url="https://unicode.org/emoji/charts/full-emoji-list.html"/>
     <httpget dir="resources/unicode/" url="https://unicode.org/emoji/charts/full-emoji-modifiers.html"/>
@@ -64,17 +67,17 @@
 
   <target name="emoji:parse">
     <mkdir dir="resources/output"/>
-    <delete file="resources/output/full-emoji-list.txt"/>
+    <delete file="resources/output/emoji-1.txt"/>
     <xslt file="resources/unicode/full-emoji-list.html"
-          tofile="resources/output/full-emoji-list.txt"
+          tofile="resources/output/emoji-1.txt"
           style="resources/xslt/emoji.xsl"
           haltonerror="false"
           overwrite="true"
           html="true"/>
 
-    <delete file="resources/output/full-emoji-modifiers.txt"/>
+    <delete file="resources/output/emoji-2.txt"/>
     <xslt file="resources/unicode/full-emoji-modifiers.html"
-          tofile="resources/output/full-emoji-modifiers.txt"
+          tofile="resources/output/emoji-2.txt"
           style="resources/xslt/emoji.xsl"
           haltonerror="false"
           overwrite="true"
@@ -82,10 +85,36 @@
   </target>
 
   <target name="emoji:build">
-    <append file="resources/templates/header.php.dist" destFile="src/Emoji.php" append="false" overwrite="true"/>
-    <append file="resources/output/full-emoji-list.txt" destFile="src/Emoji.php"/>
-    <append file="resources/output/full-emoji-modifiers.txt" destFile="src/Emoji.php"/>
-    <append file="resources/templates/footer.php.dist" destFile="src/Emoji.php"/>
+    <append file="resources/templates/emoji-header.php.dist" destFile="src/Emoji.php" append="false" overwrite="true"/>
+    <append file="resources/output/emoji-1.txt" destFile="src/Emoji.php"/>
+    <append file="resources/output/emoji-2.txt" destFile="src/Emoji.php"/>
+    <append file="resources/templates/emoji-footer.php.dist" destFile="src/Emoji.php"/>
+  </target>
+
+  <target name="catalog:parse">
+    <mkdir dir="resources/output"/>
+    <delete file="resources/output/catalog-1.txt"/>
+    <xslt file="resources/unicode/full-emoji-list.html"
+          tofile="resources/output/catalog-1.txt"
+          style="resources/xslt/catalog.xsl"
+          haltonerror="false"
+          overwrite="true"
+          html="true"/>
+
+    <delete file="resources/output/catalog-2.txt"/>
+    <xslt file="resources/unicode/full-emoji-modifiers.html"
+          tofile="resources/output/catalog-2.txt"
+          style="resources/xslt/catalog.xsl"
+          haltonerror="false"
+          overwrite="true"
+          html="true"/>
+  </target>
+
+  <target name="catalog:build">
+    <append file="resources/templates/catalog-header.md.dist" destFile="docs/catalog.md" append="false"
+            overwrite="true"/>
+    <append file="resources/output/catalog-1.txt" destFile="docs/catalog.md"/>
+    <append file="resources/output/catalog-2.txt" destFile="docs/catalog.md"/>
   </target>
 
   <target name="php:lint" description="Check PHP syntax">

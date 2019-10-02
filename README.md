@@ -9,6 +9,8 @@ Features:
 - 🤩 A lot of emojis
 - 🔓 Zero dependencies
 
+You can see [full list of emojis].
+
 [![Latest Stable Version](https://poser.pugx.org/jawira/emoji-catalog/v/stable)](https://packagist.org/packages/jawira/emoji-catalog)
 ![Emoji](https://img.shields.io/badge/Emoji-v12.0-%235354FE)
 [![Total Downloads](https://poser.pugx.org/jawira/emoji-catalog/downloads)](https://packagist.org/packages/jawira/emoji-catalog)
@@ -55,12 +57,12 @@ License
 This library is licensed under the [MIT license](LICENSE.md).
 
 [GitHub]: https://github.com/jawira/emoji-catalog
-
+[full list of emojis]: https://github.com/jawira/emoji-catalog/blob/master/docs/catalog.md
 
 ***
 
-My other packages
------------------
+Packages from jawira
+--------------------
 
 <dl>
 
@@ -70,19 +72,11 @@ My other packages
       Upper case, Lower case, Sentence case, Title case and Dot notation.
   </dd>
 
-  <dt><a href="https://packagist.org/packages/jawira/phing-visualizer">jawira/phing-visualizer</a> (library)</dt>
-  <dd>Graphical representation of Phing's buildfile.</dd>
-
-  <dt><a href="https://packagist.org/packages/jawira/phing-open-task">jawira/phing-open-task</a> (library)</dt>
-  <dd>Phing task to open files, directories, and URLs with your favorite software.</dd>
-
   <dt><a href="https://packagist.org/packages/jawira/plantuml">jawira/plantuml</a> (library)</dt>
   <dd>Provides PlantUML integration: plantuml executable and plantuml.jar</dd>
 
   <dt><a href="https://packagist.org/packages/jawira/plantuml-encoding">jawira/plantuml-encoding</a> (library)</dt>
   <dd>PlantUML encoding functions.</dd>
 
-  <dt><a href="https://packagist.org/packages/jawira/process-maker">jawira/process-maker</a> (project)</dt>
-  <dd>Easily install and try ProcessMaker using Docker Compose.</dd>
-
+  <dt><a href="https://packagist.org/packages/jawira/">more...</a></dt>
 </dl>
