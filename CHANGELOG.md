@@ -11,6 +11,8 @@
 
 ## Unreleased
 
+## [v1.1.0] - 2019-10-02
+
 ### Added
 
 - [#1] Added catalog with the list of all emojis
@@ -36,5 +38,5 @@
 
 [#2]: https://github.com/jawira/emoji-catalo/pull/2
 [v1.0.0]: https://github.com/jawira/emoji-catalo/compare/v0.0.0...v1.0.0
-
 [#1]: https://github.com/jawira/emoji-catalo/pull/1
+[v1.1.0]: https://github.com/jawira/emoji-catalo/compare/v1.0.0...v1.1.0
