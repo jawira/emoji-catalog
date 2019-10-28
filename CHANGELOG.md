@@ -11,6 +11,14 @@
 
 ## Unreleased
 
+### Changed
+
+## [v1.2.0] - 2019-10-28
+
+### Changed
+
+- [#5] Updated to Emoji v12.1
+
 ## [v1.1.0] - 2019-10-02
 
 ### Added
@@ -40,3 +48,5 @@
 [v1.0.0]: https://github.com/jawira/emoji-catalo/compare/v0.0.0...v1.0.0
 [#1]: https://github.com/jawira/emoji-catalo/pull/1
 [v1.1.0]: https://github.com/jawira/emoji-catalo/compare/v1.0.0...v1.1.0
+[#5]: https://github.com/jawira/emoji-catalo/pull/5
+[v1.2.0]: https://github.com/jawira/emoji-catalo/compare/v1.1.0...v1.2.0

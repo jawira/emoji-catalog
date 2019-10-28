@@ -125,4 +125,20 @@
     </phplint>
   </target>
 
+  <target name="emoji:count" description="Count constants in Emoji class">
+    <autoloader autoloaderpath="vendor/autoload.php"/>
+    <adhoc-task name="emoji-count"><![CDATA[
+    class EmojiCountTask extends Task {
+        function main() {
+            $emojiReflection = new ReflectionClass(\Jawira\EmojiCatalog\Emoji::class);
+            $constants = $emojiReflection->getConstants();
+            $count = count($constants);
+            $this->log("Emoji count: $count");
+            $this->project->setProperty('emoji-count', $count);
+        }
+    }
+]]></adhoc-task>
+    <emoji-count/>
+  </target>
+
 </project>
