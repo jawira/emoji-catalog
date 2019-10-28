@@ -1448,13 +1448,6 @@ class Emoji
     const MAN_BEARD = "🧔";
 
     /**
-     * man: blond hair
-     *
-     * Code point(s): U+1F471 U+200D U+2642 U+FE0F
-     */
-    const MAN_BLOND_HAIR = "👱‍♂️";
-
-    /**
      * man: red hair
      *
      * Code point(s): U+1F468 U+200D U+1F9B0
@@ -1490,18 +1483,18 @@ class Emoji
     const WOMAN = "👩";
 
     /**
-     * woman: blond hair
-     *
-     * Code point(s): U+1F471 U+200D U+2640 U+FE0F
-     */
-    const WOMAN_BLOND_HAIR = "👱‍♀️";
-
-    /**
      * woman: red hair
      *
      * Code point(s): U+1F469 U+200D U+1F9B0
      */
     const WOMAN_RED_HAIR = "👩‍🦰";
+
+    /**
+     * person: red hair
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F9B0
+     */
+    const PERSON_RED_HAIR = "🧑‍🦰";
 
     /**
      * woman: curly hair
@@ -1511,6 +1504,13 @@ class Emoji
     const WOMAN_CURLY_HAIR = "👩‍🦱";
 
     /**
+     * person: curly hair
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F9B1
+     */
+    const PERSON_CURLY_HAIR = "🧑‍🦱";
+
+    /**
      * woman: white hair
      *
      * Code point(s): U+1F469 U+200D U+1F9B3
@@ -1518,11 +1518,39 @@ class Emoji
     const WOMAN_WHITE_HAIR = "👩‍🦳";
 
     /**
+     * person: white hair
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F9B3
+     */
+    const PERSON_WHITE_HAIR = "🧑‍🦳";
+
+    /**
      * woman: bald
      *
      * Code point(s): U+1F469 U+200D U+1F9B2
      */
     const WOMAN_BALD = "👩‍🦲";
+
+    /**
+     * person: bald
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F9B2
+     */
+    const PERSON_BALD = "🧑‍🦲";
+
+    /**
+     * woman: blond hair
+     *
+     * Code point(s): U+1F471 U+200D U+2640 U+FE0F
+     */
+    const WOMAN_BLOND_HAIR = "👱‍♀️";
+
+    /**
+     * man: blond hair
+     *
+     * Code point(s): U+1F471 U+200D U+2642 U+FE0F
+     */
+    const MAN_BLOND_HAIR = "👱‍♂️";
 
     /**
      * older person
@@ -1756,6 +1784,13 @@ class Emoji
     const WOMAN_SHRUGGING = "🤷‍♀️";
 
     /**
+     * health worker
+     *
+     * Code point(s): U+1F9D1 U+200D U+2695 U+FE0F
+     */
+    const HEALTH_WORKER = "🧑‍⚕️";
+
+    /**
      * man health worker
      *
      * Code point(s): U+1F468 U+200D U+2695 U+FE0F
@@ -1768,6 +1803,13 @@ class Emoji
      * Code point(s): U+1F469 U+200D U+2695 U+FE0F
      */
     const WOMAN_HEALTH_WORKER = "👩‍⚕️";
+
+    /**
+     * student
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F393
+     */
+    const STUDENT = "🧑‍🎓";
 
     /**
      * man student
@@ -1784,6 +1826,13 @@ class Emoji
     const WOMAN_STUDENT = "👩‍🎓";
 
     /**
+     * teacher
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F3EB
+     */
+    const TEACHER = "🧑‍🏫";
+
+    /**
      * man teacher
      *
      * Code point(s): U+1F468 U+200D U+1F3EB
@@ -1796,6 +1845,13 @@ class Emoji
      * Code point(s): U+1F469 U+200D U+1F3EB
      */
     const WOMAN_TEACHER = "👩‍🏫";
+
+    /**
+     * judge
+     *
+     * Code point(s): U+1F9D1 U+200D U+2696 U+FE0F
+     */
+    const JUDGE = "🧑‍⚖️";
 
     /**
      * man judge
@@ -1812,6 +1868,13 @@ class Emoji
     const WOMAN_JUDGE = "👩‍⚖️";
 
     /**
+     * farmer
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F33E
+     */
+    const FARMER = "🧑‍🌾";
+
+    /**
      * man farmer
      *
      * Code point(s): U+1F468 U+200D U+1F33E
@@ -1824,6 +1887,13 @@ class Emoji
      * Code point(s): U+1F469 U+200D U+1F33E
      */
     const WOMAN_FARMER = "👩‍🌾";
+
+    /**
+     * cook
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F373
+     */
+    const COOK = "🧑‍🍳";
 
     /**
      * man cook
@@ -1840,6 +1910,13 @@ class Emoji
     const WOMAN_COOK = "👩‍🍳";
 
     /**
+     * mechanic
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F527
+     */
+    const MECHANIC = "🧑‍🔧";
+
+    /**
      * man mechanic
      *
      * Code point(s): U+1F468 U+200D U+1F527
@@ -1852,6 +1929,13 @@ class Emoji
      * Code point(s): U+1F469 U+200D U+1F527
      */
     const WOMAN_MECHANIC = "👩‍🔧";
+
+    /**
+     * factory worker
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F3ED
+     */
+    const FACTORY_WORKER = "🧑‍🏭";
 
     /**
      * man factory worker
@@ -1868,6 +1952,13 @@ class Emoji
     const WOMAN_FACTORY_WORKER = "👩‍🏭";
 
     /**
+     * office worker
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F4BC
+     */
+    const OFFICE_WORKER = "🧑‍💼";
+
+    /**
      * man office worker
      *
      * Code point(s): U+1F468 U+200D U+1F4BC
@@ -1880,6 +1971,13 @@ class Emoji
      * Code point(s): U+1F469 U+200D U+1F4BC
      */
     const WOMAN_OFFICE_WORKER = "👩‍💼";
+
+    /**
+     * scientist
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F52C
+     */
+    const SCIENTIST = "🧑‍🔬";
 
     /**
      * man scientist
@@ -1896,6 +1994,13 @@ class Emoji
     const WOMAN_SCIENTIST = "👩‍🔬";
 
     /**
+     * technologist
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F4BB
+     */
+    const TECHNOLOGIST = "🧑‍💻";
+
+    /**
      * man technologist
      *
      * Code point(s): U+1F468 U+200D U+1F4BB
@@ -1908,6 +2013,13 @@ class Emoji
      * Code point(s): U+1F469 U+200D U+1F4BB
      */
     const WOMAN_TECHNOLOGIST = "👩‍💻";
+
+    /**
+     * singer
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F3A4
+     */
+    const SINGER = "🧑‍🎤";
 
     /**
      * man singer
@@ -1924,6 +2036,13 @@ class Emoji
     const WOMAN_SINGER = "👩‍🎤";
 
     /**
+     * artist
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F3A8
+     */
+    const ARTIST = "🧑‍🎨";
+
+    /**
      * man artist
      *
      * Code point(s): U+1F468 U+200D U+1F3A8
@@ -1936,6 +2055,13 @@ class Emoji
      * Code point(s): U+1F469 U+200D U+1F3A8
      */
     const WOMAN_ARTIST = "👩‍🎨";
+
+    /**
+     * pilot
+     *
+     * Code point(s): U+1F9D1 U+200D U+2708 U+FE0F
+     */
+    const PILOT = "🧑‍✈️";
 
     /**
      * man pilot
@@ -1952,6 +2078,13 @@ class Emoji
     const WOMAN_PILOT = "👩‍✈️";
 
     /**
+     * astronaut
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F680
+     */
+    const ASTRONAUT = "🧑‍🚀";
+
+    /**
      * man astronaut
      *
      * Code point(s): U+1F468 U+200D U+1F680
@@ -1964,6 +2097,13 @@ class Emoji
      * Code point(s): U+1F469 U+200D U+1F680
      */
     const WOMAN_ASTRONAUT = "👩‍🚀";
+
+    /**
+     * firefighter
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F692
+     */
+    const FIREFIGHTER = "🧑‍🚒";
 
     /**
      * man firefighter
@@ -2099,11 +2239,11 @@ class Emoji
     const WOMAN_WEARING_TURBAN = "👳‍♀️";
 
     /**
-     * man with Chinese cap
+     * man with skullcap
      *
      * Code point(s): U+1F472
      */
-    const MAN_WITH_CHINESE_CAP = "👲";
+    const MAN_WITH_SKULLCAP = "👲";
 
     /**
      * woman with headscarf
@@ -2456,6 +2596,13 @@ class Emoji
     const WOMAN_KNEELING = "🧎‍♀️";
 
     /**
+     * person with probing cane
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F9AF
+     */
+    const PERSON_WITH_PROBING_CANE = "🧑‍🦯";
+
+    /**
      * man with probing cane
      *
      * Code point(s): U+1F468 U+200D U+1F9AF
@@ -2470,6 +2617,13 @@ class Emoji
     const WOMAN_WITH_PROBING_CANE = "👩‍🦯";
 
     /**
+     * person in motorized wheelchair
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F9BC
+     */
+    const PERSON_IN_MOTORIZED_WHEELCHAIR = "🧑‍🦼";
+
+    /**
      * man in motorized wheelchair
      *
      * Code point(s): U+1F468 U+200D U+1F9BC
@@ -2482,6 +2636,13 @@ class Emoji
      * Code point(s): U+1F469 U+200D U+1F9BC
      */
     const WOMAN_IN_MOTORIZED_WHEELCHAIR = "👩‍🦼";
+
+    /**
+     * person in manual wheelchair
+     *
+     * Code point(s): U+1F9D1 U+200D U+1F9BD
+     */
+    const PERSON_IN_MANUAL_WHEELCHAIR = "🧑‍🦽";
 
     /**
      * man in manual wheelchair
@@ -12025,25 +12186,25 @@ class Emoji
     const FLAG_ZIMBABWE = "🇿🇼";
 
     /**
-     * flag: gbeng
+     * flag: England
      *
      * Code point(s): U+1F3F4 U+E0067 U+E0062 U+E0065 U+E006E U+E0067 U+E007F
      */
-    const FLAG_GBENG = "🏴󠁧󠁢󠁥󠁮󠁧󠁿";
+    const FLAG_ENGLAND = "🏴󠁧󠁢󠁥󠁮󠁧󠁿";
 
     /**
-     * flag: gbsct
+     * flag: Scotland
      *
      * Code point(s): U+1F3F4 U+E0067 U+E0062 U+E0073 U+E0063 U+E0074 U+E007F
      */
-    const FLAG_GBSCT = "🏴󠁧󠁢󠁳󠁣󠁴󠁿";
+    const FLAG_SCOTLAND = "🏴󠁧󠁢󠁳󠁣󠁴󠁿";
 
     /**
-     * flag: gbwls
+     * flag: Wales
      *
      * Code point(s): U+1F3F4 U+E0067 U+E0062 U+E0077 U+E006C U+E0073 U+E007F
      */
-    const FLAG_GBWLS = "🏴󠁧󠁢󠁷󠁬󠁳󠁿";
+    const FLAG_WALES = "🏴󠁧󠁢󠁷󠁬󠁳󠁿";
 
     /**
      * waving hand: light skin tone
@@ -13656,41 +13817,6 @@ class Emoji
     const MAN_DARK_SKIN_TONE_BEARD = "🧔🏿";
 
     /**
-     * man: light skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FB U+200D U+2642 U+FE0F
-     */
-    const MAN_LIGHT_SKIN_TONE_BLOND_HAIR = "👱🏻‍♂️";
-
-    /**
-     * man: medium-light skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FC U+200D U+2642 U+FE0F
-     */
-    const MAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR = "👱🏼‍♂️";
-
-    /**
-     * man: medium skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FD U+200D U+2642 U+FE0F
-     */
-    const MAN_MEDIUM_SKIN_TONE_BLOND_HAIR = "👱🏽‍♂️";
-
-    /**
-     * man: medium-dark skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FE U+200D U+2642 U+FE0F
-     */
-    const MAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR = "👱🏾‍♂️";
-
-    /**
-     * man: dark skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FF U+200D U+2642 U+FE0F
-     */
-    const MAN_DARK_SKIN_TONE_BLOND_HAIR = "👱🏿‍♂️";
-
-    /**
      * man: light skin tone, red hair
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F9B0
@@ -13866,41 +13992,6 @@ class Emoji
     const WOMAN_DARK_SKIN_TONE = "👩🏿";
 
     /**
-     * woman: light skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FB U+200D U+2640 U+FE0F
-     */
-    const WOMAN_LIGHT_SKIN_TONE_BLOND_HAIR = "👱🏻‍♀️";
-
-    /**
-     * woman: medium-light skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FC U+200D U+2640 U+FE0F
-     */
-    const WOMAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR = "👱🏼‍♀️";
-
-    /**
-     * woman: medium skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FD U+200D U+2640 U+FE0F
-     */
-    const WOMAN_MEDIUM_SKIN_TONE_BLOND_HAIR = "👱🏽‍♀️";
-
-    /**
-     * woman: medium-dark skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FE U+200D U+2640 U+FE0F
-     */
-    const WOMAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR = "👱🏾‍♀️";
-
-    /**
-     * woman: dark skin tone, blond hair
-     *
-     * Code point(s): U+1F471 U+1F3FF U+200D U+2640 U+FE0F
-     */
-    const WOMAN_DARK_SKIN_TONE_BLOND_HAIR = "👱🏿‍♀️";
-
-    /**
      * woman: light skin tone, red hair
      *
      * Code point(s): U+1F469 U+1F3FB U+200D U+1F9B0
@@ -13934,6 +14025,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F9B0
      */
     const WOMAN_DARK_SKIN_TONE_RED_HAIR = "👩🏿‍🦰";
+
+    /**
+     * person: light skin tone, red hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F9B0
+     */
+    const PERSON_LIGHT_SKIN_TONE_RED_HAIR = "🧑🏻‍🦰";
+
+    /**
+     * person: medium-light skin tone, red hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F9B0
+     */
+    const PERSON_MEDIUM_LIGHT_SKIN_TONE_RED_HAIR = "🧑🏼‍🦰";
+
+    /**
+     * person: medium skin tone, red hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F9B0
+     */
+    const PERSON_MEDIUM_SKIN_TONE_RED_HAIR = "🧑🏽‍🦰";
+
+    /**
+     * person: medium-dark skin tone, red hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F9B0
+     */
+    const PERSON_MEDIUM_DARK_SKIN_TONE_RED_HAIR = "🧑🏾‍🦰";
+
+    /**
+     * person: dark skin tone, red hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F9B0
+     */
+    const PERSON_DARK_SKIN_TONE_RED_HAIR = "🧑🏿‍🦰";
 
     /**
      * woman: light skin tone, curly hair
@@ -13971,6 +14097,41 @@ class Emoji
     const WOMAN_DARK_SKIN_TONE_CURLY_HAIR = "👩🏿‍🦱";
 
     /**
+     * person: light skin tone, curly hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F9B1
+     */
+    const PERSON_LIGHT_SKIN_TONE_CURLY_HAIR = "🧑🏻‍🦱";
+
+    /**
+     * person: medium-light skin tone, curly hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F9B1
+     */
+    const PERSON_MEDIUM_LIGHT_SKIN_TONE_CURLY_HAIR = "🧑🏼‍🦱";
+
+    /**
+     * person: medium skin tone, curly hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F9B1
+     */
+    const PERSON_MEDIUM_SKIN_TONE_CURLY_HAIR = "🧑🏽‍🦱";
+
+    /**
+     * person: medium-dark skin tone, curly hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F9B1
+     */
+    const PERSON_MEDIUM_DARK_SKIN_TONE_CURLY_HAIR = "🧑🏾‍🦱";
+
+    /**
+     * person: dark skin tone, curly hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F9B1
+     */
+    const PERSON_DARK_SKIN_TONE_CURLY_HAIR = "🧑🏿‍🦱";
+
+    /**
      * woman: light skin tone, white hair
      *
      * Code point(s): U+1F469 U+1F3FB U+200D U+1F9B3
@@ -14006,6 +14167,41 @@ class Emoji
     const WOMAN_DARK_SKIN_TONE_WHITE_HAIR = "👩🏿‍🦳";
 
     /**
+     * person: light skin tone, white hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F9B3
+     */
+    const PERSON_LIGHT_SKIN_TONE_WHITE_HAIR = "🧑🏻‍🦳";
+
+    /**
+     * person: medium-light skin tone, white hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F9B3
+     */
+    const PERSON_MEDIUM_LIGHT_SKIN_TONE_WHITE_HAIR = "🧑🏼‍🦳";
+
+    /**
+     * person: medium skin tone, white hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F9B3
+     */
+    const PERSON_MEDIUM_SKIN_TONE_WHITE_HAIR = "🧑🏽‍🦳";
+
+    /**
+     * person: medium-dark skin tone, white hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F9B3
+     */
+    const PERSON_MEDIUM_DARK_SKIN_TONE_WHITE_HAIR = "🧑🏾‍🦳";
+
+    /**
+     * person: dark skin tone, white hair
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F9B3
+     */
+    const PERSON_DARK_SKIN_TONE_WHITE_HAIR = "🧑🏿‍🦳";
+
+    /**
      * woman: light skin tone, bald
      *
      * Code point(s): U+1F469 U+1F3FB U+200D U+1F9B2
@@ -14039,6 +14235,111 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F9B2
      */
     const WOMAN_DARK_SKIN_TONE_BALD = "👩🏿‍🦲";
+
+    /**
+     * person: light skin tone, bald
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F9B2
+     */
+    const PERSON_LIGHT_SKIN_TONE_BALD = "🧑🏻‍🦲";
+
+    /**
+     * person: medium-light skin tone, bald
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F9B2
+     */
+    const PERSON_MEDIUM_LIGHT_SKIN_TONE_BALD = "🧑🏼‍🦲";
+
+    /**
+     * person: medium skin tone, bald
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F9B2
+     */
+    const PERSON_MEDIUM_SKIN_TONE_BALD = "🧑🏽‍🦲";
+
+    /**
+     * person: medium-dark skin tone, bald
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F9B2
+     */
+    const PERSON_MEDIUM_DARK_SKIN_TONE_BALD = "🧑🏾‍🦲";
+
+    /**
+     * person: dark skin tone, bald
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F9B2
+     */
+    const PERSON_DARK_SKIN_TONE_BALD = "🧑🏿‍🦲";
+
+    /**
+     * woman: light skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FB U+200D U+2640 U+FE0F
+     */
+    const WOMAN_LIGHT_SKIN_TONE_BLOND_HAIR = "👱🏻‍♀️";
+
+    /**
+     * woman: medium-light skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FC U+200D U+2640 U+FE0F
+     */
+    const WOMAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR = "👱🏼‍♀️";
+
+    /**
+     * woman: medium skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FD U+200D U+2640 U+FE0F
+     */
+    const WOMAN_MEDIUM_SKIN_TONE_BLOND_HAIR = "👱🏽‍♀️";
+
+    /**
+     * woman: medium-dark skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FE U+200D U+2640 U+FE0F
+     */
+    const WOMAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR = "👱🏾‍♀️";
+
+    /**
+     * woman: dark skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FF U+200D U+2640 U+FE0F
+     */
+    const WOMAN_DARK_SKIN_TONE_BLOND_HAIR = "👱🏿‍♀️";
+
+    /**
+     * man: light skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FB U+200D U+2642 U+FE0F
+     */
+    const MAN_LIGHT_SKIN_TONE_BLOND_HAIR = "👱🏻‍♂️";
+
+    /**
+     * man: medium-light skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FC U+200D U+2642 U+FE0F
+     */
+    const MAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR = "👱🏼‍♂️";
+
+    /**
+     * man: medium skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FD U+200D U+2642 U+FE0F
+     */
+    const MAN_MEDIUM_SKIN_TONE_BLOND_HAIR = "👱🏽‍♂️";
+
+    /**
+     * man: medium-dark skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FE U+200D U+2642 U+FE0F
+     */
+    const MAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR = "👱🏾‍♂️";
+
+    /**
+     * man: dark skin tone, blond hair
+     *
+     * Code point(s): U+1F471 U+1F3FF U+200D U+2642 U+FE0F
+     */
+    const MAN_DARK_SKIN_TONE_BLOND_HAIR = "👱🏿‍♂️";
 
     /**
      * older person: light skin tone
@@ -15196,6 +15497,41 @@ class Emoji
     const WOMAN_SHRUGGING_DARK_SKIN_TONE = "🤷🏿‍♀️";
 
     /**
+     * health worker: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+2695 U+FE0F
+     */
+    const HEALTH_WORKER_LIGHT_SKIN_TONE = "🧑🏻‍⚕️";
+
+    /**
+     * health worker: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+2695 U+FE0F
+     */
+    const HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍⚕️";
+
+    /**
+     * health worker: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+2695 U+FE0F
+     */
+    const HEALTH_WORKER_MEDIUM_SKIN_TONE = "🧑🏽‍⚕️";
+
+    /**
+     * health worker: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+2695 U+FE0F
+     */
+    const HEALTH_WORKER_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍⚕️";
+
+    /**
+     * health worker: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+2695 U+FE0F
+     */
+    const HEALTH_WORKER_DARK_SKIN_TONE = "🧑🏿‍⚕️";
+
+    /**
      * man health worker: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+2695 U+FE0F
@@ -15264,6 +15600,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+2695 U+FE0F
      */
     const WOMAN_HEALTH_WORKER_DARK_SKIN_TONE = "👩🏿‍⚕️";
+
+    /**
+     * student: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F393
+     */
+    const STUDENT_LIGHT_SKIN_TONE = "🧑🏻‍🎓";
+
+    /**
+     * student: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F393
+     */
+    const STUDENT_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🎓";
+
+    /**
+     * student: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F393
+     */
+    const STUDENT_MEDIUM_SKIN_TONE = "🧑🏽‍🎓";
+
+    /**
+     * student: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F393
+     */
+    const STUDENT_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🎓";
+
+    /**
+     * student: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F393
+     */
+    const STUDENT_DARK_SKIN_TONE = "🧑🏿‍🎓";
 
     /**
      * man student: light skin tone
@@ -15336,6 +15707,41 @@ class Emoji
     const WOMAN_STUDENT_DARK_SKIN_TONE = "👩🏿‍🎓";
 
     /**
+     * teacher: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F3EB
+     */
+    const TEACHER_LIGHT_SKIN_TONE = "🧑🏻‍🏫";
+
+    /**
+     * teacher: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F3EB
+     */
+    const TEACHER_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🏫";
+
+    /**
+     * teacher: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F3EB
+     */
+    const TEACHER_MEDIUM_SKIN_TONE = "🧑🏽‍🏫";
+
+    /**
+     * teacher: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F3EB
+     */
+    const TEACHER_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🏫";
+
+    /**
+     * teacher: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F3EB
+     */
+    const TEACHER_DARK_SKIN_TONE = "🧑🏿‍🏫";
+
+    /**
      * man teacher: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F3EB
@@ -15404,6 +15810,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F3EB
      */
     const WOMAN_TEACHER_DARK_SKIN_TONE = "👩🏿‍🏫";
+
+    /**
+     * judge: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+2696 U+FE0F
+     */
+    const JUDGE_LIGHT_SKIN_TONE = "🧑🏻‍⚖️";
+
+    /**
+     * judge: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+2696 U+FE0F
+     */
+    const JUDGE_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍⚖️";
+
+    /**
+     * judge: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+2696 U+FE0F
+     */
+    const JUDGE_MEDIUM_SKIN_TONE = "🧑🏽‍⚖️";
+
+    /**
+     * judge: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+2696 U+FE0F
+     */
+    const JUDGE_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍⚖️";
+
+    /**
+     * judge: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+2696 U+FE0F
+     */
+    const JUDGE_DARK_SKIN_TONE = "🧑🏿‍⚖️";
 
     /**
      * man judge: light skin tone
@@ -15476,6 +15917,41 @@ class Emoji
     const WOMAN_JUDGE_DARK_SKIN_TONE = "👩🏿‍⚖️";
 
     /**
+     * farmer: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F33E
+     */
+    const FARMER_LIGHT_SKIN_TONE = "🧑🏻‍🌾";
+
+    /**
+     * farmer: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F33E
+     */
+    const FARMER_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🌾";
+
+    /**
+     * farmer: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F33E
+     */
+    const FARMER_MEDIUM_SKIN_TONE = "🧑🏽‍🌾";
+
+    /**
+     * farmer: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F33E
+     */
+    const FARMER_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🌾";
+
+    /**
+     * farmer: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F33E
+     */
+    const FARMER_DARK_SKIN_TONE = "🧑🏿‍🌾";
+
+    /**
      * man farmer: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F33E
@@ -15544,6 +16020,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F33E
      */
     const WOMAN_FARMER_DARK_SKIN_TONE = "👩🏿‍🌾";
+
+    /**
+     * cook: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F373
+     */
+    const COOK_LIGHT_SKIN_TONE = "🧑🏻‍🍳";
+
+    /**
+     * cook: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F373
+     */
+    const COOK_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🍳";
+
+    /**
+     * cook: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F373
+     */
+    const COOK_MEDIUM_SKIN_TONE = "🧑🏽‍🍳";
+
+    /**
+     * cook: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F373
+     */
+    const COOK_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🍳";
+
+    /**
+     * cook: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F373
+     */
+    const COOK_DARK_SKIN_TONE = "🧑🏿‍🍳";
 
     /**
      * man cook: light skin tone
@@ -15616,6 +16127,41 @@ class Emoji
     const WOMAN_COOK_DARK_SKIN_TONE = "👩🏿‍🍳";
 
     /**
+     * mechanic: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F527
+     */
+    const MECHANIC_LIGHT_SKIN_TONE = "🧑🏻‍🔧";
+
+    /**
+     * mechanic: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F527
+     */
+    const MECHANIC_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🔧";
+
+    /**
+     * mechanic: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F527
+     */
+    const MECHANIC_MEDIUM_SKIN_TONE = "🧑🏽‍🔧";
+
+    /**
+     * mechanic: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F527
+     */
+    const MECHANIC_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🔧";
+
+    /**
+     * mechanic: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F527
+     */
+    const MECHANIC_DARK_SKIN_TONE = "🧑🏿‍🔧";
+
+    /**
      * man mechanic: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F527
@@ -15684,6 +16230,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F527
      */
     const WOMAN_MECHANIC_DARK_SKIN_TONE = "👩🏿‍🔧";
+
+    /**
+     * factory worker: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F3ED
+     */
+    const FACTORY_WORKER_LIGHT_SKIN_TONE = "🧑🏻‍🏭";
+
+    /**
+     * factory worker: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F3ED
+     */
+    const FACTORY_WORKER_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🏭";
+
+    /**
+     * factory worker: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F3ED
+     */
+    const FACTORY_WORKER_MEDIUM_SKIN_TONE = "🧑🏽‍🏭";
+
+    /**
+     * factory worker: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F3ED
+     */
+    const FACTORY_WORKER_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🏭";
+
+    /**
+     * factory worker: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F3ED
+     */
+    const FACTORY_WORKER_DARK_SKIN_TONE = "🧑🏿‍🏭";
 
     /**
      * man factory worker: light skin tone
@@ -15756,6 +16337,41 @@ class Emoji
     const WOMAN_FACTORY_WORKER_DARK_SKIN_TONE = "👩🏿‍🏭";
 
     /**
+     * office worker: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F4BC
+     */
+    const OFFICE_WORKER_LIGHT_SKIN_TONE = "🧑🏻‍💼";
+
+    /**
+     * office worker: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F4BC
+     */
+    const OFFICE_WORKER_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍💼";
+
+    /**
+     * office worker: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F4BC
+     */
+    const OFFICE_WORKER_MEDIUM_SKIN_TONE = "🧑🏽‍💼";
+
+    /**
+     * office worker: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F4BC
+     */
+    const OFFICE_WORKER_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍💼";
+
+    /**
+     * office worker: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F4BC
+     */
+    const OFFICE_WORKER_DARK_SKIN_TONE = "🧑🏿‍💼";
+
+    /**
      * man office worker: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F4BC
@@ -15824,6 +16440,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F4BC
      */
     const WOMAN_OFFICE_WORKER_DARK_SKIN_TONE = "👩🏿‍💼";
+
+    /**
+     * scientist: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F52C
+     */
+    const SCIENTIST_LIGHT_SKIN_TONE = "🧑🏻‍🔬";
+
+    /**
+     * scientist: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F52C
+     */
+    const SCIENTIST_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🔬";
+
+    /**
+     * scientist: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F52C
+     */
+    const SCIENTIST_MEDIUM_SKIN_TONE = "🧑🏽‍🔬";
+
+    /**
+     * scientist: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F52C
+     */
+    const SCIENTIST_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🔬";
+
+    /**
+     * scientist: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F52C
+     */
+    const SCIENTIST_DARK_SKIN_TONE = "🧑🏿‍🔬";
 
     /**
      * man scientist: light skin tone
@@ -15896,6 +16547,41 @@ class Emoji
     const WOMAN_SCIENTIST_DARK_SKIN_TONE = "👩🏿‍🔬";
 
     /**
+     * technologist: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F4BB
+     */
+    const TECHNOLOGIST_LIGHT_SKIN_TONE = "🧑🏻‍💻";
+
+    /**
+     * technologist: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F4BB
+     */
+    const TECHNOLOGIST_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍💻";
+
+    /**
+     * technologist: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F4BB
+     */
+    const TECHNOLOGIST_MEDIUM_SKIN_TONE = "🧑🏽‍💻";
+
+    /**
+     * technologist: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F4BB
+     */
+    const TECHNOLOGIST_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍💻";
+
+    /**
+     * technologist: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F4BB
+     */
+    const TECHNOLOGIST_DARK_SKIN_TONE = "🧑🏿‍💻";
+
+    /**
      * man technologist: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F4BB
@@ -15964,6 +16650,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F4BB
      */
     const WOMAN_TECHNOLOGIST_DARK_SKIN_TONE = "👩🏿‍💻";
+
+    /**
+     * singer: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F3A4
+     */
+    const SINGER_LIGHT_SKIN_TONE = "🧑🏻‍🎤";
+
+    /**
+     * singer: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F3A4
+     */
+    const SINGER_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🎤";
+
+    /**
+     * singer: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F3A4
+     */
+    const SINGER_MEDIUM_SKIN_TONE = "🧑🏽‍🎤";
+
+    /**
+     * singer: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F3A4
+     */
+    const SINGER_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🎤";
+
+    /**
+     * singer: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F3A4
+     */
+    const SINGER_DARK_SKIN_TONE = "🧑🏿‍🎤";
 
     /**
      * man singer: light skin tone
@@ -16036,6 +16757,41 @@ class Emoji
     const WOMAN_SINGER_DARK_SKIN_TONE = "👩🏿‍🎤";
 
     /**
+     * artist: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F3A8
+     */
+    const ARTIST_LIGHT_SKIN_TONE = "🧑🏻‍🎨";
+
+    /**
+     * artist: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F3A8
+     */
+    const ARTIST_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🎨";
+
+    /**
+     * artist: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F3A8
+     */
+    const ARTIST_MEDIUM_SKIN_TONE = "🧑🏽‍🎨";
+
+    /**
+     * artist: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F3A8
+     */
+    const ARTIST_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🎨";
+
+    /**
+     * artist: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F3A8
+     */
+    const ARTIST_DARK_SKIN_TONE = "🧑🏿‍🎨";
+
+    /**
      * man artist: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F3A8
@@ -16104,6 +16860,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F3A8
      */
     const WOMAN_ARTIST_DARK_SKIN_TONE = "👩🏿‍🎨";
+
+    /**
+     * pilot: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+2708 U+FE0F
+     */
+    const PILOT_LIGHT_SKIN_TONE = "🧑🏻‍✈️";
+
+    /**
+     * pilot: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+2708 U+FE0F
+     */
+    const PILOT_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍✈️";
+
+    /**
+     * pilot: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+2708 U+FE0F
+     */
+    const PILOT_MEDIUM_SKIN_TONE = "🧑🏽‍✈️";
+
+    /**
+     * pilot: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+2708 U+FE0F
+     */
+    const PILOT_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍✈️";
+
+    /**
+     * pilot: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+2708 U+FE0F
+     */
+    const PILOT_DARK_SKIN_TONE = "🧑🏿‍✈️";
 
     /**
      * man pilot: light skin tone
@@ -16176,6 +16967,41 @@ class Emoji
     const WOMAN_PILOT_DARK_SKIN_TONE = "👩🏿‍✈️";
 
     /**
+     * astronaut: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F680
+     */
+    const ASTRONAUT_LIGHT_SKIN_TONE = "🧑🏻‍🚀";
+
+    /**
+     * astronaut: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F680
+     */
+    const ASTRONAUT_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🚀";
+
+    /**
+     * astronaut: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F680
+     */
+    const ASTRONAUT_MEDIUM_SKIN_TONE = "🧑🏽‍🚀";
+
+    /**
+     * astronaut: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F680
+     */
+    const ASTRONAUT_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🚀";
+
+    /**
+     * astronaut: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F680
+     */
+    const ASTRONAUT_DARK_SKIN_TONE = "🧑🏿‍🚀";
+
+    /**
      * man astronaut: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F680
@@ -16244,6 +17070,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F680
      */
     const WOMAN_ASTRONAUT_DARK_SKIN_TONE = "👩🏿‍🚀";
+
+    /**
+     * firefighter: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F692
+     */
+    const FIREFIGHTER_LIGHT_SKIN_TONE = "🧑🏻‍🚒";
+
+    /**
+     * firefighter: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F692
+     */
+    const FIREFIGHTER_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🚒";
+
+    /**
+     * firefighter: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F692
+     */
+    const FIREFIGHTER_MEDIUM_SKIN_TONE = "🧑🏽‍🚒";
+
+    /**
+     * firefighter: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F692
+     */
+    const FIREFIGHTER_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🚒";
+
+    /**
+     * firefighter: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F692
+     */
+    const FIREFIGHTER_DARK_SKIN_TONE = "🧑🏿‍🚒";
 
     /**
      * man firefighter: light skin tone
@@ -16911,39 +17772,39 @@ class Emoji
     const WOMAN_WEARING_TURBAN_DARK_SKIN_TONE = "👳🏿‍♀️";
 
     /**
-     * man with Chinese cap: light skin tone
+     * man with skullcap: light skin tone
      *
      * Code point(s): U+1F472 U+1F3FB
      */
-    const MAN_WITH_CHINESE_CAP_LIGHT_SKIN_TONE = "👲🏻";
+    const MAN_WITH_SKULLCAP_LIGHT_SKIN_TONE = "👲🏻";
 
     /**
-     * man with Chinese cap: medium-light skin tone
+     * man with skullcap: medium-light skin tone
      *
      * Code point(s): U+1F472 U+1F3FC
      */
-    const MAN_WITH_CHINESE_CAP_MEDIUM_LIGHT_SKIN_TONE = "👲🏼";
+    const MAN_WITH_SKULLCAP_MEDIUM_LIGHT_SKIN_TONE = "👲🏼";
 
     /**
-     * man with Chinese cap: medium skin tone
+     * man with skullcap: medium skin tone
      *
      * Code point(s): U+1F472 U+1F3FD
      */
-    const MAN_WITH_CHINESE_CAP_MEDIUM_SKIN_TONE = "👲🏽";
+    const MAN_WITH_SKULLCAP_MEDIUM_SKIN_TONE = "👲🏽";
 
     /**
-     * man with Chinese cap: medium-dark skin tone
+     * man with skullcap: medium-dark skin tone
      *
      * Code point(s): U+1F472 U+1F3FE
      */
-    const MAN_WITH_CHINESE_CAP_MEDIUM_DARK_SKIN_TONE = "👲🏾";
+    const MAN_WITH_SKULLCAP_MEDIUM_DARK_SKIN_TONE = "👲🏾";
 
     /**
-     * man with Chinese cap: dark skin tone
+     * man with skullcap: dark skin tone
      *
      * Code point(s): U+1F472 U+1F3FF
      */
-    const MAN_WITH_CHINESE_CAP_DARK_SKIN_TONE = "👲🏿";
+    const MAN_WITH_SKULLCAP_DARK_SKIN_TONE = "👲🏿";
 
     /**
      * woman with headscarf: light skin tone
@@ -18486,6 +19347,41 @@ class Emoji
     const WOMAN_KNEELING_DARK_SKIN_TONE = "🧎🏿‍♀️";
 
     /**
+     * person with probing cane: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F9AF
+     */
+    const PERSON_WITH_PROBING_CANE_LIGHT_SKIN_TONE = "🧑🏻‍🦯";
+
+    /**
+     * person with probing cane: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F9AF
+     */
+    const PERSON_WITH_PROBING_CANE_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🦯";
+
+    /**
+     * person with probing cane: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F9AF
+     */
+    const PERSON_WITH_PROBING_CANE_MEDIUM_SKIN_TONE = "🧑🏽‍🦯";
+
+    /**
+     * person with probing cane: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F9AF
+     */
+    const PERSON_WITH_PROBING_CANE_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🦯";
+
+    /**
+     * person with probing cane: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F9AF
+     */
+    const PERSON_WITH_PROBING_CANE_DARK_SKIN_TONE = "🧑🏿‍🦯";
+
+    /**
      * man with probing cane: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F9AF
@@ -18556,6 +19452,41 @@ class Emoji
     const WOMAN_WITH_PROBING_CANE_DARK_SKIN_TONE = "👩🏿‍🦯";
 
     /**
+     * person in motorized wheelchair: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F9BC
+     */
+    const PERSON_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE = "🧑🏻‍🦼";
+
+    /**
+     * person in motorized wheelchair: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F9BC
+     */
+    const PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🦼";
+
+    /**
+     * person in motorized wheelchair: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F9BC
+     */
+    const PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE = "🧑🏽‍🦼";
+
+    /**
+     * person in motorized wheelchair: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F9BC
+     */
+    const PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🦼";
+
+    /**
+     * person in motorized wheelchair: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F9BC
+     */
+    const PERSON_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE = "🧑🏿‍🦼";
+
+    /**
      * man in motorized wheelchair: light skin tone
      *
      * Code point(s): U+1F468 U+1F3FB U+200D U+1F9BC
@@ -18624,6 +19555,41 @@ class Emoji
      * Code point(s): U+1F469 U+1F3FF U+200D U+1F9BC
      */
     const WOMAN_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE = "👩🏿‍🦼";
+
+    /**
+     * person in manual wheelchair: light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F9BD
+     */
+    const PERSON_IN_MANUAL_WHEELCHAIR_LIGHT_SKIN_TONE = "🧑🏻‍🦽";
+
+    /**
+     * person in manual wheelchair: medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F9BD
+     */
+    const PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🦽";
+
+    /**
+     * person in manual wheelchair: medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F9BD
+     */
+    const PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_SKIN_TONE = "🧑🏽‍🦽";
+
+    /**
+     * person in manual wheelchair: medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F9BD
+     */
+    const PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🦽";
+
+    /**
+     * person in manual wheelchair: dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FF U+200D U+1F9BD
+     */
+    const PERSON_IN_MANUAL_WHEELCHAIR_DARK_SKIN_TONE = "🧑🏿‍🦽";
 
     /**
      * man in manual wheelchair: light skin tone
@@ -20628,6 +21594,34 @@ class Emoji
     const PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE = "🧑🏻‍🤝‍🧑🏻";
 
     /**
+     * people holding hands: light skin tone, medium-light skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FC
+     */
+    const PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = "🧑🏻‍🤝‍🧑🏼";
+
+    /**
+     * people holding hands: light skin tone, medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FD
+     */
+    const PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = "🧑🏻‍🤝‍🧑🏽";
+
+    /**
+     * people holding hands: light skin tone, medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FE
+     */
+    const PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "🧑🏻‍🤝‍🧑🏾";
+
+    /**
+     * people holding hands: light skin tone, dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FF
+     */
+    const PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE_DARK_SKIN_TONE = "🧑🏻‍🤝‍🧑🏿";
+
+    /**
      * people holding hands: medium-light skin tone, light skin tone
      *
      * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FB
@@ -20640,6 +21634,27 @@ class Emoji
      * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FC
      */
     const PEOPLE_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE = "🧑🏼‍🤝‍🧑🏼";
+
+    /**
+     * people holding hands: medium-light skin tone, medium skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FD
+     */
+    const PEOPLE_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = "🧑🏼‍🤝‍🧑🏽";
+
+    /**
+     * people holding hands: medium-light skin tone, medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FE
+     */
+    const PEOPLE_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "🧑🏼‍🤝‍🧑🏾";
+
+    /**
+     * people holding hands: medium-light skin tone, dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FF
+     */
+    const PEOPLE_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = "🧑🏼‍🤝‍🧑🏿";
 
     /**
      * people holding hands: medium skin tone, light skin tone
@@ -20661,6 +21676,20 @@ class Emoji
      * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FD
      */
     const PEOPLE_HOLDING_HANDS_MEDIUM_SKIN_TONE = "🧑🏽‍🤝‍🧑🏽";
+
+    /**
+     * people holding hands: medium skin tone, medium-dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FE
+     */
+    const PEOPLE_HOLDING_HANDS_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "🧑🏽‍🤝‍🧑🏾";
+
+    /**
+     * people holding hands: medium skin tone, dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FF
+     */
+    const PEOPLE_HOLDING_HANDS_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = "🧑🏽‍🤝‍🧑🏿";
 
     /**
      * people holding hands: medium-dark skin tone, light skin tone
@@ -20689,6 +21718,13 @@ class Emoji
      * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FE
      */
     const PEOPLE_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE = "🧑🏾‍🤝‍🧑🏾";
+
+    /**
+     * people holding hands: medium-dark skin tone, dark skin tone
+     *
+     * Code point(s): U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FF
+     */
+    const PEOPLE_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = "🧑🏾‍🤝‍🧑🏿";
 
     /**
      * people holding hands: dark skin tone, light skin tone
@@ -20733,6 +21769,34 @@ class Emoji
     const WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE = "👭🏻";
 
     /**
+     * women holding hands: light skin tone, medium-light skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FC
+     */
+    const WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = "👩🏻‍🤝‍👩🏼";
+
+    /**
+     * women holding hands: light skin tone, medium skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FD
+     */
+    const WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = "👩🏻‍🤝‍👩🏽";
+
+    /**
+     * women holding hands: light skin tone, medium-dark skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FE
+     */
+    const WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "👩🏻‍🤝‍👩🏾";
+
+    /**
+     * women holding hands: light skin tone, dark skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FF
+     */
+    const WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE_DARK_SKIN_TONE = "👩🏻‍🤝‍👩🏿";
+
+    /**
      * women holding hands: medium-light skin tone, light skin tone
      *
      * Code point(s): U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FB
@@ -20745,6 +21809,27 @@ class Emoji
      * Code point(s): U+1F46D U+1F3FC
      */
     const WOMEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE = "👭🏼";
+
+    /**
+     * women holding hands: medium-light skin tone, medium skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FD
+     */
+    const WOMEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = "👩🏼‍🤝‍👩🏽";
+
+    /**
+     * women holding hands: medium-light skin tone, medium-dark skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FE
+     */
+    const WOMEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "👩🏼‍🤝‍👩🏾";
+
+    /**
+     * women holding hands: medium-light skin tone, dark skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FF
+     */
+    const WOMEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = "👩🏼‍🤝‍👩🏿";
 
     /**
      * women holding hands: medium skin tone, light skin tone
@@ -20766,6 +21851,20 @@ class Emoji
      * Code point(s): U+1F46D U+1F3FD
      */
     const WOMEN_HOLDING_HANDS_MEDIUM_SKIN_TONE = "👭🏽";
+
+    /**
+     * women holding hands: medium skin tone, medium-dark skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FE
+     */
+    const WOMEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "👩🏽‍🤝‍👩🏾";
+
+    /**
+     * women holding hands: medium skin tone, dark skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FF
+     */
+    const WOMEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = "👩🏽‍🤝‍👩🏿";
 
     /**
      * women holding hands: medium-dark skin tone, light skin tone
@@ -20794,6 +21893,13 @@ class Emoji
      * Code point(s): U+1F46D U+1F3FE
      */
     const WOMEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE = "👭🏾";
+
+    /**
+     * women holding hands: medium-dark skin tone, dark skin tone
+     *
+     * Code point(s): U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FF
+     */
+    const WOMEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = "👩🏾‍🤝‍👩🏿";
 
     /**
      * women holding hands: dark skin tone, light skin tone
@@ -21013,6 +22119,34 @@ class Emoji
     const MEN_HOLDING_HANDS_LIGHT_SKIN_TONE = "👬🏻";
 
     /**
+     * men holding hands: light skin tone, medium-light skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FC
+     */
+    const MEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = "👨🏻‍🤝‍👨🏼";
+
+    /**
+     * men holding hands: light skin tone, medium skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FD
+     */
+    const MEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = "👨🏻‍🤝‍👨🏽";
+
+    /**
+     * men holding hands: light skin tone, medium-dark skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FE
+     */
+    const MEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "👨🏻‍🤝‍👨🏾";
+
+    /**
+     * men holding hands: light skin tone, dark skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FF
+     */
+    const MEN_HOLDING_HANDS_LIGHT_SKIN_TONE_DARK_SKIN_TONE = "👨🏻‍🤝‍👨🏿";
+
+    /**
      * men holding hands: medium-light skin tone, light skin tone
      *
      * Code point(s): U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FB
@@ -21025,6 +22159,27 @@ class Emoji
      * Code point(s): U+1F46C U+1F3FC
      */
     const MEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE = "👬🏼";
+
+    /**
+     * men holding hands: medium-light skin tone, medium skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FD
+     */
+    const MEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = "👨🏼‍🤝‍👨🏽";
+
+    /**
+     * men holding hands: medium-light skin tone, medium-dark skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FE
+     */
+    const MEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "👨🏼‍🤝‍👨🏾";
+
+    /**
+     * men holding hands: medium-light skin tone, dark skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FF
+     */
+    const MEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = "👨🏼‍🤝‍👨🏿";
 
     /**
      * men holding hands: medium skin tone, light skin tone
@@ -21046,6 +22201,20 @@ class Emoji
      * Code point(s): U+1F46C U+1F3FD
      */
     const MEN_HOLDING_HANDS_MEDIUM_SKIN_TONE = "👬🏽";
+
+    /**
+     * men holding hands: medium skin tone, medium-dark skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FE
+     */
+    const MEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "👨🏽‍🤝‍👨🏾";
+
+    /**
+     * men holding hands: medium skin tone, dark skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FF
+     */
+    const MEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = "👨🏽‍🤝‍👨🏿";
 
     /**
      * men holding hands: medium-dark skin tone, light skin tone
@@ -21074,6 +22243,13 @@ class Emoji
      * Code point(s): U+1F46C U+1F3FE
      */
     const MEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE = "👬🏾";
+
+    /**
+     * men holding hands: medium-dark skin tone, dark skin tone
+     *
+     * Code point(s): U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FF
+     */
+    const MEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = "👨🏾‍🤝‍👨🏿";
 
     /**
      * men holding hands: dark skin tone, light skin tone

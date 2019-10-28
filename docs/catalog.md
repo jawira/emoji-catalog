@@ -210,17 +210,21 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | person: blond hair    | 👱    | U+1F471    | PERSON_BLOND_HAIR
 | man    | 👨    | U+1F468    | MAN
 | man: beard    | 🧔    | U+1F9D4    | MAN_BEARD
-| man: blond hair    | 👱‍♂️    | U+1F471 U+200D U+2642 U+FE0F    | MAN_BLOND_HAIR
 | man: red hair    | 👨‍🦰    | U+1F468 U+200D U+1F9B0    | MAN_RED_HAIR
 | man: curly hair    | 👨‍🦱    | U+1F468 U+200D U+1F9B1    | MAN_CURLY_HAIR
 | man: white hair    | 👨‍🦳    | U+1F468 U+200D U+1F9B3    | MAN_WHITE_HAIR
 | man: bald    | 👨‍🦲    | U+1F468 U+200D U+1F9B2    | MAN_BALD
 | woman    | 👩    | U+1F469    | WOMAN
-| woman: blond hair    | 👱‍♀️    | U+1F471 U+200D U+2640 U+FE0F    | WOMAN_BLOND_HAIR
 | woman: red hair    | 👩‍🦰    | U+1F469 U+200D U+1F9B0    | WOMAN_RED_HAIR
+| person: red hair    | 🧑‍🦰    | U+1F9D1 U+200D U+1F9B0    | PERSON_RED_HAIR
 | woman: curly hair    | 👩‍🦱    | U+1F469 U+200D U+1F9B1    | WOMAN_CURLY_HAIR
+| person: curly hair    | 🧑‍🦱    | U+1F9D1 U+200D U+1F9B1    | PERSON_CURLY_HAIR
 | woman: white hair    | 👩‍🦳    | U+1F469 U+200D U+1F9B3    | WOMAN_WHITE_HAIR
+| person: white hair    | 🧑‍🦳    | U+1F9D1 U+200D U+1F9B3    | PERSON_WHITE_HAIR
 | woman: bald    | 👩‍🦲    | U+1F469 U+200D U+1F9B2    | WOMAN_BALD
+| person: bald    | 🧑‍🦲    | U+1F9D1 U+200D U+1F9B2    | PERSON_BALD
+| woman: blond hair    | 👱‍♀️    | U+1F471 U+200D U+2640 U+FE0F    | WOMAN_BLOND_HAIR
+| man: blond hair    | 👱‍♂️    | U+1F471 U+200D U+2642 U+FE0F    | MAN_BLOND_HAIR
 | older person    | 🧓    | U+1F9D3    | OLDER_PERSON
 | old man    | 👴    | U+1F474    | OLD_MAN
 | old woman    | 👵    | U+1F475    | OLD_WOMAN
@@ -254,36 +258,52 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | person shrugging    | 🤷    | U+1F937    | PERSON_SHRUGGING
 | man shrugging    | 🤷‍♂️    | U+1F937 U+200D U+2642 U+FE0F    | MAN_SHRUGGING
 | woman shrugging    | 🤷‍♀️    | U+1F937 U+200D U+2640 U+FE0F    | WOMAN_SHRUGGING
+| health worker    | 🧑‍⚕️    | U+1F9D1 U+200D U+2695 U+FE0F    | HEALTH_WORKER
 | man health worker    | 👨‍⚕️    | U+1F468 U+200D U+2695 U+FE0F    | MAN_HEALTH_WORKER
 | woman health worker    | 👩‍⚕️    | U+1F469 U+200D U+2695 U+FE0F    | WOMAN_HEALTH_WORKER
+| student    | 🧑‍🎓    | U+1F9D1 U+200D U+1F393    | STUDENT
 | man student    | 👨‍🎓    | U+1F468 U+200D U+1F393    | MAN_STUDENT
 | woman student    | 👩‍🎓    | U+1F469 U+200D U+1F393    | WOMAN_STUDENT
+| teacher    | 🧑‍🏫    | U+1F9D1 U+200D U+1F3EB    | TEACHER
 | man teacher    | 👨‍🏫    | U+1F468 U+200D U+1F3EB    | MAN_TEACHER
 | woman teacher    | 👩‍🏫    | U+1F469 U+200D U+1F3EB    | WOMAN_TEACHER
+| judge    | 🧑‍⚖️    | U+1F9D1 U+200D U+2696 U+FE0F    | JUDGE
 | man judge    | 👨‍⚖️    | U+1F468 U+200D U+2696 U+FE0F    | MAN_JUDGE
 | woman judge    | 👩‍⚖️    | U+1F469 U+200D U+2696 U+FE0F    | WOMAN_JUDGE
+| farmer    | 🧑‍🌾    | U+1F9D1 U+200D U+1F33E    | FARMER
 | man farmer    | 👨‍🌾    | U+1F468 U+200D U+1F33E    | MAN_FARMER
 | woman farmer    | 👩‍🌾    | U+1F469 U+200D U+1F33E    | WOMAN_FARMER
+| cook    | 🧑‍🍳    | U+1F9D1 U+200D U+1F373    | COOK
 | man cook    | 👨‍🍳    | U+1F468 U+200D U+1F373    | MAN_COOK
 | woman cook    | 👩‍🍳    | U+1F469 U+200D U+1F373    | WOMAN_COOK
+| mechanic    | 🧑‍🔧    | U+1F9D1 U+200D U+1F527    | MECHANIC
 | man mechanic    | 👨‍🔧    | U+1F468 U+200D U+1F527    | MAN_MECHANIC
 | woman mechanic    | 👩‍🔧    | U+1F469 U+200D U+1F527    | WOMAN_MECHANIC
+| factory worker    | 🧑‍🏭    | U+1F9D1 U+200D U+1F3ED    | FACTORY_WORKER
 | man factory worker    | 👨‍🏭    | U+1F468 U+200D U+1F3ED    | MAN_FACTORY_WORKER
 | woman factory worker    | 👩‍🏭    | U+1F469 U+200D U+1F3ED    | WOMAN_FACTORY_WORKER
+| office worker    | 🧑‍💼    | U+1F9D1 U+200D U+1F4BC    | OFFICE_WORKER
 | man office worker    | 👨‍💼    | U+1F468 U+200D U+1F4BC    | MAN_OFFICE_WORKER
 | woman office worker    | 👩‍💼    | U+1F469 U+200D U+1F4BC    | WOMAN_OFFICE_WORKER
+| scientist    | 🧑‍🔬    | U+1F9D1 U+200D U+1F52C    | SCIENTIST
 | man scientist    | 👨‍🔬    | U+1F468 U+200D U+1F52C    | MAN_SCIENTIST
 | woman scientist    | 👩‍🔬    | U+1F469 U+200D U+1F52C    | WOMAN_SCIENTIST
+| technologist    | 🧑‍💻    | U+1F9D1 U+200D U+1F4BB    | TECHNOLOGIST
 | man technologist    | 👨‍💻    | U+1F468 U+200D U+1F4BB    | MAN_TECHNOLOGIST
 | woman technologist    | 👩‍💻    | U+1F469 U+200D U+1F4BB    | WOMAN_TECHNOLOGIST
+| singer    | 🧑‍🎤    | U+1F9D1 U+200D U+1F3A4    | SINGER
 | man singer    | 👨‍🎤    | U+1F468 U+200D U+1F3A4    | MAN_SINGER
 | woman singer    | 👩‍🎤    | U+1F469 U+200D U+1F3A4    | WOMAN_SINGER
+| artist    | 🧑‍🎨    | U+1F9D1 U+200D U+1F3A8    | ARTIST
 | man artist    | 👨‍🎨    | U+1F468 U+200D U+1F3A8    | MAN_ARTIST
 | woman artist    | 👩‍🎨    | U+1F469 U+200D U+1F3A8    | WOMAN_ARTIST
+| pilot    | 🧑‍✈️    | U+1F9D1 U+200D U+2708 U+FE0F    | PILOT
 | man pilot    | 👨‍✈️    | U+1F468 U+200D U+2708 U+FE0F    | MAN_PILOT
 | woman pilot    | 👩‍✈️    | U+1F469 U+200D U+2708 U+FE0F    | WOMAN_PILOT
+| astronaut    | 🧑‍🚀    | U+1F9D1 U+200D U+1F680    | ASTRONAUT
 | man astronaut    | 👨‍🚀    | U+1F468 U+200D U+1F680    | MAN_ASTRONAUT
 | woman astronaut    | 👩‍🚀    | U+1F469 U+200D U+1F680    | WOMAN_ASTRONAUT
+| firefighter    | 🧑‍🚒    | U+1F9D1 U+200D U+1F692    | FIREFIGHTER
 | man firefighter    | 👨‍🚒    | U+1F468 U+200D U+1F692    | MAN_FIREFIGHTER
 | woman firefighter    | 👩‍🚒    | U+1F469 U+200D U+1F692    | WOMAN_FIREFIGHTER
 | police officer    | 👮    | U+1F46E    | POLICE_OFFICER
@@ -303,7 +323,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | person wearing turban    | 👳    | U+1F473    | PERSON_WEARING_TURBAN
 | man wearing turban    | 👳‍♂️    | U+1F473 U+200D U+2642 U+FE0F    | MAN_WEARING_TURBAN
 | woman wearing turban    | 👳‍♀️    | U+1F473 U+200D U+2640 U+FE0F    | WOMAN_WEARING_TURBAN
-| man with Chinese cap    | 👲    | U+1F472    | MAN_WITH_CHINESE_CAP
+| man with skullcap    | 👲    | U+1F472    | MAN_WITH_SKULLCAP
 | woman with headscarf    | 🧕    | U+1F9D5    | WOMAN_WITH_HEADSCARF
 | man in tuxedo    | 🤵    | U+1F935    | MAN_IN_TUXEDO
 | bride with veil    | 👰    | U+1F470    | BRIDE_WITH_VEIL
@@ -354,10 +374,13 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | person kneeling    | 🧎    | U+1F9CE    | PERSON_KNEELING
 | man kneeling    | 🧎‍♂️    | U+1F9CE U+200D U+2642 U+FE0F    | MAN_KNEELING
 | woman kneeling    | 🧎‍♀️    | U+1F9CE U+200D U+2640 U+FE0F    | WOMAN_KNEELING
+| person with probing cane    | 🧑‍🦯    | U+1F9D1 U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE
 | man with probing cane    | 👨‍🦯    | U+1F468 U+200D U+1F9AF    | MAN_WITH_PROBING_CANE
 | woman with probing cane    | 👩‍🦯    | U+1F469 U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE
+| person in motorized wheelchair    | 🧑‍🦼    | U+1F9D1 U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR
 | man in motorized wheelchair    | 👨‍🦼    | U+1F468 U+200D U+1F9BC    | MAN_IN_MOTORIZED_WHEELCHAIR
 | woman in motorized wheelchair    | 👩‍🦼    | U+1F469 U+200D U+1F9BC    | WOMAN_IN_MOTORIZED_WHEELCHAIR
+| person in manual wheelchair    | 🧑‍🦽    | U+1F9D1 U+200D U+1F9BD    | PERSON_IN_MANUAL_WHEELCHAIR
 | man in manual wheelchair    | 👨‍🦽    | U+1F468 U+200D U+1F9BD    | MAN_IN_MANUAL_WHEELCHAIR
 | woman in manual wheelchair    | 👩‍🦽    | U+1F469 U+200D U+1F9BD    | WOMAN_IN_MANUAL_WHEELCHAIR
 | person running    | 🏃    | U+1F3C3    | PERSON_RUNNING
@@ -1721,9 +1744,9 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | flag: South Africa    | 🇿🇦    | U+1F1FF U+1F1E6    | FLAG_SOUTH_AFRICA
 | flag: Zambia    | 🇿🇲    | U+1F1FF U+1F1F2    | FLAG_ZAMBIA
 | flag: Zimbabwe    | 🇿🇼    | U+1F1FF U+1F1FC    | FLAG_ZIMBABWE
-| flag: gbeng    | 🏴󠁧󠁢󠁥󠁮󠁧󠁿    | U+1F3F4 U+E0067 U+E0062 U+E0065 U+E006E U+E0067 U+E007F    | FLAG_GBENG
-| flag: gbsct    | 🏴󠁧󠁢󠁳󠁣󠁴󠁿    | U+1F3F4 U+E0067 U+E0062 U+E0073 U+E0063 U+E0074 U+E007F    | FLAG_GBSCT
-| flag: gbwls    | 🏴󠁧󠁢󠁷󠁬󠁳󠁿    | U+1F3F4 U+E0067 U+E0062 U+E0077 U+E006C U+E0073 U+E007F    | FLAG_GBWLS
+| flag: England    | 🏴󠁧󠁢󠁥󠁮󠁧󠁿    | U+1F3F4 U+E0067 U+E0062 U+E0065 U+E006E U+E0067 U+E007F    | FLAG_ENGLAND
+| flag: Scotland    | 🏴󠁧󠁢󠁳󠁣󠁴󠁿    | U+1F3F4 U+E0067 U+E0062 U+E0073 U+E0063 U+E0074 U+E007F    | FLAG_SCOTLAND
+| flag: Wales    | 🏴󠁧󠁢󠁷󠁬󠁳󠁿    | U+1F3F4 U+E0067 U+E0062 U+E0077 U+E006C U+E0073 U+E007F    | FLAG_WALES
 | waving hand: light skin tone    | 👋🏻    | U+1F44B U+1F3FB    | WAVING_HAND_LIGHT_SKIN_TONE
 | waving hand: medium-light skin tone    | 👋🏼    | U+1F44B U+1F3FC    | WAVING_HAND_MEDIUM_LIGHT_SKIN_TONE
 | waving hand: medium skin tone    | 👋🏽    | U+1F44B U+1F3FD    | WAVING_HAND_MEDIUM_SKIN_TONE
@@ -1954,11 +1977,6 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | man: medium skin tone, beard    | 🧔🏽    | U+1F9D4 U+1F3FD    | MAN_MEDIUM_SKIN_TONE_BEARD
 | man: medium-dark skin tone, beard    | 🧔🏾    | U+1F9D4 U+1F3FE    | MAN_MEDIUM_DARK_SKIN_TONE_BEARD
 | man: dark skin tone, beard    | 🧔🏿    | U+1F9D4 U+1F3FF    | MAN_DARK_SKIN_TONE_BEARD
-| man: light skin tone, blond hair    | 👱🏻‍♂️    | U+1F471 U+1F3FB U+200D U+2642 U+FE0F    | MAN_LIGHT_SKIN_TONE_BLOND_HAIR
-| man: medium-light skin tone, blond hair    | 👱🏼‍♂️    | U+1F471 U+1F3FC U+200D U+2642 U+FE0F    | MAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR
-| man: medium skin tone, blond hair    | 👱🏽‍♂️    | U+1F471 U+1F3FD U+200D U+2642 U+FE0F    | MAN_MEDIUM_SKIN_TONE_BLOND_HAIR
-| man: medium-dark skin tone, blond hair    | 👱🏾‍♂️    | U+1F471 U+1F3FE U+200D U+2642 U+FE0F    | MAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR
-| man: dark skin tone, blond hair    | 👱🏿‍♂️    | U+1F471 U+1F3FF U+200D U+2642 U+FE0F    | MAN_DARK_SKIN_TONE_BLOND_HAIR
 | man: light skin tone, red hair    | 👨🏻‍🦰    | U+1F468 U+1F3FB U+200D U+1F9B0    | MAN_LIGHT_SKIN_TONE_RED_HAIR
 | man: medium-light skin tone, red hair    | 👨🏼‍🦰    | U+1F468 U+1F3FC U+200D U+1F9B0    | MAN_MEDIUM_LIGHT_SKIN_TONE_RED_HAIR
 | man: medium skin tone, red hair    | 👨🏽‍🦰    | U+1F468 U+1F3FD U+200D U+1F9B0    | MAN_MEDIUM_SKIN_TONE_RED_HAIR
@@ -1984,31 +2002,56 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman: medium skin tone    | 👩🏽    | U+1F469 U+1F3FD    | WOMAN_MEDIUM_SKIN_TONE
 | woman: medium-dark skin tone    | 👩🏾    | U+1F469 U+1F3FE    | WOMAN_MEDIUM_DARK_SKIN_TONE
 | woman: dark skin tone    | 👩🏿    | U+1F469 U+1F3FF    | WOMAN_DARK_SKIN_TONE
-| woman: light skin tone, blond hair    | 👱🏻‍♀️    | U+1F471 U+1F3FB U+200D U+2640 U+FE0F    | WOMAN_LIGHT_SKIN_TONE_BLOND_HAIR
-| woman: medium-light skin tone, blond hair    | 👱🏼‍♀️    | U+1F471 U+1F3FC U+200D U+2640 U+FE0F    | WOMAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR
-| woman: medium skin tone, blond hair    | 👱🏽‍♀️    | U+1F471 U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_MEDIUM_SKIN_TONE_BLOND_HAIR
-| woman: medium-dark skin tone, blond hair    | 👱🏾‍♀️    | U+1F471 U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR
-| woman: dark skin tone, blond hair    | 👱🏿‍♀️    | U+1F471 U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_DARK_SKIN_TONE_BLOND_HAIR
 | woman: light skin tone, red hair    | 👩🏻‍🦰    | U+1F469 U+1F3FB U+200D U+1F9B0    | WOMAN_LIGHT_SKIN_TONE_RED_HAIR
 | woman: medium-light skin tone, red hair    | 👩🏼‍🦰    | U+1F469 U+1F3FC U+200D U+1F9B0    | WOMAN_MEDIUM_LIGHT_SKIN_TONE_RED_HAIR
 | woman: medium skin tone, red hair    | 👩🏽‍🦰    | U+1F469 U+1F3FD U+200D U+1F9B0    | WOMAN_MEDIUM_SKIN_TONE_RED_HAIR
 | woman: medium-dark skin tone, red hair    | 👩🏾‍🦰    | U+1F469 U+1F3FE U+200D U+1F9B0    | WOMAN_MEDIUM_DARK_SKIN_TONE_RED_HAIR
 | woman: dark skin tone, red hair    | 👩🏿‍🦰    | U+1F469 U+1F3FF U+200D U+1F9B0    | WOMAN_DARK_SKIN_TONE_RED_HAIR
+| person: light skin tone, red hair    | 🧑🏻‍🦰    | U+1F9D1 U+1F3FB U+200D U+1F9B0    | PERSON_LIGHT_SKIN_TONE_RED_HAIR
+| person: medium-light skin tone, red hair    | 🧑🏼‍🦰    | U+1F9D1 U+1F3FC U+200D U+1F9B0    | PERSON_MEDIUM_LIGHT_SKIN_TONE_RED_HAIR
+| person: medium skin tone, red hair    | 🧑🏽‍🦰    | U+1F9D1 U+1F3FD U+200D U+1F9B0    | PERSON_MEDIUM_SKIN_TONE_RED_HAIR
+| person: medium-dark skin tone, red hair    | 🧑🏾‍🦰    | U+1F9D1 U+1F3FE U+200D U+1F9B0    | PERSON_MEDIUM_DARK_SKIN_TONE_RED_HAIR
+| person: dark skin tone, red hair    | 🧑🏿‍🦰    | U+1F9D1 U+1F3FF U+200D U+1F9B0    | PERSON_DARK_SKIN_TONE_RED_HAIR
 | woman: light skin tone, curly hair    | 👩🏻‍🦱    | U+1F469 U+1F3FB U+200D U+1F9B1    | WOMAN_LIGHT_SKIN_TONE_CURLY_HAIR
 | woman: medium-light skin tone, curly hair    | 👩🏼‍🦱    | U+1F469 U+1F3FC U+200D U+1F9B1    | WOMAN_MEDIUM_LIGHT_SKIN_TONE_CURLY_HAIR
 | woman: medium skin tone, curly hair    | 👩🏽‍🦱    | U+1F469 U+1F3FD U+200D U+1F9B1    | WOMAN_MEDIUM_SKIN_TONE_CURLY_HAIR
 | woman: medium-dark skin tone, curly hair    | 👩🏾‍🦱    | U+1F469 U+1F3FE U+200D U+1F9B1    | WOMAN_MEDIUM_DARK_SKIN_TONE_CURLY_HAIR
 | woman: dark skin tone, curly hair    | 👩🏿‍🦱    | U+1F469 U+1F3FF U+200D U+1F9B1    | WOMAN_DARK_SKIN_TONE_CURLY_HAIR
+| person: light skin tone, curly hair    | 🧑🏻‍🦱    | U+1F9D1 U+1F3FB U+200D U+1F9B1    | PERSON_LIGHT_SKIN_TONE_CURLY_HAIR
+| person: medium-light skin tone, curly hair    | 🧑🏼‍🦱    | U+1F9D1 U+1F3FC U+200D U+1F9B1    | PERSON_MEDIUM_LIGHT_SKIN_TONE_CURLY_HAIR
+| person: medium skin tone, curly hair    | 🧑🏽‍🦱    | U+1F9D1 U+1F3FD U+200D U+1F9B1    | PERSON_MEDIUM_SKIN_TONE_CURLY_HAIR
+| person: medium-dark skin tone, curly hair    | 🧑🏾‍🦱    | U+1F9D1 U+1F3FE U+200D U+1F9B1    | PERSON_MEDIUM_DARK_SKIN_TONE_CURLY_HAIR
+| person: dark skin tone, curly hair    | 🧑🏿‍🦱    | U+1F9D1 U+1F3FF U+200D U+1F9B1    | PERSON_DARK_SKIN_TONE_CURLY_HAIR
 | woman: light skin tone, white hair    | 👩🏻‍🦳    | U+1F469 U+1F3FB U+200D U+1F9B3    | WOMAN_LIGHT_SKIN_TONE_WHITE_HAIR
 | woman: medium-light skin tone, white hair    | 👩🏼‍🦳    | U+1F469 U+1F3FC U+200D U+1F9B3    | WOMAN_MEDIUM_LIGHT_SKIN_TONE_WHITE_HAIR
 | woman: medium skin tone, white hair    | 👩🏽‍🦳    | U+1F469 U+1F3FD U+200D U+1F9B3    | WOMAN_MEDIUM_SKIN_TONE_WHITE_HAIR
 | woman: medium-dark skin tone, white hair    | 👩🏾‍🦳    | U+1F469 U+1F3FE U+200D U+1F9B3    | WOMAN_MEDIUM_DARK_SKIN_TONE_WHITE_HAIR
 | woman: dark skin tone, white hair    | 👩🏿‍🦳    | U+1F469 U+1F3FF U+200D U+1F9B3    | WOMAN_DARK_SKIN_TONE_WHITE_HAIR
+| person: light skin tone, white hair    | 🧑🏻‍🦳    | U+1F9D1 U+1F3FB U+200D U+1F9B3    | PERSON_LIGHT_SKIN_TONE_WHITE_HAIR
+| person: medium-light skin tone, white hair    | 🧑🏼‍🦳    | U+1F9D1 U+1F3FC U+200D U+1F9B3    | PERSON_MEDIUM_LIGHT_SKIN_TONE_WHITE_HAIR
+| person: medium skin tone, white hair    | 🧑🏽‍🦳    | U+1F9D1 U+1F3FD U+200D U+1F9B3    | PERSON_MEDIUM_SKIN_TONE_WHITE_HAIR
+| person: medium-dark skin tone, white hair    | 🧑🏾‍🦳    | U+1F9D1 U+1F3FE U+200D U+1F9B3    | PERSON_MEDIUM_DARK_SKIN_TONE_WHITE_HAIR
+| person: dark skin tone, white hair    | 🧑🏿‍🦳    | U+1F9D1 U+1F3FF U+200D U+1F9B3    | PERSON_DARK_SKIN_TONE_WHITE_HAIR
 | woman: light skin tone, bald    | 👩🏻‍🦲    | U+1F469 U+1F3FB U+200D U+1F9B2    | WOMAN_LIGHT_SKIN_TONE_BALD
 | woman: medium-light skin tone, bald    | 👩🏼‍🦲    | U+1F469 U+1F3FC U+200D U+1F9B2    | WOMAN_MEDIUM_LIGHT_SKIN_TONE_BALD
 | woman: medium skin tone, bald    | 👩🏽‍🦲    | U+1F469 U+1F3FD U+200D U+1F9B2    | WOMAN_MEDIUM_SKIN_TONE_BALD
 | woman: medium-dark skin tone, bald    | 👩🏾‍🦲    | U+1F469 U+1F3FE U+200D U+1F9B2    | WOMAN_MEDIUM_DARK_SKIN_TONE_BALD
 | woman: dark skin tone, bald    | 👩🏿‍🦲    | U+1F469 U+1F3FF U+200D U+1F9B2    | WOMAN_DARK_SKIN_TONE_BALD
+| person: light skin tone, bald    | 🧑🏻‍🦲    | U+1F9D1 U+1F3FB U+200D U+1F9B2    | PERSON_LIGHT_SKIN_TONE_BALD
+| person: medium-light skin tone, bald    | 🧑🏼‍🦲    | U+1F9D1 U+1F3FC U+200D U+1F9B2    | PERSON_MEDIUM_LIGHT_SKIN_TONE_BALD
+| person: medium skin tone, bald    | 🧑🏽‍🦲    | U+1F9D1 U+1F3FD U+200D U+1F9B2    | PERSON_MEDIUM_SKIN_TONE_BALD
+| person: medium-dark skin tone, bald    | 🧑🏾‍🦲    | U+1F9D1 U+1F3FE U+200D U+1F9B2    | PERSON_MEDIUM_DARK_SKIN_TONE_BALD
+| person: dark skin tone, bald    | 🧑🏿‍🦲    | U+1F9D1 U+1F3FF U+200D U+1F9B2    | PERSON_DARK_SKIN_TONE_BALD
+| woman: light skin tone, blond hair    | 👱🏻‍♀️    | U+1F471 U+1F3FB U+200D U+2640 U+FE0F    | WOMAN_LIGHT_SKIN_TONE_BLOND_HAIR
+| woman: medium-light skin tone, blond hair    | 👱🏼‍♀️    | U+1F471 U+1F3FC U+200D U+2640 U+FE0F    | WOMAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR
+| woman: medium skin tone, blond hair    | 👱🏽‍♀️    | U+1F471 U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_MEDIUM_SKIN_TONE_BLOND_HAIR
+| woman: medium-dark skin tone, blond hair    | 👱🏾‍♀️    | U+1F471 U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR
+| woman: dark skin tone, blond hair    | 👱🏿‍♀️    | U+1F471 U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_DARK_SKIN_TONE_BLOND_HAIR
+| man: light skin tone, blond hair    | 👱🏻‍♂️    | U+1F471 U+1F3FB U+200D U+2642 U+FE0F    | MAN_LIGHT_SKIN_TONE_BLOND_HAIR
+| man: medium-light skin tone, blond hair    | 👱🏼‍♂️    | U+1F471 U+1F3FC U+200D U+2642 U+FE0F    | MAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR
+| man: medium skin tone, blond hair    | 👱🏽‍♂️    | U+1F471 U+1F3FD U+200D U+2642 U+FE0F    | MAN_MEDIUM_SKIN_TONE_BLOND_HAIR
+| man: medium-dark skin tone, blond hair    | 👱🏾‍♂️    | U+1F471 U+1F3FE U+200D U+2642 U+FE0F    | MAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR
+| man: dark skin tone, blond hair    | 👱🏿‍♂️    | U+1F471 U+1F3FF U+200D U+2642 U+FE0F    | MAN_DARK_SKIN_TONE_BLOND_HAIR
 | older person: light skin tone    | 🧓🏻    | U+1F9D3 U+1F3FB    | OLDER_PERSON_LIGHT_SKIN_TONE
 | older person: medium-light skin tone    | 🧓🏼    | U+1F9D3 U+1F3FC    | OLDER_PERSON_MEDIUM_LIGHT_SKIN_TONE
 | older person: medium skin tone    | 🧓🏽    | U+1F9D3 U+1F3FD    | OLDER_PERSON_MEDIUM_SKIN_TONE
@@ -2174,6 +2217,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman shrugging: medium skin tone    | 🤷🏽‍♀️    | U+1F937 U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_SHRUGGING_MEDIUM_SKIN_TONE
 | woman shrugging: medium-dark skin tone    | 🤷🏾‍♀️    | U+1F937 U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_SHRUGGING_MEDIUM_DARK_SKIN_TONE
 | woman shrugging: dark skin tone    | 🤷🏿‍♀️    | U+1F937 U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_SHRUGGING_DARK_SKIN_TONE
+| health worker: light skin tone    | 🧑🏻‍⚕️    | U+1F9D1 U+1F3FB U+200D U+2695 U+FE0F    | HEALTH_WORKER_LIGHT_SKIN_TONE
+| health worker: medium-light skin tone    | 🧑🏼‍⚕️    | U+1F9D1 U+1F3FC U+200D U+2695 U+FE0F    | HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE
+| health worker: medium skin tone    | 🧑🏽‍⚕️    | U+1F9D1 U+1F3FD U+200D U+2695 U+FE0F    | HEALTH_WORKER_MEDIUM_SKIN_TONE
+| health worker: medium-dark skin tone    | 🧑🏾‍⚕️    | U+1F9D1 U+1F3FE U+200D U+2695 U+FE0F    | HEALTH_WORKER_MEDIUM_DARK_SKIN_TONE
+| health worker: dark skin tone    | 🧑🏿‍⚕️    | U+1F9D1 U+1F3FF U+200D U+2695 U+FE0F    | HEALTH_WORKER_DARK_SKIN_TONE
 | man health worker: light skin tone    | 👨🏻‍⚕️    | U+1F468 U+1F3FB U+200D U+2695 U+FE0F    | MAN_HEALTH_WORKER_LIGHT_SKIN_TONE
 | man health worker: medium-light skin tone    | 👨🏼‍⚕️    | U+1F468 U+1F3FC U+200D U+2695 U+FE0F    | MAN_HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE
 | man health worker: medium skin tone    | 👨🏽‍⚕️    | U+1F468 U+1F3FD U+200D U+2695 U+FE0F    | MAN_HEALTH_WORKER_MEDIUM_SKIN_TONE
@@ -2184,6 +2232,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman health worker: medium skin tone    | 👩🏽‍⚕️    | U+1F469 U+1F3FD U+200D U+2695 U+FE0F    | WOMAN_HEALTH_WORKER_MEDIUM_SKIN_TONE
 | woman health worker: medium-dark skin tone    | 👩🏾‍⚕️    | U+1F469 U+1F3FE U+200D U+2695 U+FE0F    | WOMAN_HEALTH_WORKER_MEDIUM_DARK_SKIN_TONE
 | woman health worker: dark skin tone    | 👩🏿‍⚕️    | U+1F469 U+1F3FF U+200D U+2695 U+FE0F    | WOMAN_HEALTH_WORKER_DARK_SKIN_TONE
+| student: light skin tone    | 🧑🏻‍🎓    | U+1F9D1 U+1F3FB U+200D U+1F393    | STUDENT_LIGHT_SKIN_TONE
+| student: medium-light skin tone    | 🧑🏼‍🎓    | U+1F9D1 U+1F3FC U+200D U+1F393    | STUDENT_MEDIUM_LIGHT_SKIN_TONE
+| student: medium skin tone    | 🧑🏽‍🎓    | U+1F9D1 U+1F3FD U+200D U+1F393    | STUDENT_MEDIUM_SKIN_TONE
+| student: medium-dark skin tone    | 🧑🏾‍🎓    | U+1F9D1 U+1F3FE U+200D U+1F393    | STUDENT_MEDIUM_DARK_SKIN_TONE
+| student: dark skin tone    | 🧑🏿‍🎓    | U+1F9D1 U+1F3FF U+200D U+1F393    | STUDENT_DARK_SKIN_TONE
 | man student: light skin tone    | 👨🏻‍🎓    | U+1F468 U+1F3FB U+200D U+1F393    | MAN_STUDENT_LIGHT_SKIN_TONE
 | man student: medium-light skin tone    | 👨🏼‍🎓    | U+1F468 U+1F3FC U+200D U+1F393    | MAN_STUDENT_MEDIUM_LIGHT_SKIN_TONE
 | man student: medium skin tone    | 👨🏽‍🎓    | U+1F468 U+1F3FD U+200D U+1F393    | MAN_STUDENT_MEDIUM_SKIN_TONE
@@ -2194,6 +2247,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman student: medium skin tone    | 👩🏽‍🎓    | U+1F469 U+1F3FD U+200D U+1F393    | WOMAN_STUDENT_MEDIUM_SKIN_TONE
 | woman student: medium-dark skin tone    | 👩🏾‍🎓    | U+1F469 U+1F3FE U+200D U+1F393    | WOMAN_STUDENT_MEDIUM_DARK_SKIN_TONE
 | woman student: dark skin tone    | 👩🏿‍🎓    | U+1F469 U+1F3FF U+200D U+1F393    | WOMAN_STUDENT_DARK_SKIN_TONE
+| teacher: light skin tone    | 🧑🏻‍🏫    | U+1F9D1 U+1F3FB U+200D U+1F3EB    | TEACHER_LIGHT_SKIN_TONE
+| teacher: medium-light skin tone    | 🧑🏼‍🏫    | U+1F9D1 U+1F3FC U+200D U+1F3EB    | TEACHER_MEDIUM_LIGHT_SKIN_TONE
+| teacher: medium skin tone    | 🧑🏽‍🏫    | U+1F9D1 U+1F3FD U+200D U+1F3EB    | TEACHER_MEDIUM_SKIN_TONE
+| teacher: medium-dark skin tone    | 🧑🏾‍🏫    | U+1F9D1 U+1F3FE U+200D U+1F3EB    | TEACHER_MEDIUM_DARK_SKIN_TONE
+| teacher: dark skin tone    | 🧑🏿‍🏫    | U+1F9D1 U+1F3FF U+200D U+1F3EB    | TEACHER_DARK_SKIN_TONE
 | man teacher: light skin tone    | 👨🏻‍🏫    | U+1F468 U+1F3FB U+200D U+1F3EB    | MAN_TEACHER_LIGHT_SKIN_TONE
 | man teacher: medium-light skin tone    | 👨🏼‍🏫    | U+1F468 U+1F3FC U+200D U+1F3EB    | MAN_TEACHER_MEDIUM_LIGHT_SKIN_TONE
 | man teacher: medium skin tone    | 👨🏽‍🏫    | U+1F468 U+1F3FD U+200D U+1F3EB    | MAN_TEACHER_MEDIUM_SKIN_TONE
@@ -2204,6 +2262,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman teacher: medium skin tone    | 👩🏽‍🏫    | U+1F469 U+1F3FD U+200D U+1F3EB    | WOMAN_TEACHER_MEDIUM_SKIN_TONE
 | woman teacher: medium-dark skin tone    | 👩🏾‍🏫    | U+1F469 U+1F3FE U+200D U+1F3EB    | WOMAN_TEACHER_MEDIUM_DARK_SKIN_TONE
 | woman teacher: dark skin tone    | 👩🏿‍🏫    | U+1F469 U+1F3FF U+200D U+1F3EB    | WOMAN_TEACHER_DARK_SKIN_TONE
+| judge: light skin tone    | 🧑🏻‍⚖️    | U+1F9D1 U+1F3FB U+200D U+2696 U+FE0F    | JUDGE_LIGHT_SKIN_TONE
+| judge: medium-light skin tone    | 🧑🏼‍⚖️    | U+1F9D1 U+1F3FC U+200D U+2696 U+FE0F    | JUDGE_MEDIUM_LIGHT_SKIN_TONE
+| judge: medium skin tone    | 🧑🏽‍⚖️    | U+1F9D1 U+1F3FD U+200D U+2696 U+FE0F    | JUDGE_MEDIUM_SKIN_TONE
+| judge: medium-dark skin tone    | 🧑🏾‍⚖️    | U+1F9D1 U+1F3FE U+200D U+2696 U+FE0F    | JUDGE_MEDIUM_DARK_SKIN_TONE
+| judge: dark skin tone    | 🧑🏿‍⚖️    | U+1F9D1 U+1F3FF U+200D U+2696 U+FE0F    | JUDGE_DARK_SKIN_TONE
 | man judge: light skin tone    | 👨🏻‍⚖️    | U+1F468 U+1F3FB U+200D U+2696 U+FE0F    | MAN_JUDGE_LIGHT_SKIN_TONE
 | man judge: medium-light skin tone    | 👨🏼‍⚖️    | U+1F468 U+1F3FC U+200D U+2696 U+FE0F    | MAN_JUDGE_MEDIUM_LIGHT_SKIN_TONE
 | man judge: medium skin tone    | 👨🏽‍⚖️    | U+1F468 U+1F3FD U+200D U+2696 U+FE0F    | MAN_JUDGE_MEDIUM_SKIN_TONE
@@ -2214,6 +2277,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman judge: medium skin tone    | 👩🏽‍⚖️    | U+1F469 U+1F3FD U+200D U+2696 U+FE0F    | WOMAN_JUDGE_MEDIUM_SKIN_TONE
 | woman judge: medium-dark skin tone    | 👩🏾‍⚖️    | U+1F469 U+1F3FE U+200D U+2696 U+FE0F    | WOMAN_JUDGE_MEDIUM_DARK_SKIN_TONE
 | woman judge: dark skin tone    | 👩🏿‍⚖️    | U+1F469 U+1F3FF U+200D U+2696 U+FE0F    | WOMAN_JUDGE_DARK_SKIN_TONE
+| farmer: light skin tone    | 🧑🏻‍🌾    | U+1F9D1 U+1F3FB U+200D U+1F33E    | FARMER_LIGHT_SKIN_TONE
+| farmer: medium-light skin tone    | 🧑🏼‍🌾    | U+1F9D1 U+1F3FC U+200D U+1F33E    | FARMER_MEDIUM_LIGHT_SKIN_TONE
+| farmer: medium skin tone    | 🧑🏽‍🌾    | U+1F9D1 U+1F3FD U+200D U+1F33E    | FARMER_MEDIUM_SKIN_TONE
+| farmer: medium-dark skin tone    | 🧑🏾‍🌾    | U+1F9D1 U+1F3FE U+200D U+1F33E    | FARMER_MEDIUM_DARK_SKIN_TONE
+| farmer: dark skin tone    | 🧑🏿‍🌾    | U+1F9D1 U+1F3FF U+200D U+1F33E    | FARMER_DARK_SKIN_TONE
 | man farmer: light skin tone    | 👨🏻‍🌾    | U+1F468 U+1F3FB U+200D U+1F33E    | MAN_FARMER_LIGHT_SKIN_TONE
 | man farmer: medium-light skin tone    | 👨🏼‍🌾    | U+1F468 U+1F3FC U+200D U+1F33E    | MAN_FARMER_MEDIUM_LIGHT_SKIN_TONE
 | man farmer: medium skin tone    | 👨🏽‍🌾    | U+1F468 U+1F3FD U+200D U+1F33E    | MAN_FARMER_MEDIUM_SKIN_TONE
@@ -2224,6 +2292,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman farmer: medium skin tone    | 👩🏽‍🌾    | U+1F469 U+1F3FD U+200D U+1F33E    | WOMAN_FARMER_MEDIUM_SKIN_TONE
 | woman farmer: medium-dark skin tone    | 👩🏾‍🌾    | U+1F469 U+1F3FE U+200D U+1F33E    | WOMAN_FARMER_MEDIUM_DARK_SKIN_TONE
 | woman farmer: dark skin tone    | 👩🏿‍🌾    | U+1F469 U+1F3FF U+200D U+1F33E    | WOMAN_FARMER_DARK_SKIN_TONE
+| cook: light skin tone    | 🧑🏻‍🍳    | U+1F9D1 U+1F3FB U+200D U+1F373    | COOK_LIGHT_SKIN_TONE
+| cook: medium-light skin tone    | 🧑🏼‍🍳    | U+1F9D1 U+1F3FC U+200D U+1F373    | COOK_MEDIUM_LIGHT_SKIN_TONE
+| cook: medium skin tone    | 🧑🏽‍🍳    | U+1F9D1 U+1F3FD U+200D U+1F373    | COOK_MEDIUM_SKIN_TONE
+| cook: medium-dark skin tone    | 🧑🏾‍🍳    | U+1F9D1 U+1F3FE U+200D U+1F373    | COOK_MEDIUM_DARK_SKIN_TONE
+| cook: dark skin tone    | 🧑🏿‍🍳    | U+1F9D1 U+1F3FF U+200D U+1F373    | COOK_DARK_SKIN_TONE
 | man cook: light skin tone    | 👨🏻‍🍳    | U+1F468 U+1F3FB U+200D U+1F373    | MAN_COOK_LIGHT_SKIN_TONE
 | man cook: medium-light skin tone    | 👨🏼‍🍳    | U+1F468 U+1F3FC U+200D U+1F373    | MAN_COOK_MEDIUM_LIGHT_SKIN_TONE
 | man cook: medium skin tone    | 👨🏽‍🍳    | U+1F468 U+1F3FD U+200D U+1F373    | MAN_COOK_MEDIUM_SKIN_TONE
@@ -2234,6 +2307,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman cook: medium skin tone    | 👩🏽‍🍳    | U+1F469 U+1F3FD U+200D U+1F373    | WOMAN_COOK_MEDIUM_SKIN_TONE
 | woman cook: medium-dark skin tone    | 👩🏾‍🍳    | U+1F469 U+1F3FE U+200D U+1F373    | WOMAN_COOK_MEDIUM_DARK_SKIN_TONE
 | woman cook: dark skin tone    | 👩🏿‍🍳    | U+1F469 U+1F3FF U+200D U+1F373    | WOMAN_COOK_DARK_SKIN_TONE
+| mechanic: light skin tone    | 🧑🏻‍🔧    | U+1F9D1 U+1F3FB U+200D U+1F527    | MECHANIC_LIGHT_SKIN_TONE
+| mechanic: medium-light skin tone    | 🧑🏼‍🔧    | U+1F9D1 U+1F3FC U+200D U+1F527    | MECHANIC_MEDIUM_LIGHT_SKIN_TONE
+| mechanic: medium skin tone    | 🧑🏽‍🔧    | U+1F9D1 U+1F3FD U+200D U+1F527    | MECHANIC_MEDIUM_SKIN_TONE
+| mechanic: medium-dark skin tone    | 🧑🏾‍🔧    | U+1F9D1 U+1F3FE U+200D U+1F527    | MECHANIC_MEDIUM_DARK_SKIN_TONE
+| mechanic: dark skin tone    | 🧑🏿‍🔧    | U+1F9D1 U+1F3FF U+200D U+1F527    | MECHANIC_DARK_SKIN_TONE
 | man mechanic: light skin tone    | 👨🏻‍🔧    | U+1F468 U+1F3FB U+200D U+1F527    | MAN_MECHANIC_LIGHT_SKIN_TONE
 | man mechanic: medium-light skin tone    | 👨🏼‍🔧    | U+1F468 U+1F3FC U+200D U+1F527    | MAN_MECHANIC_MEDIUM_LIGHT_SKIN_TONE
 | man mechanic: medium skin tone    | 👨🏽‍🔧    | U+1F468 U+1F3FD U+200D U+1F527    | MAN_MECHANIC_MEDIUM_SKIN_TONE
@@ -2244,6 +2322,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman mechanic: medium skin tone    | 👩🏽‍🔧    | U+1F469 U+1F3FD U+200D U+1F527    | WOMAN_MECHANIC_MEDIUM_SKIN_TONE
 | woman mechanic: medium-dark skin tone    | 👩🏾‍🔧    | U+1F469 U+1F3FE U+200D U+1F527    | WOMAN_MECHANIC_MEDIUM_DARK_SKIN_TONE
 | woman mechanic: dark skin tone    | 👩🏿‍🔧    | U+1F469 U+1F3FF U+200D U+1F527    | WOMAN_MECHANIC_DARK_SKIN_TONE
+| factory worker: light skin tone    | 🧑🏻‍🏭    | U+1F9D1 U+1F3FB U+200D U+1F3ED    | FACTORY_WORKER_LIGHT_SKIN_TONE
+| factory worker: medium-light skin tone    | 🧑🏼‍🏭    | U+1F9D1 U+1F3FC U+200D U+1F3ED    | FACTORY_WORKER_MEDIUM_LIGHT_SKIN_TONE
+| factory worker: medium skin tone    | 🧑🏽‍🏭    | U+1F9D1 U+1F3FD U+200D U+1F3ED    | FACTORY_WORKER_MEDIUM_SKIN_TONE
+| factory worker: medium-dark skin tone    | 🧑🏾‍🏭    | U+1F9D1 U+1F3FE U+200D U+1F3ED    | FACTORY_WORKER_MEDIUM_DARK_SKIN_TONE
+| factory worker: dark skin tone    | 🧑🏿‍🏭    | U+1F9D1 U+1F3FF U+200D U+1F3ED    | FACTORY_WORKER_DARK_SKIN_TONE
 | man factory worker: light skin tone    | 👨🏻‍🏭    | U+1F468 U+1F3FB U+200D U+1F3ED    | MAN_FACTORY_WORKER_LIGHT_SKIN_TONE
 | man factory worker: medium-light skin tone    | 👨🏼‍🏭    | U+1F468 U+1F3FC U+200D U+1F3ED    | MAN_FACTORY_WORKER_MEDIUM_LIGHT_SKIN_TONE
 | man factory worker: medium skin tone    | 👨🏽‍🏭    | U+1F468 U+1F3FD U+200D U+1F3ED    | MAN_FACTORY_WORKER_MEDIUM_SKIN_TONE
@@ -2254,6 +2337,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman factory worker: medium skin tone    | 👩🏽‍🏭    | U+1F469 U+1F3FD U+200D U+1F3ED    | WOMAN_FACTORY_WORKER_MEDIUM_SKIN_TONE
 | woman factory worker: medium-dark skin tone    | 👩🏾‍🏭    | U+1F469 U+1F3FE U+200D U+1F3ED    | WOMAN_FACTORY_WORKER_MEDIUM_DARK_SKIN_TONE
 | woman factory worker: dark skin tone    | 👩🏿‍🏭    | U+1F469 U+1F3FF U+200D U+1F3ED    | WOMAN_FACTORY_WORKER_DARK_SKIN_TONE
+| office worker: light skin tone    | 🧑🏻‍💼    | U+1F9D1 U+1F3FB U+200D U+1F4BC    | OFFICE_WORKER_LIGHT_SKIN_TONE
+| office worker: medium-light skin tone    | 🧑🏼‍💼    | U+1F9D1 U+1F3FC U+200D U+1F4BC    | OFFICE_WORKER_MEDIUM_LIGHT_SKIN_TONE
+| office worker: medium skin tone    | 🧑🏽‍💼    | U+1F9D1 U+1F3FD U+200D U+1F4BC    | OFFICE_WORKER_MEDIUM_SKIN_TONE
+| office worker: medium-dark skin tone    | 🧑🏾‍💼    | U+1F9D1 U+1F3FE U+200D U+1F4BC    | OFFICE_WORKER_MEDIUM_DARK_SKIN_TONE
+| office worker: dark skin tone    | 🧑🏿‍💼    | U+1F9D1 U+1F3FF U+200D U+1F4BC    | OFFICE_WORKER_DARK_SKIN_TONE
 | man office worker: light skin tone    | 👨🏻‍💼    | U+1F468 U+1F3FB U+200D U+1F4BC    | MAN_OFFICE_WORKER_LIGHT_SKIN_TONE
 | man office worker: medium-light skin tone    | 👨🏼‍💼    | U+1F468 U+1F3FC U+200D U+1F4BC    | MAN_OFFICE_WORKER_MEDIUM_LIGHT_SKIN_TONE
 | man office worker: medium skin tone    | 👨🏽‍💼    | U+1F468 U+1F3FD U+200D U+1F4BC    | MAN_OFFICE_WORKER_MEDIUM_SKIN_TONE
@@ -2264,6 +2352,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman office worker: medium skin tone    | 👩🏽‍💼    | U+1F469 U+1F3FD U+200D U+1F4BC    | WOMAN_OFFICE_WORKER_MEDIUM_SKIN_TONE
 | woman office worker: medium-dark skin tone    | 👩🏾‍💼    | U+1F469 U+1F3FE U+200D U+1F4BC    | WOMAN_OFFICE_WORKER_MEDIUM_DARK_SKIN_TONE
 | woman office worker: dark skin tone    | 👩🏿‍💼    | U+1F469 U+1F3FF U+200D U+1F4BC    | WOMAN_OFFICE_WORKER_DARK_SKIN_TONE
+| scientist: light skin tone    | 🧑🏻‍🔬    | U+1F9D1 U+1F3FB U+200D U+1F52C    | SCIENTIST_LIGHT_SKIN_TONE
+| scientist: medium-light skin tone    | 🧑🏼‍🔬    | U+1F9D1 U+1F3FC U+200D U+1F52C    | SCIENTIST_MEDIUM_LIGHT_SKIN_TONE
+| scientist: medium skin tone    | 🧑🏽‍🔬    | U+1F9D1 U+1F3FD U+200D U+1F52C    | SCIENTIST_MEDIUM_SKIN_TONE
+| scientist: medium-dark skin tone    | 🧑🏾‍🔬    | U+1F9D1 U+1F3FE U+200D U+1F52C    | SCIENTIST_MEDIUM_DARK_SKIN_TONE
+| scientist: dark skin tone    | 🧑🏿‍🔬    | U+1F9D1 U+1F3FF U+200D U+1F52C    | SCIENTIST_DARK_SKIN_TONE
 | man scientist: light skin tone    | 👨🏻‍🔬    | U+1F468 U+1F3FB U+200D U+1F52C    | MAN_SCIENTIST_LIGHT_SKIN_TONE
 | man scientist: medium-light skin tone    | 👨🏼‍🔬    | U+1F468 U+1F3FC U+200D U+1F52C    | MAN_SCIENTIST_MEDIUM_LIGHT_SKIN_TONE
 | man scientist: medium skin tone    | 👨🏽‍🔬    | U+1F468 U+1F3FD U+200D U+1F52C    | MAN_SCIENTIST_MEDIUM_SKIN_TONE
@@ -2274,6 +2367,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman scientist: medium skin tone    | 👩🏽‍🔬    | U+1F469 U+1F3FD U+200D U+1F52C    | WOMAN_SCIENTIST_MEDIUM_SKIN_TONE
 | woman scientist: medium-dark skin tone    | 👩🏾‍🔬    | U+1F469 U+1F3FE U+200D U+1F52C    | WOMAN_SCIENTIST_MEDIUM_DARK_SKIN_TONE
 | woman scientist: dark skin tone    | 👩🏿‍🔬    | U+1F469 U+1F3FF U+200D U+1F52C    | WOMAN_SCIENTIST_DARK_SKIN_TONE
+| technologist: light skin tone    | 🧑🏻‍💻    | U+1F9D1 U+1F3FB U+200D U+1F4BB    | TECHNOLOGIST_LIGHT_SKIN_TONE
+| technologist: medium-light skin tone    | 🧑🏼‍💻    | U+1F9D1 U+1F3FC U+200D U+1F4BB    | TECHNOLOGIST_MEDIUM_LIGHT_SKIN_TONE
+| technologist: medium skin tone    | 🧑🏽‍💻    | U+1F9D1 U+1F3FD U+200D U+1F4BB    | TECHNOLOGIST_MEDIUM_SKIN_TONE
+| technologist: medium-dark skin tone    | 🧑🏾‍💻    | U+1F9D1 U+1F3FE U+200D U+1F4BB    | TECHNOLOGIST_MEDIUM_DARK_SKIN_TONE
+| technologist: dark skin tone    | 🧑🏿‍💻    | U+1F9D1 U+1F3FF U+200D U+1F4BB    | TECHNOLOGIST_DARK_SKIN_TONE
 | man technologist: light skin tone    | 👨🏻‍💻    | U+1F468 U+1F3FB U+200D U+1F4BB    | MAN_TECHNOLOGIST_LIGHT_SKIN_TONE
 | man technologist: medium-light skin tone    | 👨🏼‍💻    | U+1F468 U+1F3FC U+200D U+1F4BB    | MAN_TECHNOLOGIST_MEDIUM_LIGHT_SKIN_TONE
 | man technologist: medium skin tone    | 👨🏽‍💻    | U+1F468 U+1F3FD U+200D U+1F4BB    | MAN_TECHNOLOGIST_MEDIUM_SKIN_TONE
@@ -2284,6 +2382,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman technologist: medium skin tone    | 👩🏽‍💻    | U+1F469 U+1F3FD U+200D U+1F4BB    | WOMAN_TECHNOLOGIST_MEDIUM_SKIN_TONE
 | woman technologist: medium-dark skin tone    | 👩🏾‍💻    | U+1F469 U+1F3FE U+200D U+1F4BB    | WOMAN_TECHNOLOGIST_MEDIUM_DARK_SKIN_TONE
 | woman technologist: dark skin tone    | 👩🏿‍💻    | U+1F469 U+1F3FF U+200D U+1F4BB    | WOMAN_TECHNOLOGIST_DARK_SKIN_TONE
+| singer: light skin tone    | 🧑🏻‍🎤    | U+1F9D1 U+1F3FB U+200D U+1F3A4    | SINGER_LIGHT_SKIN_TONE
+| singer: medium-light skin tone    | 🧑🏼‍🎤    | U+1F9D1 U+1F3FC U+200D U+1F3A4    | SINGER_MEDIUM_LIGHT_SKIN_TONE
+| singer: medium skin tone    | 🧑🏽‍🎤    | U+1F9D1 U+1F3FD U+200D U+1F3A4    | SINGER_MEDIUM_SKIN_TONE
+| singer: medium-dark skin tone    | 🧑🏾‍🎤    | U+1F9D1 U+1F3FE U+200D U+1F3A4    | SINGER_MEDIUM_DARK_SKIN_TONE
+| singer: dark skin tone    | 🧑🏿‍🎤    | U+1F9D1 U+1F3FF U+200D U+1F3A4    | SINGER_DARK_SKIN_TONE
 | man singer: light skin tone    | 👨🏻‍🎤    | U+1F468 U+1F3FB U+200D U+1F3A4    | MAN_SINGER_LIGHT_SKIN_TONE
 | man singer: medium-light skin tone    | 👨🏼‍🎤    | U+1F468 U+1F3FC U+200D U+1F3A4    | MAN_SINGER_MEDIUM_LIGHT_SKIN_TONE
 | man singer: medium skin tone    | 👨🏽‍🎤    | U+1F468 U+1F3FD U+200D U+1F3A4    | MAN_SINGER_MEDIUM_SKIN_TONE
@@ -2294,6 +2397,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman singer: medium skin tone    | 👩🏽‍🎤    | U+1F469 U+1F3FD U+200D U+1F3A4    | WOMAN_SINGER_MEDIUM_SKIN_TONE
 | woman singer: medium-dark skin tone    | 👩🏾‍🎤    | U+1F469 U+1F3FE U+200D U+1F3A4    | WOMAN_SINGER_MEDIUM_DARK_SKIN_TONE
 | woman singer: dark skin tone    | 👩🏿‍🎤    | U+1F469 U+1F3FF U+200D U+1F3A4    | WOMAN_SINGER_DARK_SKIN_TONE
+| artist: light skin tone    | 🧑🏻‍🎨    | U+1F9D1 U+1F3FB U+200D U+1F3A8    | ARTIST_LIGHT_SKIN_TONE
+| artist: medium-light skin tone    | 🧑🏼‍🎨    | U+1F9D1 U+1F3FC U+200D U+1F3A8    | ARTIST_MEDIUM_LIGHT_SKIN_TONE
+| artist: medium skin tone    | 🧑🏽‍🎨    | U+1F9D1 U+1F3FD U+200D U+1F3A8    | ARTIST_MEDIUM_SKIN_TONE
+| artist: medium-dark skin tone    | 🧑🏾‍🎨    | U+1F9D1 U+1F3FE U+200D U+1F3A8    | ARTIST_MEDIUM_DARK_SKIN_TONE
+| artist: dark skin tone    | 🧑🏿‍🎨    | U+1F9D1 U+1F3FF U+200D U+1F3A8    | ARTIST_DARK_SKIN_TONE
 | man artist: light skin tone    | 👨🏻‍🎨    | U+1F468 U+1F3FB U+200D U+1F3A8    | MAN_ARTIST_LIGHT_SKIN_TONE
 | man artist: medium-light skin tone    | 👨🏼‍🎨    | U+1F468 U+1F3FC U+200D U+1F3A8    | MAN_ARTIST_MEDIUM_LIGHT_SKIN_TONE
 | man artist: medium skin tone    | 👨🏽‍🎨    | U+1F468 U+1F3FD U+200D U+1F3A8    | MAN_ARTIST_MEDIUM_SKIN_TONE
@@ -2304,6 +2412,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman artist: medium skin tone    | 👩🏽‍🎨    | U+1F469 U+1F3FD U+200D U+1F3A8    | WOMAN_ARTIST_MEDIUM_SKIN_TONE
 | woman artist: medium-dark skin tone    | 👩🏾‍🎨    | U+1F469 U+1F3FE U+200D U+1F3A8    | WOMAN_ARTIST_MEDIUM_DARK_SKIN_TONE
 | woman artist: dark skin tone    | 👩🏿‍🎨    | U+1F469 U+1F3FF U+200D U+1F3A8    | WOMAN_ARTIST_DARK_SKIN_TONE
+| pilot: light skin tone    | 🧑🏻‍✈️    | U+1F9D1 U+1F3FB U+200D U+2708 U+FE0F    | PILOT_LIGHT_SKIN_TONE
+| pilot: medium-light skin tone    | 🧑🏼‍✈️    | U+1F9D1 U+1F3FC U+200D U+2708 U+FE0F    | PILOT_MEDIUM_LIGHT_SKIN_TONE
+| pilot: medium skin tone    | 🧑🏽‍✈️    | U+1F9D1 U+1F3FD U+200D U+2708 U+FE0F    | PILOT_MEDIUM_SKIN_TONE
+| pilot: medium-dark skin tone    | 🧑🏾‍✈️    | U+1F9D1 U+1F3FE U+200D U+2708 U+FE0F    | PILOT_MEDIUM_DARK_SKIN_TONE
+| pilot: dark skin tone    | 🧑🏿‍✈️    | U+1F9D1 U+1F3FF U+200D U+2708 U+FE0F    | PILOT_DARK_SKIN_TONE
 | man pilot: light skin tone    | 👨🏻‍✈️    | U+1F468 U+1F3FB U+200D U+2708 U+FE0F    | MAN_PILOT_LIGHT_SKIN_TONE
 | man pilot: medium-light skin tone    | 👨🏼‍✈️    | U+1F468 U+1F3FC U+200D U+2708 U+FE0F    | MAN_PILOT_MEDIUM_LIGHT_SKIN_TONE
 | man pilot: medium skin tone    | 👨🏽‍✈️    | U+1F468 U+1F3FD U+200D U+2708 U+FE0F    | MAN_PILOT_MEDIUM_SKIN_TONE
@@ -2314,6 +2427,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman pilot: medium skin tone    | 👩🏽‍✈️    | U+1F469 U+1F3FD U+200D U+2708 U+FE0F    | WOMAN_PILOT_MEDIUM_SKIN_TONE
 | woman pilot: medium-dark skin tone    | 👩🏾‍✈️    | U+1F469 U+1F3FE U+200D U+2708 U+FE0F    | WOMAN_PILOT_MEDIUM_DARK_SKIN_TONE
 | woman pilot: dark skin tone    | 👩🏿‍✈️    | U+1F469 U+1F3FF U+200D U+2708 U+FE0F    | WOMAN_PILOT_DARK_SKIN_TONE
+| astronaut: light skin tone    | 🧑🏻‍🚀    | U+1F9D1 U+1F3FB U+200D U+1F680    | ASTRONAUT_LIGHT_SKIN_TONE
+| astronaut: medium-light skin tone    | 🧑🏼‍🚀    | U+1F9D1 U+1F3FC U+200D U+1F680    | ASTRONAUT_MEDIUM_LIGHT_SKIN_TONE
+| astronaut: medium skin tone    | 🧑🏽‍🚀    | U+1F9D1 U+1F3FD U+200D U+1F680    | ASTRONAUT_MEDIUM_SKIN_TONE
+| astronaut: medium-dark skin tone    | 🧑🏾‍🚀    | U+1F9D1 U+1F3FE U+200D U+1F680    | ASTRONAUT_MEDIUM_DARK_SKIN_TONE
+| astronaut: dark skin tone    | 🧑🏿‍🚀    | U+1F9D1 U+1F3FF U+200D U+1F680    | ASTRONAUT_DARK_SKIN_TONE
 | man astronaut: light skin tone    | 👨🏻‍🚀    | U+1F468 U+1F3FB U+200D U+1F680    | MAN_ASTRONAUT_LIGHT_SKIN_TONE
 | man astronaut: medium-light skin tone    | 👨🏼‍🚀    | U+1F468 U+1F3FC U+200D U+1F680    | MAN_ASTRONAUT_MEDIUM_LIGHT_SKIN_TONE
 | man astronaut: medium skin tone    | 👨🏽‍🚀    | U+1F468 U+1F3FD U+200D U+1F680    | MAN_ASTRONAUT_MEDIUM_SKIN_TONE
@@ -2324,6 +2442,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman astronaut: medium skin tone    | 👩🏽‍🚀    | U+1F469 U+1F3FD U+200D U+1F680    | WOMAN_ASTRONAUT_MEDIUM_SKIN_TONE
 | woman astronaut: medium-dark skin tone    | 👩🏾‍🚀    | U+1F469 U+1F3FE U+200D U+1F680    | WOMAN_ASTRONAUT_MEDIUM_DARK_SKIN_TONE
 | woman astronaut: dark skin tone    | 👩🏿‍🚀    | U+1F469 U+1F3FF U+200D U+1F680    | WOMAN_ASTRONAUT_DARK_SKIN_TONE
+| firefighter: light skin tone    | 🧑🏻‍🚒    | U+1F9D1 U+1F3FB U+200D U+1F692    | FIREFIGHTER_LIGHT_SKIN_TONE
+| firefighter: medium-light skin tone    | 🧑🏼‍🚒    | U+1F9D1 U+1F3FC U+200D U+1F692    | FIREFIGHTER_MEDIUM_LIGHT_SKIN_TONE
+| firefighter: medium skin tone    | 🧑🏽‍🚒    | U+1F9D1 U+1F3FD U+200D U+1F692    | FIREFIGHTER_MEDIUM_SKIN_TONE
+| firefighter: medium-dark skin tone    | 🧑🏾‍🚒    | U+1F9D1 U+1F3FE U+200D U+1F692    | FIREFIGHTER_MEDIUM_DARK_SKIN_TONE
+| firefighter: dark skin tone    | 🧑🏿‍🚒    | U+1F9D1 U+1F3FF U+200D U+1F692    | FIREFIGHTER_DARK_SKIN_TONE
 | man firefighter: light skin tone    | 👨🏻‍🚒    | U+1F468 U+1F3FB U+200D U+1F692    | MAN_FIREFIGHTER_LIGHT_SKIN_TONE
 | man firefighter: medium-light skin tone    | 👨🏼‍🚒    | U+1F468 U+1F3FC U+200D U+1F692    | MAN_FIREFIGHTER_MEDIUM_LIGHT_SKIN_TONE
 | man firefighter: medium skin tone    | 👨🏽‍🚒    | U+1F468 U+1F3FD U+200D U+1F692    | MAN_FIREFIGHTER_MEDIUM_SKIN_TONE
@@ -2419,11 +2542,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman wearing turban: medium skin tone    | 👳🏽‍♀️    | U+1F473 U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_WEARING_TURBAN_MEDIUM_SKIN_TONE
 | woman wearing turban: medium-dark skin tone    | 👳🏾‍♀️    | U+1F473 U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_WEARING_TURBAN_MEDIUM_DARK_SKIN_TONE
 | woman wearing turban: dark skin tone    | 👳🏿‍♀️    | U+1F473 U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_WEARING_TURBAN_DARK_SKIN_TONE
-| man with Chinese cap: light skin tone    | 👲🏻    | U+1F472 U+1F3FB    | MAN_WITH_CHINESE_CAP_LIGHT_SKIN_TONE
-| man with Chinese cap: medium-light skin tone    | 👲🏼    | U+1F472 U+1F3FC    | MAN_WITH_CHINESE_CAP_MEDIUM_LIGHT_SKIN_TONE
-| man with Chinese cap: medium skin tone    | 👲🏽    | U+1F472 U+1F3FD    | MAN_WITH_CHINESE_CAP_MEDIUM_SKIN_TONE
-| man with Chinese cap: medium-dark skin tone    | 👲🏾    | U+1F472 U+1F3FE    | MAN_WITH_CHINESE_CAP_MEDIUM_DARK_SKIN_TONE
-| man with Chinese cap: dark skin tone    | 👲🏿    | U+1F472 U+1F3FF    | MAN_WITH_CHINESE_CAP_DARK_SKIN_TONE
+| man with skullcap: light skin tone    | 👲🏻    | U+1F472 U+1F3FB    | MAN_WITH_SKULLCAP_LIGHT_SKIN_TONE
+| man with skullcap: medium-light skin tone    | 👲🏼    | U+1F472 U+1F3FC    | MAN_WITH_SKULLCAP_MEDIUM_LIGHT_SKIN_TONE
+| man with skullcap: medium skin tone    | 👲🏽    | U+1F472 U+1F3FD    | MAN_WITH_SKULLCAP_MEDIUM_SKIN_TONE
+| man with skullcap: medium-dark skin tone    | 👲🏾    | U+1F472 U+1F3FE    | MAN_WITH_SKULLCAP_MEDIUM_DARK_SKIN_TONE
+| man with skullcap: dark skin tone    | 👲🏿    | U+1F472 U+1F3FF    | MAN_WITH_SKULLCAP_DARK_SKIN_TONE
 | woman with headscarf: light skin tone    | 🧕🏻    | U+1F9D5 U+1F3FB    | WOMAN_WITH_HEADSCARF_LIGHT_SKIN_TONE
 | woman with headscarf: medium-light skin tone    | 🧕🏼    | U+1F9D5 U+1F3FC    | WOMAN_WITH_HEADSCARF_MEDIUM_LIGHT_SKIN_TONE
 | woman with headscarf: medium skin tone    | 🧕🏽    | U+1F9D5 U+1F3FD    | WOMAN_WITH_HEADSCARF_MEDIUM_SKIN_TONE
@@ -2644,6 +2767,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman kneeling: medium skin tone    | 🧎🏽‍♀️    | U+1F9CE U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_KNEELING_MEDIUM_SKIN_TONE
 | woman kneeling: medium-dark skin tone    | 🧎🏾‍♀️    | U+1F9CE U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_KNEELING_MEDIUM_DARK_SKIN_TONE
 | woman kneeling: dark skin tone    | 🧎🏿‍♀️    | U+1F9CE U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_KNEELING_DARK_SKIN_TONE
+| person with probing cane: light skin tone    | 🧑🏻‍🦯    | U+1F9D1 U+1F3FB U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_LIGHT_SKIN_TONE
+| person with probing cane: medium-light skin tone    | 🧑🏼‍🦯    | U+1F9D1 U+1F3FC U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_MEDIUM_LIGHT_SKIN_TONE
+| person with probing cane: medium skin tone    | 🧑🏽‍🦯    | U+1F9D1 U+1F3FD U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_MEDIUM_SKIN_TONE
+| person with probing cane: medium-dark skin tone    | 🧑🏾‍🦯    | U+1F9D1 U+1F3FE U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_MEDIUM_DARK_SKIN_TONE
+| person with probing cane: dark skin tone    | 🧑🏿‍🦯    | U+1F9D1 U+1F3FF U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_DARK_SKIN_TONE
 | man with probing cane: light skin tone    | 👨🏻‍🦯    | U+1F468 U+1F3FB U+200D U+1F9AF    | MAN_WITH_PROBING_CANE_LIGHT_SKIN_TONE
 | man with probing cane: medium-light skin tone    | 👨🏼‍🦯    | U+1F468 U+1F3FC U+200D U+1F9AF    | MAN_WITH_PROBING_CANE_MEDIUM_LIGHT_SKIN_TONE
 | man with probing cane: medium skin tone    | 👨🏽‍🦯    | U+1F468 U+1F3FD U+200D U+1F9AF    | MAN_WITH_PROBING_CANE_MEDIUM_SKIN_TONE
@@ -2654,6 +2782,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman with probing cane: medium skin tone    | 👩🏽‍🦯    | U+1F469 U+1F3FD U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE_MEDIUM_SKIN_TONE
 | woman with probing cane: medium-dark skin tone    | 👩🏾‍🦯    | U+1F469 U+1F3FE U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE_MEDIUM_DARK_SKIN_TONE
 | woman with probing cane: dark skin tone    | 👩🏿‍🦯    | U+1F469 U+1F3FF U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE_DARK_SKIN_TONE
+| person in motorized wheelchair: light skin tone    | 🧑🏻‍🦼    | U+1F9D1 U+1F3FB U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE
+| person in motorized wheelchair: medium-light skin tone    | 🧑🏼‍🦼    | U+1F9D1 U+1F3FC U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE
+| person in motorized wheelchair: medium skin tone    | 🧑🏽‍🦼    | U+1F9D1 U+1F3FD U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE
+| person in motorized wheelchair: medium-dark skin tone    | 🧑🏾‍🦼    | U+1F9D1 U+1F3FE U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE
+| person in motorized wheelchair: dark skin tone    | 🧑🏿‍🦼    | U+1F9D1 U+1F3FF U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE
 | man in motorized wheelchair: light skin tone    | 👨🏻‍🦼    | U+1F468 U+1F3FB U+200D U+1F9BC    | MAN_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE
 | man in motorized wheelchair: medium-light skin tone    | 👨🏼‍🦼    | U+1F468 U+1F3FC U+200D U+1F9BC    | MAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE
 | man in motorized wheelchair: medium skin tone    | 👨🏽‍🦼    | U+1F468 U+1F3FD U+200D U+1F9BC    | MAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE
@@ -2664,6 +2797,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman in motorized wheelchair: medium skin tone    | 👩🏽‍🦼    | U+1F469 U+1F3FD U+200D U+1F9BC    | WOMAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE
 | woman in motorized wheelchair: medium-dark skin tone    | 👩🏾‍🦼    | U+1F469 U+1F3FE U+200D U+1F9BC    | WOMAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE
 | woman in motorized wheelchair: dark skin tone    | 👩🏿‍🦼    | U+1F469 U+1F3FF U+200D U+1F9BC    | WOMAN_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE
+| person in manual wheelchair: light skin tone    | 🧑🏻‍🦽    | U+1F9D1 U+1F3FB U+200D U+1F9BD    | PERSON_IN_MANUAL_WHEELCHAIR_LIGHT_SKIN_TONE
+| person in manual wheelchair: medium-light skin tone    | 🧑🏼‍🦽    | U+1F9D1 U+1F3FC U+200D U+1F9BD    | PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE
+| person in manual wheelchair: medium skin tone    | 🧑🏽‍🦽    | U+1F9D1 U+1F3FD U+200D U+1F9BD    | PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_SKIN_TONE
+| person in manual wheelchair: medium-dark skin tone    | 🧑🏾‍🦽    | U+1F9D1 U+1F3FE U+200D U+1F9BD    | PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE
+| person in manual wheelchair: dark skin tone    | 🧑🏿‍🦽    | U+1F9D1 U+1F3FF U+200D U+1F9BD    | PERSON_IN_MANUAL_WHEELCHAIR_DARK_SKIN_TONE
 | man in manual wheelchair: light skin tone    | 👨🏻‍🦽    | U+1F468 U+1F3FB U+200D U+1F9BD    | MAN_IN_MANUAL_WHEELCHAIR_LIGHT_SKIN_TONE
 | man in manual wheelchair: medium-light skin tone    | 👨🏼‍🦽    | U+1F468 U+1F3FC U+200D U+1F9BD    | MAN_IN_MANUAL_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE
 | man in manual wheelchair: medium skin tone    | 👨🏽‍🦽    | U+1F468 U+1F3FD U+200D U+1F9BD    | MAN_IN_MANUAL_WHEELCHAIR_MEDIUM_SKIN_TONE
@@ -2950,30 +3088,50 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | person in bed: medium-dark skin tone    | 🛌🏾    | U+1F6CC U+1F3FE    | PERSON_IN_BED_MEDIUM_DARK_SKIN_TONE
 | person in bed: dark skin tone    | 🛌🏿    | U+1F6CC U+1F3FF    | PERSON_IN_BED_DARK_SKIN_TONE
 | people holding hands: light skin tone    | 🧑🏻‍🤝‍🧑🏻    | U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FB    | PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE
+| people holding hands: light skin tone, medium-light skin tone    | 🧑🏻‍🤝‍🧑🏼    | U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FC    | PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| people holding hands: light skin tone, medium skin tone    | 🧑🏻‍🤝‍🧑🏽    | U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FD    | PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| people holding hands: light skin tone, medium-dark skin tone    | 🧑🏻‍🤝‍🧑🏾    | U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FE    | PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| people holding hands: light skin tone, dark skin tone    | 🧑🏻‍🤝‍🧑🏿    | U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FF    | PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE_DARK_SKIN_TONE
 | people holding hands: medium-light skin tone, light skin tone    | 🧑🏼‍🤝‍🧑🏻    | U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FB    | PEOPLE_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
 | people holding hands: medium-light skin tone    | 🧑🏼‍🤝‍🧑🏼    | U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FC    | PEOPLE_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE
+| people holding hands: medium-light skin tone, medium skin tone    | 🧑🏼‍🤝‍🧑🏽    | U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FD    | PEOPLE_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| people holding hands: medium-light skin tone, medium-dark skin tone    | 🧑🏼‍🤝‍🧑🏾    | U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FE    | PEOPLE_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| people holding hands: medium-light skin tone, dark skin tone    | 🧑🏼‍🤝‍🧑🏿    | U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FF    | PEOPLE_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
 | people holding hands: medium skin tone, light skin tone    | 🧑🏽‍🤝‍🧑🏻    | U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FB    | PEOPLE_HOLDING_HANDS_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
 | people holding hands: medium skin tone, medium-light skin tone    | 🧑🏽‍🤝‍🧑🏼    | U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FC    | PEOPLE_HOLDING_HANDS_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
 | people holding hands: medium skin tone    | 🧑🏽‍🤝‍🧑🏽    | U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FD    | PEOPLE_HOLDING_HANDS_MEDIUM_SKIN_TONE
+| people holding hands: medium skin tone, medium-dark skin tone    | 🧑🏽‍🤝‍🧑🏾    | U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FE    | PEOPLE_HOLDING_HANDS_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| people holding hands: medium skin tone, dark skin tone    | 🧑🏽‍🤝‍🧑🏿    | U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FF    | PEOPLE_HOLDING_HANDS_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
 | people holding hands: medium-dark skin tone, light skin tone    | 🧑🏾‍🤝‍🧑🏻    | U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FB    | PEOPLE_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
 | people holding hands: medium-dark skin tone, medium-light skin tone    | 🧑🏾‍🤝‍🧑🏼    | U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FC    | PEOPLE_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
 | people holding hands: medium-dark skin tone, medium skin tone    | 🧑🏾‍🤝‍🧑🏽    | U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FD    | PEOPLE_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
 | people holding hands: medium-dark skin tone    | 🧑🏾‍🤝‍🧑🏾    | U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FE    | PEOPLE_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE
+| people holding hands: medium-dark skin tone, dark skin tone    | 🧑🏾‍🤝‍🧑🏿    | U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FF    | PEOPLE_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
 | people holding hands: dark skin tone, light skin tone    | 🧑🏿‍🤝‍🧑🏻    | U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FB    | PEOPLE_HOLDING_HANDS_DARK_SKIN_TONE_LIGHT_SKIN_TONE
 | people holding hands: dark skin tone, medium-light skin tone    | 🧑🏿‍🤝‍🧑🏼    | U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FC    | PEOPLE_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
 | people holding hands: dark skin tone, medium skin tone    | 🧑🏿‍🤝‍🧑🏽    | U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FD    | PEOPLE_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
 | people holding hands: dark skin tone, medium-dark skin tone    | 🧑🏿‍🤝‍🧑🏾    | U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FE    | PEOPLE_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
 | people holding hands: dark skin tone    | 🧑🏿‍🤝‍🧑🏿    | U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FF    | PEOPLE_HOLDING_HANDS_DARK_SKIN_TONE
 | women holding hands: light skin tone    | 👭🏻    | U+1F46D U+1F3FB    | WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE
+| women holding hands: light skin tone, medium-light skin tone    | 👩🏻‍🤝‍👩🏼    | U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FC    | WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| women holding hands: light skin tone, medium skin tone    | 👩🏻‍🤝‍👩🏽    | U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FD    | WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| women holding hands: light skin tone, medium-dark skin tone    | 👩🏻‍🤝‍👩🏾    | U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FE    | WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| women holding hands: light skin tone, dark skin tone    | 👩🏻‍🤝‍👩🏿    | U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FF    | WOMEN_HOLDING_HANDS_LIGHT_SKIN_TONE_DARK_SKIN_TONE
 | women holding hands: medium-light skin tone, light skin tone    | 👩🏼‍🤝‍👩🏻    | U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FB    | WOMEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
 | women holding hands: medium-light skin tone    | 👭🏼    | U+1F46D U+1F3FC    | WOMEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE
+| women holding hands: medium-light skin tone, medium skin tone    | 👩🏼‍🤝‍👩🏽    | U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FD    | WOMEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| women holding hands: medium-light skin tone, medium-dark skin tone    | 👩🏼‍🤝‍👩🏾    | U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FE    | WOMEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| women holding hands: medium-light skin tone, dark skin tone    | 👩🏼‍🤝‍👩🏿    | U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FF    | WOMEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
 | women holding hands: medium skin tone, light skin tone    | 👩🏽‍🤝‍👩🏻    | U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FB    | WOMEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
 | women holding hands: medium skin tone, medium-light skin tone    | 👩🏽‍🤝‍👩🏼    | U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FC    | WOMEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
 | women holding hands: medium skin tone    | 👭🏽    | U+1F46D U+1F3FD    | WOMEN_HOLDING_HANDS_MEDIUM_SKIN_TONE
+| women holding hands: medium skin tone, medium-dark skin tone    | 👩🏽‍🤝‍👩🏾    | U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FE    | WOMEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| women holding hands: medium skin tone, dark skin tone    | 👩🏽‍🤝‍👩🏿    | U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FF    | WOMEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
 | women holding hands: medium-dark skin tone, light skin tone    | 👩🏾‍🤝‍👩🏻    | U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FB    | WOMEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
 | women holding hands: medium-dark skin tone, medium-light skin tone    | 👩🏾‍🤝‍👩🏼    | U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FC    | WOMEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
 | women holding hands: medium-dark skin tone, medium skin tone    | 👩🏾‍🤝‍👩🏽    | U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FD    | WOMEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
 | women holding hands: medium-dark skin tone    | 👭🏾    | U+1F46D U+1F3FE    | WOMEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE
+| women holding hands: medium-dark skin tone, dark skin tone    | 👩🏾‍🤝‍👩🏿    | U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FF    | WOMEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
 | women holding hands: dark skin tone, light skin tone    | 👩🏿‍🤝‍👩🏻    | U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FB    | WOMEN_HOLDING_HANDS_DARK_SKIN_TONE_LIGHT_SKIN_TONE
 | women holding hands: dark skin tone, medium-light skin tone    | 👩🏿‍🤝‍👩🏼    | U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FC    | WOMEN_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
 | women holding hands: dark skin tone, medium skin tone    | 👩🏿‍🤝‍👩🏽    | U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FD    | WOMEN_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
@@ -3005,15 +3163,25 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman and man holding hands: dark skin tone, medium-dark skin tone    | 👩🏿‍🤝‍👨🏾    | U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FE    | WOMAN_AND_MAN_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
 | woman and man holding hands: dark skin tone    | 👫🏿    | U+1F46B U+1F3FF    | WOMAN_AND_MAN_HOLDING_HANDS_DARK_SKIN_TONE
 | men holding hands: light skin tone    | 👬🏻    | U+1F46C U+1F3FB    | MEN_HOLDING_HANDS_LIGHT_SKIN_TONE
+| men holding hands: light skin tone, medium-light skin tone    | 👨🏻‍🤝‍👨🏼    | U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FC    | MEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| men holding hands: light skin tone, medium skin tone    | 👨🏻‍🤝‍👨🏽    | U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FD    | MEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| men holding hands: light skin tone, medium-dark skin tone    | 👨🏻‍🤝‍👨🏾    | U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FE    | MEN_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| men holding hands: light skin tone, dark skin tone    | 👨🏻‍🤝‍👨🏿    | U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FF    | MEN_HOLDING_HANDS_LIGHT_SKIN_TONE_DARK_SKIN_TONE
 | men holding hands: medium-light skin tone, light skin tone    | 👨🏼‍🤝‍👨🏻    | U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FB    | MEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
 | men holding hands: medium-light skin tone    | 👬🏼    | U+1F46C U+1F3FC    | MEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE
+| men holding hands: medium-light skin tone, medium skin tone    | 👨🏼‍🤝‍👨🏽    | U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FD    | MEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| men holding hands: medium-light skin tone, medium-dark skin tone    | 👨🏼‍🤝‍👨🏾    | U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FE    | MEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| men holding hands: medium-light skin tone, dark skin tone    | 👨🏼‍🤝‍👨🏿    | U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FF    | MEN_HOLDING_HANDS_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
 | men holding hands: medium skin tone, light skin tone    | 👨🏽‍🤝‍👨🏻    | U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FB    | MEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
 | men holding hands: medium skin tone, medium-light skin tone    | 👨🏽‍🤝‍👨🏼    | U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FC    | MEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
 | men holding hands: medium skin tone    | 👬🏽    | U+1F46C U+1F3FD    | MEN_HOLDING_HANDS_MEDIUM_SKIN_TONE
+| men holding hands: medium skin tone, medium-dark skin tone    | 👨🏽‍🤝‍👨🏾    | U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FE    | MEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| men holding hands: medium skin tone, dark skin tone    | 👨🏽‍🤝‍👨🏿    | U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FF    | MEN_HOLDING_HANDS_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
 | men holding hands: medium-dark skin tone, light skin tone    | 👨🏾‍🤝‍👨🏻    | U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FB    | MEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
 | men holding hands: medium-dark skin tone, medium-light skin tone    | 👨🏾‍🤝‍👨🏼    | U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FC    | MEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
 | men holding hands: medium-dark skin tone, medium skin tone    | 👨🏾‍🤝‍👨🏽    | U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FD    | MEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
 | men holding hands: medium-dark skin tone    | 👬🏾    | U+1F46C U+1F3FE    | MEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE
+| men holding hands: medium-dark skin tone, dark skin tone    | 👨🏾‍🤝‍👨🏿    | U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FF    | MEN_HOLDING_HANDS_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
 | men holding hands: dark skin tone, light skin tone    | 👨🏿‍🤝‍👨🏻    | U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FB    | MEN_HOLDING_HANDS_DARK_SKIN_TONE_LIGHT_SKIN_TONE
 | men holding hands: dark skin tone, medium-light skin tone    | 👨🏿‍🤝‍👨🏼    | U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FC    | MEN_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
 | men holding hands: dark skin tone, medium skin tone    | 👨🏿‍🤝‍👨🏽    | U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FD    | MEN_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_SKIN_TONE

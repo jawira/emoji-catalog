@@ -12,7 +12,7 @@ Features:
 You can see [full list of emojis].
 
 [![Latest Stable Version](https://poser.pugx.org/jawira/emoji-catalog/v/stable)](https://packagist.org/packages/jawira/emoji-catalog)
-![Emoji](https://img.shields.io/badge/Emoji-v12.0-%235354FE)
+[![Emoji version](https://img.shields.io/badge/Emoji%20version-12.1-%23ff69b4)](https://home.unicode.org/emoji-12-1-release-168-emoji-added/)
 [![Total Downloads](https://poser.pugx.org/jawira/emoji-catalog/downloads)](https://packagist.org/packages/jawira/emoji-catalog)
 [![License](https://poser.pugx.org/jawira/emoji-catalog/license)](https://packagist.org/packages/jawira/emoji-catalog)
 [![composer.lock](https://poser.pugx.org/jawira/emoji-catalog/composerlock)](https://packagist.org/packages/jawira/emoji-catalog)
@@ -65,7 +65,6 @@ Packages from jawira
 --------------------
 
 <dl>
-
   <dt><a href="https://packagist.org/packages/jawira/case-converter">jawira/case-converter</a> (library)</dt>
   <dd>Convert strings between 13 naming conventions: Snake case, Camel case,
       Pascal case, Kebab case, Ada case, Train case, Cobol case, Macro case,
