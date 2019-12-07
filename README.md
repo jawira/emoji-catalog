@@ -18,6 +18,7 @@ You can see [full list of emojis].
 [![composer.lock](https://poser.pugx.org/jawira/emoji-catalog/composerlock)](https://packagist.org/packages/jawira/emoji-catalog)
 [![PDS Skeleton](https://img.shields.io/badge/pds-skeleton-blue.svg)](https://github.com/php-pds/skeleton)
 [![Issues](https://img.shields.io/github/issues/jawira/emoji-catalog.svg?label=HuBoard&color=694DC2)](https://huboard.com/jawira/emoji-catalog)
+[![HitCount](http://hits.dwyl.io/jawira/emoji-catalog.svg)](http://hits.dwyl.io/jawira/emoji-catalog)
 
 Usage
 -----
