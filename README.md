@@ -1,7 +1,7 @@
 Emoji catalog 📔
 ==============
 
-Get access to +3000 emojis as class constants.
+Get access to +3300 emojis as class constants.
 
 Features:
 
@@ -9,10 +9,10 @@ Features:
 - 🤩 A lot of emojis
 - 🔓 Zero dependencies
 
-You can see [full list of emojis].
+You can see the [full emoji list].
 
 [![Latest Stable Version](https://poser.pugx.org/jawira/emoji-catalog/v/stable)](https://packagist.org/packages/jawira/emoji-catalog)
-[![Emoji version](https://img.shields.io/badge/Emoji%20version-12.1-%23ff69b4)](https://home.unicode.org/emoji-12-1-release-168-emoji-added/)
+[![Emoji version](https://img.shields.io/badge/Emoji-v13.0-%23ff69b4)](https://home.unicode.org/unicode-emoji-13-0-now-final-for-2020/)
 [![Total Downloads](https://poser.pugx.org/jawira/emoji-catalog/downloads)](https://packagist.org/packages/jawira/emoji-catalog)
 [![License](https://poser.pugx.org/jawira/emoji-catalog/license)](https://packagist.org/packages/jawira/emoji-catalog)
 [![composer.lock](https://poser.pugx.org/jawira/emoji-catalog/composerlock)](https://packagist.org/packages/jawira/emoji-catalog)
@@ -58,7 +58,7 @@ License
 This library is licensed under the [MIT license](LICENSE.md).
 
 [GitHub]: https://github.com/jawira/emoji-catalog
-[full list of emojis]: https://github.com/jawira/emoji-catalog/blob/master/docs/catalog.md
+[full emoji list]: https://github.com/jawira/emoji-catalog/blob/master/docs/catalog.md
 
 ***
 

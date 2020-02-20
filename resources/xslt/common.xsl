@@ -20,8 +20,8 @@
     <xsl:variable name="short-name" select="./td[last()]/text()"/>
     <xsl:variable name="removable" select="':;.,⊛’!“”()⊖'"/>
     <xsl:variable name="cleaned" select="translate($short-name, $removable, '')"/>
-    <xsl:variable name="lowercase" select="'Åãabcçdeéfghíijklmnoôpqrstuvwxyz-&amp;'"/>
-    <xsl:variable name="uppercase" select="'AAABCCDEEFGHIIJKLMNOOPQRSTUVWXYZ N'"/>
+    <xsl:variable name="lowercase" select="'Åãabcçdeéfghíijklmnñoôpqrstuvwxyz-&amp;'"/>
+    <xsl:variable name="uppercase" select="'AAABCCDEEFGHIIJKLMNNOOPQRSTUVWXYZ N'"/>
     <xsl:variable name="no-accents" select="translate($cleaned, $lowercase, $uppercase)"/>
     <xsl:variable name="normalized" select="normalize-space($no-accents)"/>
     <xsl:variable name="no-spaces" select="translate($normalized, ' ', '_')"/>

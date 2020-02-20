@@ -26,6 +26,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | smiling face    | ☺    | U+263A    | SMILING_FACE
 | kissing face with closed eyes    | 😚    | U+1F61A    | KISSING_FACE_WITH_CLOSED_EYES
 | kissing face with smiling eyes    | 😙    | U+1F619    | KISSING_FACE_WITH_SMILING_EYES
+| smiling face with tear    | 🥲    | U+1F972    | SMILING_FACE_WITH_TEAR
 | face savoring food    | 😋    | U+1F60B    | FACE_SAVORING_FOOD
 | face with tongue    | 😛    | U+1F61B    | FACE_WITH_TONGUE
 | winking face with tongue    | 😜    | U+1F61C    | WINKING_FACE_WITH_TONGUE
@@ -64,6 +65,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | exploding head    | 🤯    | U+1F92F    | EXPLODING_HEAD
 | cowboy hat face    | 🤠    | U+1F920    | COWBOY_HAT_FACE
 | partying face    | 🥳    | U+1F973    | PARTYING_FACE
+| disguised face    | 🥸    | U+1F978    | DISGUISED_FACE
 | smiling face with sunglasses    | 😎    | U+1F60E    | SMILING_FACE_WITH_SUNGLASSES
 | nerd face    | 🤓    | U+1F913    | NERD_FACE
 | face with monocle    | 🧐    | U+1F9D0    | FACE_WITH_MONOCLE
@@ -160,6 +162,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | raised hand    | ✋    | U+270B    | RAISED_HAND
 | vulcan salute    | 🖖    | U+1F596    | VULCAN_SALUTE
 | OK hand    | 👌    | U+1F44C    | OK_HAND
+| pinched fingers    | 🤌    | U+1F90C    | PINCHED_FINGERS
 | pinching hand    | 🤏    | U+1F90F    | PINCHING_HAND
 | victory hand    | ✌    | U+270C    | VICTORY_HAND
 | crossed fingers    | 🤞    | U+1F91E    | CROSSED_FINGERS
@@ -196,6 +199,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | ear with hearing aid    | 🦻    | U+1F9BB    | EAR_WITH_HEARING_AID
 | nose    | 👃    | U+1F443    | NOSE
 | brain    | 🧠    | U+1F9E0    | BRAIN
+| anatomical heart    | 🫀    | U+1FAC0    | ANATOMICAL_HEART
+| lungs    | 🫁    | U+1FAC1    | LUNGS
 | tooth    | 🦷    | U+1F9B7    | TOOTH
 | bone    | 🦴    | U+1F9B4    | BONE
 | eyes    | 👀    | U+1F440    | EYES
@@ -315,6 +320,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | guard    | 💂    | U+1F482    | GUARD
 | man guard    | 💂‍♂️    | U+1F482 U+200D U+2642 U+FE0F    | MAN_GUARD
 | woman guard    | 💂‍♀️    | U+1F482 U+200D U+2640 U+FE0F    | WOMAN_GUARD
+| ninja    | 🥷    | U+1F977    | NINJA
 | construction worker    | 👷    | U+1F477    | CONSTRUCTION_WORKER
 | man construction worker    | 👷‍♂️    | U+1F477 U+200D U+2642 U+FE0F    | MAN_CONSTRUCTION_WORKER
 | woman construction worker    | 👷‍♀️    | U+1F477 U+200D U+2640 U+FE0F    | WOMAN_CONSTRUCTION_WORKER
@@ -323,15 +329,23 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | person wearing turban    | 👳    | U+1F473    | PERSON_WEARING_TURBAN
 | man wearing turban    | 👳‍♂️    | U+1F473 U+200D U+2642 U+FE0F    | MAN_WEARING_TURBAN
 | woman wearing turban    | 👳‍♀️    | U+1F473 U+200D U+2640 U+FE0F    | WOMAN_WEARING_TURBAN
-| man with skullcap    | 👲    | U+1F472    | MAN_WITH_SKULLCAP
+| person with skullcap    | 👲    | U+1F472    | PERSON_WITH_SKULLCAP
 | woman with headscarf    | 🧕    | U+1F9D5    | WOMAN_WITH_HEADSCARF
-| man in tuxedo    | 🤵    | U+1F935    | MAN_IN_TUXEDO
-| bride with veil    | 👰    | U+1F470    | BRIDE_WITH_VEIL
+| person in tuxedo    | 🤵    | U+1F935    | PERSON_IN_TUXEDO
+| man in tuxedo    | 🤵‍♂️    | U+1F935 U+200D U+2642 U+FE0F    | MAN_IN_TUXEDO
+| woman in tuxedo    | 🤵‍♀️    | U+1F935 U+200D U+2640 U+FE0F    | WOMAN_IN_TUXEDO
+| person with veil    | 👰    | U+1F470    | PERSON_WITH_VEIL
+| man with veil    | 👰‍♂️    | U+1F470 U+200D U+2642 U+FE0F    | MAN_WITH_VEIL
+| woman with veil    | 👰‍♀️    | U+1F470 U+200D U+2640 U+FE0F    | WOMAN_WITH_VEIL
 | pregnant woman    | 🤰    | U+1F930    | PREGNANT_WOMAN
 | breast-feeding    | 🤱    | U+1F931    | BREAST_FEEDING
+| woman feeding baby    | 👩‍🍼    | U+1F469 U+200D U+1F37C    | WOMAN_FEEDING_BABY
+| man feeding baby    | 👨‍🍼    | U+1F468 U+200D U+1F37C    | MAN_FEEDING_BABY
+| person feeding baby    | 🧑‍🍼    | U+1F9D1 U+200D U+1F37C    | PERSON_FEEDING_BABY
 | baby angel    | 👼    | U+1F47C    | BABY_ANGEL
 | Santa Claus    | 🎅    | U+1F385    | SANTA_CLAUS
 | Mrs. Claus    | 🤶    | U+1F936    | MRS_CLAUS
+| mx claus    | 🧑‍🎄    | U+1F9D1 U+200D U+1F384    | MX_CLAUS
 | superhero    | 🦸    | U+1F9B8    | SUPERHERO
 | man superhero    | 🦸‍♂️    | U+1F9B8 U+200D U+2642 U+FE0F    | MAN_SUPERHERO
 | woman superhero    | 🦸‍♀️    | U+1F9B8 U+200D U+2640 U+FE0F    | WOMAN_SUPERHERO
@@ -374,9 +388,9 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | person kneeling    | 🧎    | U+1F9CE    | PERSON_KNEELING
 | man kneeling    | 🧎‍♂️    | U+1F9CE U+200D U+2642 U+FE0F    | MAN_KNEELING
 | woman kneeling    | 🧎‍♀️    | U+1F9CE U+200D U+2640 U+FE0F    | WOMAN_KNEELING
-| person with probing cane    | 🧑‍🦯    | U+1F9D1 U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE
-| man with probing cane    | 👨‍🦯    | U+1F468 U+200D U+1F9AF    | MAN_WITH_PROBING_CANE
-| woman with probing cane    | 👩‍🦯    | U+1F469 U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE
+| person with white cane    | 🧑‍🦯    | U+1F9D1 U+200D U+1F9AF    | PERSON_WITH_WHITE_CANE
+| man with white cane    | 👨‍🦯    | U+1F468 U+200D U+1F9AF    | MAN_WITH_WHITE_CANE
+| woman with white cane    | 👩‍🦯    | U+1F469 U+200D U+1F9AF    | WOMAN_WITH_WHITE_CANE
 | person in motorized wheelchair    | 🧑‍🦼    | U+1F9D1 U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR
 | man in motorized wheelchair    | 👨‍🦼    | U+1F468 U+200D U+1F9BC    | MAN_IN_MOTORIZED_WHEELCHAIR
 | woman in motorized wheelchair    | 👩‍🦼    | U+1F469 U+200D U+1F9BC    | WOMAN_IN_MOTORIZED_WHEELCHAIR
@@ -388,7 +402,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman running    | 🏃‍♀️    | U+1F3C3 U+200D U+2640 U+FE0F    | WOMAN_RUNNING
 | woman dancing    | 💃    | U+1F483    | WOMAN_DANCING
 | man dancing    | 🕺    | U+1F57A    | MAN_DANCING
-| man in suit levitating    | 🕴    | U+1F574    | MAN_IN_SUIT_LEVITATING
+| person in suit levitating    | 🕴    | U+1F574    | PERSON_IN_SUIT_LEVITATING
 | people with bunny ears    | 👯    | U+1F46F    | PEOPLE_WITH_BUNNY_EARS
 | men with bunny ears    | 👯‍♂️    | U+1F46F U+200D U+2642 U+FE0F    | MEN_WITH_BUNNY_EARS
 | women with bunny ears    | 👯‍♀️    | U+1F46F U+200D U+2640 U+FE0F    | WOMEN_WITH_BUNNY_EARS
@@ -487,6 +501,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | speaking head    | 🗣    | U+1F5E3    | SPEAKING_HEAD
 | bust in silhouette    | 👤    | U+1F464    | BUST_IN_SILHOUETTE
 | busts in silhouette    | 👥    | U+1F465    | BUSTS_IN_SILHOUETTE
+| people hugging    | 🫂    | U+1FAC2    | PEOPLE_HUGGING
 | footprints    | 👣    | U+1F463    | FOOTPRINTS
 | red hair    | 🦰    | U+1F9B0    | RED_HAIR
 | curly hair    | 🦱    | U+1F9B1    | CURLY_HAIR
@@ -506,6 +521,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | raccoon    | 🦝    | U+1F99D    | RACCOON
 | cat face    | 🐱    | U+1F431    | CAT_FACE
 | cat    | 🐈    | U+1F408    | CAT
+| black cat    | 🐈‍⬛    | U+1F408 U+200D U+2B1B    | BLACK_CAT
 | lion    | 🦁    | U+1F981    | LION
 | tiger face    | 🐯    | U+1F42F    | TIGER_FACE
 | tiger    | 🐅    | U+1F405    | TIGER
@@ -515,6 +531,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | unicorn    | 🦄    | U+1F984    | UNICORN
 | zebra    | 🦓    | U+1F993    | ZEBRA
 | deer    | 🦌    | U+1F98C    | DEER
+| bison    | 🦬    | U+1F9AC    | BISON
 | cow face    | 🐮    | U+1F42E    | COW_FACE
 | ox    | 🐂    | U+1F402    | OX
 | water buffalo    | 🐃    | U+1F403    | WATER_BUFFALO
@@ -531,6 +548,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | llama    | 🦙    | U+1F999    | LLAMA
 | giraffe    | 🦒    | U+1F992    | GIRAFFE
 | elephant    | 🐘    | U+1F418    | ELEPHANT
+| mammoth    | 🦣    | U+1F9A3    | MAMMOTH
 | rhinoceros    | 🦏    | U+1F98F    | RHINOCEROS
 | hippopotamus    | 🦛    | U+1F99B    | HIPPOPOTAMUS
 | mouse face    | 🐭    | U+1F42D    | MOUSE_FACE
@@ -540,9 +558,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | rabbit face    | 🐰    | U+1F430    | RABBIT_FACE
 | rabbit    | 🐇    | U+1F407    | RABBIT
 | chipmunk    | 🐿    | U+1F43F    | CHIPMUNK
+| beaver    | 🦫    | U+1F9AB    | BEAVER
 | hedgehog    | 🦔    | U+1F994    | HEDGEHOG
 | bat    | 🦇    | U+1F987    | BAT
 | bear    | 🐻    | U+1F43B    | BEAR
+| polar bear    | 🐻‍❄️    | U+1F43B U+200D U+2744 U+FE0F    | POLAR_BEAR
 | koala    | 🐨    | U+1F428    | KOALA
 | panda    | 🐼    | U+1F43C    | PANDA
 | sloth    | 🦥    | U+1F9A5    | SLOTH
@@ -564,6 +584,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | duck    | 🦆    | U+1F986    | DUCK
 | swan    | 🦢    | U+1F9A2    | SWAN
 | owl    | 🦉    | U+1F989    | OWL
+| dodo    | 🦤    | U+1F9A4    | DODO
+| feather    | 🪶    | U+1FAB6    | FEATHER
 | flamingo    | 🦩    | U+1F9A9    | FLAMINGO
 | peacock    | 🦚    | U+1F99A    | PEACOCK
 | parrot    | 🦜    | U+1F99C    | PARROT
@@ -579,6 +601,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | spouting whale    | 🐳    | U+1F433    | SPOUTING_WHALE
 | whale    | 🐋    | U+1F40B    | WHALE
 | dolphin    | 🐬    | U+1F42C    | DOLPHIN
+| seal    | 🦭    | U+1F9AD    | SEAL
 | fish    | 🐟    | U+1F41F    | FISH
 | tropical fish    | 🐠    | U+1F420    | TROPICAL_FISH
 | blowfish    | 🐡    | U+1F421    | BLOWFISH
@@ -590,12 +613,16 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | bug    | 🐛    | U+1F41B    | BUG
 | ant    | 🐜    | U+1F41C    | ANT
 | honeybee    | 🐝    | U+1F41D    | HONEYBEE
+| beetle    | 🪲    | U+1FAB2    | BEETLE
 | lady beetle    | 🐞    | U+1F41E    | LADY_BEETLE
 | cricket    | 🦗    | U+1F997    | CRICKET
+| cockroach    | 🪳    | U+1FAB3    | COCKROACH
 | spider    | 🕷    | U+1F577    | SPIDER
 | spider web    | 🕸    | U+1F578    | SPIDER_WEB
 | scorpion    | 🦂    | U+1F982    | SCORPION
 | mosquito    | 🦟    | U+1F99F    | MOSQUITO
+| fly    | 🪰    | U+1FAB0    | FLY
+| worm    | 🪱    | U+1FAB1    | WORM
 | microbe    | 🦠    | U+1F9A0    | MICROBE
 | bouquet    | 💐    | U+1F490    | BOUQUET
 | cherry blossom    | 🌸    | U+1F338    | CHERRY_BLOSSOM
@@ -608,6 +635,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | blossom    | 🌼    | U+1F33C    | BLOSSOM
 | tulip    | 🌷    | U+1F337    | TULIP
 | seedling    | 🌱    | U+1F331    | SEEDLING
+| potted plant    | 🪴    | U+1FAB4    | POTTED_PLANT
 | evergreen tree    | 🌲    | U+1F332    | EVERGREEN_TREE
 | deciduous tree    | 🌳    | U+1F333    | DECIDUOUS_TREE
 | palm tree    | 🌴    | U+1F334    | PALM_TREE
@@ -633,8 +661,10 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | peach    | 🍑    | U+1F351    | PEACH
 | cherries    | 🍒    | U+1F352    | CHERRIES
 | strawberry    | 🍓    | U+1F353    | STRAWBERRY
+| blueberries    | 🫐    | U+1FAD0    | BLUEBERRIES
 | kiwi fruit    | 🥝    | U+1F95D    | KIWI_FRUIT
 | tomato    | 🍅    | U+1F345    | TOMATO
+| olive    | 🫒    | U+1FAD2    | OLIVE
 | coconut    | 🥥    | U+1F965    | COCONUT
 | avocado    | 🥑    | U+1F951    | AVOCADO
 | eggplant    | 🍆    | U+1F346    | EGGPLANT
@@ -642,6 +672,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | carrot    | 🥕    | U+1F955    | CARROT
 | ear of corn    | 🌽    | U+1F33D    | EAR_OF_CORN
 | hot pepper    | 🌶    | U+1F336    | HOT_PEPPER
+| bell pepper    | 🫑    | U+1FAD1    | BELL_PEPPER
 | cucumber    | 🥒    | U+1F952    | CUCUMBER
 | leafy green    | 🥬    | U+1F96C    | LEAFY_GREEN
 | broccoli    | 🥦    | U+1F966    | BROCCOLI
@@ -653,6 +684,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | bread    | 🍞    | U+1F35E    | BREAD
 | croissant    | 🥐    | U+1F950    | CROISSANT
 | baguette bread    | 🥖    | U+1F956    | BAGUETTE_BREAD
+| flatbread    | 🫓    | U+1FAD3    | FLATBREAD
 | pretzel    | 🥨    | U+1F968    | PRETZEL
 | bagel    | 🥯    | U+1F96F    | BAGEL
 | pancakes    | 🥞    | U+1F95E    | PANCAKES
@@ -669,12 +701,14 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | sandwich    | 🥪    | U+1F96A    | SANDWICH
 | taco    | 🌮    | U+1F32E    | TACO
 | burrito    | 🌯    | U+1F32F    | BURRITO
+| tamale    | 🫔    | U+1FAD4    | TAMALE
 | stuffed flatbread    | 🥙    | U+1F959    | STUFFED_FLATBREAD
 | falafel    | 🧆    | U+1F9C6    | FALAFEL
 | egg    | 🥚    | U+1F95A    | EGG
 | cooking    | 🍳    | U+1F373    | COOKING
 | shallow pan of food    | 🥘    | U+1F958    | SHALLOW_PAN_OF_FOOD
 | pot of food    | 🍲    | U+1F372    | POT_OF_FOOD
+| fondue    | 🫕    | U+1FAD5    | FONDUE
 | bowl with spoon    | 🥣    | U+1F963    | BOWL_WITH_SPOON
 | green salad    | 🥗    | U+1F957    | GREEN_SALAD
 | popcorn    | 🍿    | U+1F37F    | POPCORN
@@ -720,6 +754,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | baby bottle    | 🍼    | U+1F37C    | BABY_BOTTLE
 | glass of milk    | 🥛    | U+1F95B    | GLASS_OF_MILK
 | hot beverage    | ☕    | U+2615    | HOT_BEVERAGE
+| teapot    | 🫖    | U+1FAD6    | TEAPOT
 | teacup without handle    | 🍵    | U+1F375    | TEACUP_WITHOUT_HANDLE
 | sake    | 🍶    | U+1F376    | SAKE
 | bottle with popping cork    | 🍾    | U+1F37E    | BOTTLE_WITH_POPPING_CORK
@@ -731,6 +766,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | clinking glasses    | 🥂    | U+1F942    | CLINKING_GLASSES
 | tumbler glass    | 🥃    | U+1F943    | TUMBLER_GLASS
 | cup with straw    | 🥤    | U+1F964    | CUP_WITH_STRAW
+| bubble tea    | 🧋    | U+1F9CB    | BUBBLE_TEA
 | beverage box    | 🧃    | U+1F9C3    | BEVERAGE_BOX
 | mate    | 🧉    | U+1F9C9    | MATE
 | ice    | 🧊    | U+1F9CA    | ICE
@@ -760,6 +796,9 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | classical building    | 🏛    | U+1F3DB    | CLASSICAL_BUILDING
 | building construction    | 🏗    | U+1F3D7    | BUILDING_CONSTRUCTION
 | brick    | 🧱    | U+1F9F1    | BRICK
+| rock    | 🪨    | U+1FAA8    | ROCK
+| wood    | 🪵    | U+1FAB5    | WOOD
+| hut    | 🛖    | U+1F6D6    | HUT
 | houses    | 🏘    | U+1F3D8    | HOUSES
 | derelict house    | 🏚    | U+1F3DA    | DERELICT_HOUSE
 | house    | 🏠    | U+1F3E0    | HOUSE
@@ -827,6 +866,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | automobile    | 🚗    | U+1F697    | AUTOMOBILE
 | oncoming automobile    | 🚘    | U+1F698    | ONCOMING_AUTOMOBILE
 | sport utility vehicle    | 🚙    | U+1F699    | SPORT_UTILITY_VEHICLE
+| pickup truck    | 🛻    | U+1F6FB    | PICKUP_TRUCK
 | delivery truck    | 🚚    | U+1F69A    | DELIVERY_TRUCK
 | articulated lorry    | 🚛    | U+1F69B    | ARTICULATED_LORRY
 | tractor    | 🚜    | U+1F69C    | TRACTOR
@@ -839,6 +879,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | bicycle    | 🚲    | U+1F6B2    | BICYCLE
 | kick scooter    | 🛴    | U+1F6F4    | KICK_SCOOTER
 | skateboard    | 🛹    | U+1F6F9    | SKATEBOARD
+| roller skate    | 🛼    | U+1F6FC    | ROLLER_SKATE
 | bus stop    | 🚏    | U+1F68F    | BUS_STOP
 | motorway    | 🛣    | U+1F6E3    | MOTORWAY
 | railway track    | 🛤    | U+1F6E4    | RAILWAY_TRACK
@@ -1009,6 +1050,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | kite    | 🪁    | U+1FA81    | KITE
 | pool 8 ball    | 🎱    | U+1F3B1    | POOL_8_BALL
 | crystal ball    | 🔮    | U+1F52E    | CRYSTAL_BALL
+| magic wand    | 🪄    | U+1FA84    | MAGIC_WAND
 | nazar amulet    | 🧿    | U+1F9FF    | NAZAR_AMULET
 | video game    | 🎮    | U+1F3AE    | VIDEO_GAME
 | joystick    | 🕹    | U+1F579    | JOYSTICK
@@ -1016,6 +1058,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | game die    | 🎲    | U+1F3B2    | GAME_DIE
 | puzzle piece    | 🧩    | U+1F9E9    | PUZZLE_PIECE
 | teddy bear    | 🧸    | U+1F9F8    | TEDDY_BEAR
+| piñata    | 🪅    | U+1FA85    | PInATA
+| nesting dolls    | 🪆    | U+1FA86    | NESTING_DOLLS
 | spade suit    | ♠    | U+2660    | SPADE_SUIT
 | heart suit    | ♥    | U+2665    | HEART_SUIT
 | diamond suit    | ♦    | U+2666    | DIAMOND_SUIT
@@ -1028,7 +1072,9 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | framed picture    | 🖼    | U+1F5BC    | FRAMED_PICTURE
 | artist palette    | 🎨    | U+1F3A8    | ARTIST_PALETTE
 | thread    | 🧵    | U+1F9F5    | THREAD
+| sewing needle    | 🪡    | U+1FAA1    | SEWING_NEEDLE
 | yarn    | 🧶    | U+1F9F6    | YARN
+| knot    | 🪢    | U+1FAA2    | KNOT
 | glasses    | 👓    | U+1F453    | GLASSES
 | sunglasses    | 🕶    | U+1F576    | SUNGLASSES
 | goggles    | 🥽    | U+1F97D    | GOGGLES
@@ -1054,6 +1100,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | clutch bag    | 👝    | U+1F45D    | CLUTCH_BAG
 | shopping bags    | 🛍    | U+1F6CD    | SHOPPING_BAGS
 | backpack    | 🎒    | U+1F392    | BACKPACK
+| thong sandal    | 🩴    | U+1FA74    | THONG_SANDAL
 | man’s shoe    | 👞    | U+1F45E    | MANS_SHOE
 | running shoe    | 👟    | U+1F45F    | RUNNING_SHOE
 | hiking boot    | 🥾    | U+1F97E    | HIKING_BOOT
@@ -1067,6 +1114,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | top hat    | 🎩    | U+1F3A9    | TOP_HAT
 | graduation cap    | 🎓    | U+1F393    | GRADUATION_CAP
 | billed cap    | 🧢    | U+1F9E2    | BILLED_CAP
+| military helmet    | 🪖    | U+1FA96    | MILITARY_HELMET
 | rescue worker’s helmet    | ⛑    | U+26D1    | RESCUE_WORKERS_HELMET
 | prayer beads    | 📿    | U+1F4FF    | PRAYER_BEADS
 | lipstick    | 💄    | U+1F484    | LIPSTICK
@@ -1091,12 +1139,14 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | headphone    | 🎧    | U+1F3A7    | HEADPHONE
 | radio    | 📻    | U+1F4FB    | RADIO
 | saxophone    | 🎷    | U+1F3B7    | SAXOPHONE
+| accordion    | 🪗    | U+1FA97    | ACCORDION
 | guitar    | 🎸    | U+1F3B8    | GUITAR
 | musical keyboard    | 🎹    | U+1F3B9    | MUSICAL_KEYBOARD
 | trumpet    | 🎺    | U+1F3BA    | TRUMPET
 | violin    | 🎻    | U+1F3BB    | VIOLIN
 | banjo    | 🪕    | U+1FA95    | BANJO
 | drum    | 🥁    | U+1F941    | DRUM
+| long drum    | 🪘    | U+1FA98    | LONG_DRUM
 | mobile phone    | 📱    | U+1F4F1    | MOBILE_PHONE
 | mobile phone with arrow    | 📲    | U+1F4F2    | MOBILE_PHONE_WITH_ARROW
 | telephone    | ☎    | U+260E    | TELEPHONE
@@ -1150,6 +1200,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | bookmark    | 🔖    | U+1F516    | BOOKMARK
 | label    | 🏷    | U+1F3F7    | LABEL
 | money bag    | 💰    | U+1F4B0    | MONEY_BAG
+| coin    | 🪙    | U+1FA99    | COIN
 | yen banknote    | 💴    | U+1F4B4    | YEN_BANKNOTE
 | dollar banknote    | 💵    | U+1F4B5    | DOLLAR_BANKNOTE
 | euro banknote    | 💶    | U+1F4B6    | EURO_BANKNOTE
@@ -1158,8 +1209,6 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | credit card    | 💳    | U+1F4B3    | CREDIT_CARD
 | receipt    | 🧾    | U+1F9FE    | RECEIPT
 | chart increasing with yen    | 💹    | U+1F4B9    | CHART_INCREASING_WITH_YEN
-| currency exchange    | 💱    | U+1F4B1    | CURRENCY_EXCHANGE
-| heavy dollar sign    | 💲    | U+1F4B2    | HEAVY_DOLLAR_SIGN
 | envelope    | ✉    | U+2709    | ENVELOPE
 | e-mail    | 📧    | U+1F4E7    | E_MAIL
 | incoming envelope    | 📨    | U+1F4E8    | INCOMING_ENVELOPE
@@ -1217,18 +1266,23 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | dagger    | 🗡    | U+1F5E1    | DAGGER
 | crossed swords    | ⚔    | U+2694    | CROSSED_SWORDS
 | pistol    | 🔫    | U+1F52B    | PISTOL
+| boomerang    | 🪃    | U+1FA83    | BOOMERANG
 | bow and arrow    | 🏹    | U+1F3F9    | BOW_AND_ARROW
 | shield    | 🛡    | U+1F6E1    | SHIELD
+| carpentry saw    | 🪚    | U+1FA9A    | CARPENTRY_SAW
 | wrench    | 🔧    | U+1F527    | WRENCH
+| screwdriver    | 🪛    | U+1FA9B    | SCREWDRIVER
 | nut and bolt    | 🔩    | U+1F529    | NUT_AND_BOLT
 | gear    | ⚙    | U+2699    | GEAR
 | clamp    | 🗜    | U+1F5DC    | CLAMP
 | balance scale    | ⚖    | U+2696    | BALANCE_SCALE
-| probing cane    | 🦯    | U+1F9AF    | PROBING_CANE
+| white cane    | 🦯    | U+1F9AF    | WHITE_CANE
 | link    | 🔗    | U+1F517    | LINK
 | chains    | ⛓    | U+26D3    | CHAINS
+| hook    | 🪝    | U+1FA9D    | HOOK
 | toolbox    | 🧰    | U+1F9F0    | TOOLBOX
 | magnet    | 🧲    | U+1F9F2    | MAGNET
+| ladder    | 🪜    | U+1FA9C    | LADDER
 | alembic    | ⚗    | U+2697    | ALEMBIC
 | test tube    | 🧪    | U+1F9EA    | TEST_TUBE
 | petri dish    | 🧫    | U+1F9EB    | PETRI_DISH
@@ -1242,26 +1296,35 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | adhesive bandage    | 🩹    | U+1FA79    | ADHESIVE_BANDAGE
 | stethoscope    | 🩺    | U+1FA7A    | STETHOSCOPE
 | door    | 🚪    | U+1F6AA    | DOOR
+| elevator    | 🛗    | U+1F6D7    | ELEVATOR
+| mirror    | 🪞    | U+1FA9E    | MIRROR
+| window    | 🪟    | U+1FA9F    | WINDOW
 | bed    | 🛏    | U+1F6CF    | BED
 | couch and lamp    | 🛋    | U+1F6CB    | COUCH_AND_LAMP
 | chair    | 🪑    | U+1FA91    | CHAIR
 | toilet    | 🚽    | U+1F6BD    | TOILET
+| plunger    | 🪠    | U+1FAA0    | PLUNGER
 | shower    | 🚿    | U+1F6BF    | SHOWER
 | bathtub    | 🛁    | U+1F6C1    | BATHTUB
+| mouse trap    | 🪤    | U+1FAA4    | MOUSE_TRAP
 | razor    | 🪒    | U+1FA92    | RAZOR
 | lotion bottle    | 🧴    | U+1F9F4    | LOTION_BOTTLE
 | safety pin    | 🧷    | U+1F9F7    | SAFETY_PIN
 | broom    | 🧹    | U+1F9F9    | BROOM
 | basket    | 🧺    | U+1F9FA    | BASKET
 | roll of paper    | 🧻    | U+1F9FB    | ROLL_OF_PAPER
+| bucket    | 🪣    | U+1FAA3    | BUCKET
 | soap    | 🧼    | U+1F9FC    | SOAP
+| toothbrush    | 🪥    | U+1FAA5    | TOOTHBRUSH
 | sponge    | 🧽    | U+1F9FD    | SPONGE
 | fire extinguisher    | 🧯    | U+1F9EF    | FIRE_EXTINGUISHER
 | shopping cart    | 🛒    | U+1F6D2    | SHOPPING_CART
 | cigarette    | 🚬    | U+1F6AC    | CIGARETTE
 | coffin    | ⚰    | U+26B0    | COFFIN
+| headstone    | 🪦    | U+1FAA6    | HEADSTONE
 | funeral urn    | ⚱    | U+26B1    | FUNERAL_URN
 | moai    | 🗿    | U+1F5FF    | MOAI
+| placard    | 🪧    | U+1FAA7    | PLACARD
 | ATM sign    | 🏧    | U+1F3E7    | ATM_SIGN
 | litter in bin sign    | 🚮    | U+1F6AE    | LITTER_IN_BIN_SIGN
 | potable water    | 🚰    | U+1F6B0    | POTABLE_WATER
@@ -1360,8 +1423,22 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | mobile phone off    | 📴    | U+1F4F4    | MOBILE_PHONE_OFF
 | female sign    | ♀    | U+2640    | FEMALE_SIGN
 | male sign    | ♂    | U+2642    | MALE_SIGN
-| medical symbol    | ⚕    | U+2695    | MEDICAL_SYMBOL
+| transgender symbol    | ⚧    | U+26A7    | TRANSGENDER_SYMBOL
+| multiply    | ✖    | U+2716    | MULTIPLY
+| plus    | ➕    | U+2795    | PLUS
+| minus    | ➖    | U+2796    | MINUS
+| divide    | ➗    | U+2797    | DIVIDE
 | infinity    | ♾    | U+267E    | INFINITY
+| double exclamation mark    | ‼    | U+203C    | DOUBLE_EXCLAMATION_MARK
+| exclamation question mark    | ⁉    | U+2049    | EXCLAMATION_QUESTION_MARK
+| question mark    | ❓    | U+2753    | QUESTION_MARK
+| white question mark    | ❔    | U+2754    | WHITE_QUESTION_MARK
+| white exclamation mark    | ❕    | U+2755    | WHITE_EXCLAMATION_MARK
+| exclamation mark    | ❗    | U+2757    | EXCLAMATION_MARK
+| wavy dash    | 〰    | U+3030    | WAVY_DASH
+| currency exchange    | 💱    | U+1F4B1    | CURRENCY_EXCHANGE
+| heavy dollar sign    | 💲    | U+1F4B2    | HEAVY_DOLLAR_SIGN
+| medical symbol    | ⚕    | U+2695    | MEDICAL_SYMBOL
 | recycling symbol    | ♻    | U+267B    | RECYCLING_SYMBOL
 | fleur-de-lis    | ⚜    | U+269C    | FLEUR_DE_LIS
 | trident emblem    | 🔱    | U+1F531    | TRIDENT_EMBLEM
@@ -1371,25 +1448,14 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | check mark button    | ✅    | U+2705    | CHECK_MARK_BUTTON
 | check box with check    | ☑    | U+2611    | CHECK_BOX_WITH_CHECK
 | check mark    | ✔    | U+2714    | CHECK_MARK
-| multiplication sign    | ✖    | U+2716    | MULTIPLICATION_SIGN
 | cross mark    | ❌    | U+274C    | CROSS_MARK
 | cross mark button    | ❎    | U+274E    | CROSS_MARK_BUTTON
-| plus sign    | ➕    | U+2795    | PLUS_SIGN
-| minus sign    | ➖    | U+2796    | MINUS_SIGN
-| division sign    | ➗    | U+2797    | DIVISION_SIGN
 | curly loop    | ➰    | U+27B0    | CURLY_LOOP
 | double curly loop    | ➿    | U+27BF    | DOUBLE_CURLY_LOOP
 | part alternation mark    | 〽    | U+303D    | PART_ALTERNATION_MARK
 | eight-spoked asterisk    | ✳    | U+2733    | EIGHT_SPOKED_ASTERISK
 | eight-pointed star    | ✴    | U+2734    | EIGHT_POINTED_STAR
 | sparkle    | ❇    | U+2747    | SPARKLE
-| double exclamation mark    | ‼    | U+203C    | DOUBLE_EXCLAMATION_MARK
-| exclamation question mark    | ⁉    | U+2049    | EXCLAMATION_QUESTION_MARK
-| question mark    | ❓    | U+2753    | QUESTION_MARK
-| white question mark    | ❔    | U+2754    | WHITE_QUESTION_MARK
-| white exclamation mark    | ❕    | U+2755    | WHITE_EXCLAMATION_MARK
-| exclamation mark    | ❗    | U+2757    | EXCLAMATION_MARK
-| wavy dash    | 〰    | U+3030    | WAVY_DASH
 | copyright    | ©    | U+00A9    | COPYRIGHT
 | registered    | ®    | U+00AE    | REGISTERED
 | trade mark    | ™    | U+2122    | TRADE_MARK
@@ -1485,6 +1551,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | black flag    | 🏴    | U+1F3F4    | BLACK_FLAG
 | white flag    | 🏳    | U+1F3F3    | WHITE_FLAG
 | rainbow flag    | 🏳️‍🌈    | U+1F3F3 U+FE0F U+200D U+1F308    | RAINBOW_FLAG
+| transgender flag    | 🏳️‍⚧️    | U+1F3F3 U+FE0F U+200D U+26A7 U+FE0F    | TRANSGENDER_FLAG
 | pirate flag    | 🏴‍☠️    | U+1F3F4 U+200D U+2620 U+FE0F    | PIRATE_FLAG
 | flag: Ascension Island    | 🇦🇨    | U+1F1E6 U+1F1E8    | FLAG_ASCENSION_ISLAND
 | flag: Andorra    | 🇦🇩    | U+1F1E6 U+1F1E9    | FLAG_ANDORRA
@@ -1777,6 +1844,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | OK hand: medium skin tone    | 👌🏽    | U+1F44C U+1F3FD    | OK_HAND_MEDIUM_SKIN_TONE
 | OK hand: medium-dark skin tone    | 👌🏾    | U+1F44C U+1F3FE    | OK_HAND_MEDIUM_DARK_SKIN_TONE
 | OK hand: dark skin tone    | 👌🏿    | U+1F44C U+1F3FF    | OK_HAND_DARK_SKIN_TONE
+| pinched fingers: light skin tone    | 🤌🏻    | U+1F90C U+1F3FB    | PINCHED_FINGERS_LIGHT_SKIN_TONE
+| pinched fingers: medium-light skin tone    | 🤌🏼    | U+1F90C U+1F3FC    | PINCHED_FINGERS_MEDIUM_LIGHT_SKIN_TONE
+| pinched fingers: medium skin tone    | 🤌🏽    | U+1F90C U+1F3FD    | PINCHED_FINGERS_MEDIUM_SKIN_TONE
+| pinched fingers: medium-dark skin tone    | 🤌🏾    | U+1F90C U+1F3FE    | PINCHED_FINGERS_MEDIUM_DARK_SKIN_TONE
+| pinched fingers: dark skin tone    | 🤌🏿    | U+1F90C U+1F3FF    | PINCHED_FINGERS_DARK_SKIN_TONE
 | pinching hand: light skin tone    | 🤏🏻    | U+1F90F U+1F3FB    | PINCHING_HAND_LIGHT_SKIN_TONE
 | pinching hand: medium-light skin tone    | 🤏🏼    | U+1F90F U+1F3FC    | PINCHING_HAND_MEDIUM_LIGHT_SKIN_TONE
 | pinching hand: medium skin tone    | 🤏🏽    | U+1F90F U+1F3FD    | PINCHING_HAND_MEDIUM_SKIN_TONE
@@ -2502,6 +2574,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman guard: medium skin tone    | 💂🏽‍♀️    | U+1F482 U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_GUARD_MEDIUM_SKIN_TONE
 | woman guard: medium-dark skin tone    | 💂🏾‍♀️    | U+1F482 U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_GUARD_MEDIUM_DARK_SKIN_TONE
 | woman guard: dark skin tone    | 💂🏿‍♀️    | U+1F482 U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_GUARD_DARK_SKIN_TONE
+| ninja: light skin tone    | 🥷🏻    | U+1F977 U+1F3FB    | NINJA_LIGHT_SKIN_TONE
+| ninja: medium-light skin tone    | 🥷🏼    | U+1F977 U+1F3FC    | NINJA_MEDIUM_LIGHT_SKIN_TONE
+| ninja: medium skin tone    | 🥷🏽    | U+1F977 U+1F3FD    | NINJA_MEDIUM_SKIN_TONE
+| ninja: medium-dark skin tone    | 🥷🏾    | U+1F977 U+1F3FE    | NINJA_MEDIUM_DARK_SKIN_TONE
+| ninja: dark skin tone    | 🥷🏿    | U+1F977 U+1F3FF    | NINJA_DARK_SKIN_TONE
 | construction worker: light skin tone    | 👷🏻    | U+1F477 U+1F3FB    | CONSTRUCTION_WORKER_LIGHT_SKIN_TONE
 | construction worker: medium-light skin tone    | 👷🏼    | U+1F477 U+1F3FC    | CONSTRUCTION_WORKER_MEDIUM_LIGHT_SKIN_TONE
 | construction worker: medium skin tone    | 👷🏽    | U+1F477 U+1F3FD    | CONSTRUCTION_WORKER_MEDIUM_SKIN_TONE
@@ -2542,26 +2619,46 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman wearing turban: medium skin tone    | 👳🏽‍♀️    | U+1F473 U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_WEARING_TURBAN_MEDIUM_SKIN_TONE
 | woman wearing turban: medium-dark skin tone    | 👳🏾‍♀️    | U+1F473 U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_WEARING_TURBAN_MEDIUM_DARK_SKIN_TONE
 | woman wearing turban: dark skin tone    | 👳🏿‍♀️    | U+1F473 U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_WEARING_TURBAN_DARK_SKIN_TONE
-| man with skullcap: light skin tone    | 👲🏻    | U+1F472 U+1F3FB    | MAN_WITH_SKULLCAP_LIGHT_SKIN_TONE
-| man with skullcap: medium-light skin tone    | 👲🏼    | U+1F472 U+1F3FC    | MAN_WITH_SKULLCAP_MEDIUM_LIGHT_SKIN_TONE
-| man with skullcap: medium skin tone    | 👲🏽    | U+1F472 U+1F3FD    | MAN_WITH_SKULLCAP_MEDIUM_SKIN_TONE
-| man with skullcap: medium-dark skin tone    | 👲🏾    | U+1F472 U+1F3FE    | MAN_WITH_SKULLCAP_MEDIUM_DARK_SKIN_TONE
-| man with skullcap: dark skin tone    | 👲🏿    | U+1F472 U+1F3FF    | MAN_WITH_SKULLCAP_DARK_SKIN_TONE
+| person with skullcap: light skin tone    | 👲🏻    | U+1F472 U+1F3FB    | PERSON_WITH_SKULLCAP_LIGHT_SKIN_TONE
+| person with skullcap: medium-light skin tone    | 👲🏼    | U+1F472 U+1F3FC    | PERSON_WITH_SKULLCAP_MEDIUM_LIGHT_SKIN_TONE
+| person with skullcap: medium skin tone    | 👲🏽    | U+1F472 U+1F3FD    | PERSON_WITH_SKULLCAP_MEDIUM_SKIN_TONE
+| person with skullcap: medium-dark skin tone    | 👲🏾    | U+1F472 U+1F3FE    | PERSON_WITH_SKULLCAP_MEDIUM_DARK_SKIN_TONE
+| person with skullcap: dark skin tone    | 👲🏿    | U+1F472 U+1F3FF    | PERSON_WITH_SKULLCAP_DARK_SKIN_TONE
 | woman with headscarf: light skin tone    | 🧕🏻    | U+1F9D5 U+1F3FB    | WOMAN_WITH_HEADSCARF_LIGHT_SKIN_TONE
 | woman with headscarf: medium-light skin tone    | 🧕🏼    | U+1F9D5 U+1F3FC    | WOMAN_WITH_HEADSCARF_MEDIUM_LIGHT_SKIN_TONE
 | woman with headscarf: medium skin tone    | 🧕🏽    | U+1F9D5 U+1F3FD    | WOMAN_WITH_HEADSCARF_MEDIUM_SKIN_TONE
 | woman with headscarf: medium-dark skin tone    | 🧕🏾    | U+1F9D5 U+1F3FE    | WOMAN_WITH_HEADSCARF_MEDIUM_DARK_SKIN_TONE
 | woman with headscarf: dark skin tone    | 🧕🏿    | U+1F9D5 U+1F3FF    | WOMAN_WITH_HEADSCARF_DARK_SKIN_TONE
-| man in tuxedo: light skin tone    | 🤵🏻    | U+1F935 U+1F3FB    | MAN_IN_TUXEDO_LIGHT_SKIN_TONE
-| man in tuxedo: medium-light skin tone    | 🤵🏼    | U+1F935 U+1F3FC    | MAN_IN_TUXEDO_MEDIUM_LIGHT_SKIN_TONE
-| man in tuxedo: medium skin tone    | 🤵🏽    | U+1F935 U+1F3FD    | MAN_IN_TUXEDO_MEDIUM_SKIN_TONE
-| man in tuxedo: medium-dark skin tone    | 🤵🏾    | U+1F935 U+1F3FE    | MAN_IN_TUXEDO_MEDIUM_DARK_SKIN_TONE
-| man in tuxedo: dark skin tone    | 🤵🏿    | U+1F935 U+1F3FF    | MAN_IN_TUXEDO_DARK_SKIN_TONE
-| bride with veil: light skin tone    | 👰🏻    | U+1F470 U+1F3FB    | BRIDE_WITH_VEIL_LIGHT_SKIN_TONE
-| bride with veil: medium-light skin tone    | 👰🏼    | U+1F470 U+1F3FC    | BRIDE_WITH_VEIL_MEDIUM_LIGHT_SKIN_TONE
-| bride with veil: medium skin tone    | 👰🏽    | U+1F470 U+1F3FD    | BRIDE_WITH_VEIL_MEDIUM_SKIN_TONE
-| bride with veil: medium-dark skin tone    | 👰🏾    | U+1F470 U+1F3FE    | BRIDE_WITH_VEIL_MEDIUM_DARK_SKIN_TONE
-| bride with veil: dark skin tone    | 👰🏿    | U+1F470 U+1F3FF    | BRIDE_WITH_VEIL_DARK_SKIN_TONE
+| person in tuxedo: light skin tone    | 🤵🏻    | U+1F935 U+1F3FB    | PERSON_IN_TUXEDO_LIGHT_SKIN_TONE
+| person in tuxedo: medium-light skin tone    | 🤵🏼    | U+1F935 U+1F3FC    | PERSON_IN_TUXEDO_MEDIUM_LIGHT_SKIN_TONE
+| person in tuxedo: medium skin tone    | 🤵🏽    | U+1F935 U+1F3FD    | PERSON_IN_TUXEDO_MEDIUM_SKIN_TONE
+| person in tuxedo: medium-dark skin tone    | 🤵🏾    | U+1F935 U+1F3FE    | PERSON_IN_TUXEDO_MEDIUM_DARK_SKIN_TONE
+| person in tuxedo: dark skin tone    | 🤵🏿    | U+1F935 U+1F3FF    | PERSON_IN_TUXEDO_DARK_SKIN_TONE
+| man in tuxedo: light skin tone    | 🤵🏻‍♂️    | U+1F935 U+1F3FB U+200D U+2642 U+FE0F    | MAN_IN_TUXEDO_LIGHT_SKIN_TONE
+| man in tuxedo: medium-light skin tone    | 🤵🏼‍♂️    | U+1F935 U+1F3FC U+200D U+2642 U+FE0F    | MAN_IN_TUXEDO_MEDIUM_LIGHT_SKIN_TONE
+| man in tuxedo: medium skin tone    | 🤵🏽‍♂️    | U+1F935 U+1F3FD U+200D U+2642 U+FE0F    | MAN_IN_TUXEDO_MEDIUM_SKIN_TONE
+| man in tuxedo: medium-dark skin tone    | 🤵🏾‍♂️    | U+1F935 U+1F3FE U+200D U+2642 U+FE0F    | MAN_IN_TUXEDO_MEDIUM_DARK_SKIN_TONE
+| man in tuxedo: dark skin tone    | 🤵🏿‍♂️    | U+1F935 U+1F3FF U+200D U+2642 U+FE0F    | MAN_IN_TUXEDO_DARK_SKIN_TONE
+| woman in tuxedo: light skin tone    | 🤵🏻‍♀️    | U+1F935 U+1F3FB U+200D U+2640 U+FE0F    | WOMAN_IN_TUXEDO_LIGHT_SKIN_TONE
+| woman in tuxedo: medium-light skin tone    | 🤵🏼‍♀️    | U+1F935 U+1F3FC U+200D U+2640 U+FE0F    | WOMAN_IN_TUXEDO_MEDIUM_LIGHT_SKIN_TONE
+| woman in tuxedo: medium skin tone    | 🤵🏽‍♀️    | U+1F935 U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_IN_TUXEDO_MEDIUM_SKIN_TONE
+| woman in tuxedo: medium-dark skin tone    | 🤵🏾‍♀️    | U+1F935 U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_IN_TUXEDO_MEDIUM_DARK_SKIN_TONE
+| woman in tuxedo: dark skin tone    | 🤵🏿‍♀️    | U+1F935 U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_IN_TUXEDO_DARK_SKIN_TONE
+| person with veil: light skin tone    | 👰🏻    | U+1F470 U+1F3FB    | PERSON_WITH_VEIL_LIGHT_SKIN_TONE
+| person with veil: medium-light skin tone    | 👰🏼    | U+1F470 U+1F3FC    | PERSON_WITH_VEIL_MEDIUM_LIGHT_SKIN_TONE
+| person with veil: medium skin tone    | 👰🏽    | U+1F470 U+1F3FD    | PERSON_WITH_VEIL_MEDIUM_SKIN_TONE
+| person with veil: medium-dark skin tone    | 👰🏾    | U+1F470 U+1F3FE    | PERSON_WITH_VEIL_MEDIUM_DARK_SKIN_TONE
+| person with veil: dark skin tone    | 👰🏿    | U+1F470 U+1F3FF    | PERSON_WITH_VEIL_DARK_SKIN_TONE
+| man with veil: light skin tone    | 👰🏻‍♂️    | U+1F470 U+1F3FB U+200D U+2642 U+FE0F    | MAN_WITH_VEIL_LIGHT_SKIN_TONE
+| man with veil: medium-light skin tone    | 👰🏼‍♂️    | U+1F470 U+1F3FC U+200D U+2642 U+FE0F    | MAN_WITH_VEIL_MEDIUM_LIGHT_SKIN_TONE
+| man with veil: medium skin tone    | 👰🏽‍♂️    | U+1F470 U+1F3FD U+200D U+2642 U+FE0F    | MAN_WITH_VEIL_MEDIUM_SKIN_TONE
+| man with veil: medium-dark skin tone    | 👰🏾‍♂️    | U+1F470 U+1F3FE U+200D U+2642 U+FE0F    | MAN_WITH_VEIL_MEDIUM_DARK_SKIN_TONE
+| man with veil: dark skin tone    | 👰🏿‍♂️    | U+1F470 U+1F3FF U+200D U+2642 U+FE0F    | MAN_WITH_VEIL_DARK_SKIN_TONE
+| woman with veil: light skin tone    | 👰🏻‍♀️    | U+1F470 U+1F3FB U+200D U+2640 U+FE0F    | WOMAN_WITH_VEIL_LIGHT_SKIN_TONE
+| woman with veil: medium-light skin tone    | 👰🏼‍♀️    | U+1F470 U+1F3FC U+200D U+2640 U+FE0F    | WOMAN_WITH_VEIL_MEDIUM_LIGHT_SKIN_TONE
+| woman with veil: medium skin tone    | 👰🏽‍♀️    | U+1F470 U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_WITH_VEIL_MEDIUM_SKIN_TONE
+| woman with veil: medium-dark skin tone    | 👰🏾‍♀️    | U+1F470 U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_WITH_VEIL_MEDIUM_DARK_SKIN_TONE
+| woman with veil: dark skin tone    | 👰🏿‍♀️    | U+1F470 U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_WITH_VEIL_DARK_SKIN_TONE
 | pregnant woman: light skin tone    | 🤰🏻    | U+1F930 U+1F3FB    | PREGNANT_WOMAN_LIGHT_SKIN_TONE
 | pregnant woman: medium-light skin tone    | 🤰🏼    | U+1F930 U+1F3FC    | PREGNANT_WOMAN_MEDIUM_LIGHT_SKIN_TONE
 | pregnant woman: medium skin tone    | 🤰🏽    | U+1F930 U+1F3FD    | PREGNANT_WOMAN_MEDIUM_SKIN_TONE
@@ -2572,6 +2669,21 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | breast-feeding: medium skin tone    | 🤱🏽    | U+1F931 U+1F3FD    | BREAST_FEEDING_MEDIUM_SKIN_TONE
 | breast-feeding: medium-dark skin tone    | 🤱🏾    | U+1F931 U+1F3FE    | BREAST_FEEDING_MEDIUM_DARK_SKIN_TONE
 | breast-feeding: dark skin tone    | 🤱🏿    | U+1F931 U+1F3FF    | BREAST_FEEDING_DARK_SKIN_TONE
+| woman feeding baby: light skin tone    | 👩🏻‍🍼    | U+1F469 U+1F3FB U+200D U+1F37C    | WOMAN_FEEDING_BABY_LIGHT_SKIN_TONE
+| woman feeding baby: medium-light skin tone    | 👩🏼‍🍼    | U+1F469 U+1F3FC U+200D U+1F37C    | WOMAN_FEEDING_BABY_MEDIUM_LIGHT_SKIN_TONE
+| woman feeding baby: medium skin tone    | 👩🏽‍🍼    | U+1F469 U+1F3FD U+200D U+1F37C    | WOMAN_FEEDING_BABY_MEDIUM_SKIN_TONE
+| woman feeding baby: medium-dark skin tone    | 👩🏾‍🍼    | U+1F469 U+1F3FE U+200D U+1F37C    | WOMAN_FEEDING_BABY_MEDIUM_DARK_SKIN_TONE
+| woman feeding baby: dark skin tone    | 👩🏿‍🍼    | U+1F469 U+1F3FF U+200D U+1F37C    | WOMAN_FEEDING_BABY_DARK_SKIN_TONE
+| man feeding baby: light skin tone    | 👨🏻‍🍼    | U+1F468 U+1F3FB U+200D U+1F37C    | MAN_FEEDING_BABY_LIGHT_SKIN_TONE
+| man feeding baby: medium-light skin tone    | 👨🏼‍🍼    | U+1F468 U+1F3FC U+200D U+1F37C    | MAN_FEEDING_BABY_MEDIUM_LIGHT_SKIN_TONE
+| man feeding baby: medium skin tone    | 👨🏽‍🍼    | U+1F468 U+1F3FD U+200D U+1F37C    | MAN_FEEDING_BABY_MEDIUM_SKIN_TONE
+| man feeding baby: medium-dark skin tone    | 👨🏾‍🍼    | U+1F468 U+1F3FE U+200D U+1F37C    | MAN_FEEDING_BABY_MEDIUM_DARK_SKIN_TONE
+| man feeding baby: dark skin tone    | 👨🏿‍🍼    | U+1F468 U+1F3FF U+200D U+1F37C    | MAN_FEEDING_BABY_DARK_SKIN_TONE
+| person feeding baby: light skin tone    | 🧑🏻‍🍼    | U+1F9D1 U+1F3FB U+200D U+1F37C    | PERSON_FEEDING_BABY_LIGHT_SKIN_TONE
+| person feeding baby: medium-light skin tone    | 🧑🏼‍🍼    | U+1F9D1 U+1F3FC U+200D U+1F37C    | PERSON_FEEDING_BABY_MEDIUM_LIGHT_SKIN_TONE
+| person feeding baby: medium skin tone    | 🧑🏽‍🍼    | U+1F9D1 U+1F3FD U+200D U+1F37C    | PERSON_FEEDING_BABY_MEDIUM_SKIN_TONE
+| person feeding baby: medium-dark skin tone    | 🧑🏾‍🍼    | U+1F9D1 U+1F3FE U+200D U+1F37C    | PERSON_FEEDING_BABY_MEDIUM_DARK_SKIN_TONE
+| person feeding baby: dark skin tone    | 🧑🏿‍🍼    | U+1F9D1 U+1F3FF U+200D U+1F37C    | PERSON_FEEDING_BABY_DARK_SKIN_TONE
 | baby angel: light skin tone    | 👼🏻    | U+1F47C U+1F3FB    | BABY_ANGEL_LIGHT_SKIN_TONE
 | baby angel: medium-light skin tone    | 👼🏼    | U+1F47C U+1F3FC    | BABY_ANGEL_MEDIUM_LIGHT_SKIN_TONE
 | baby angel: medium skin tone    | 👼🏽    | U+1F47C U+1F3FD    | BABY_ANGEL_MEDIUM_SKIN_TONE
@@ -2587,6 +2699,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | Mrs. Claus: medium skin tone    | 🤶🏽    | U+1F936 U+1F3FD    | MRS_CLAUS_MEDIUM_SKIN_TONE
 | Mrs. Claus: medium-dark skin tone    | 🤶🏾    | U+1F936 U+1F3FE    | MRS_CLAUS_MEDIUM_DARK_SKIN_TONE
 | Mrs. Claus: dark skin tone    | 🤶🏿    | U+1F936 U+1F3FF    | MRS_CLAUS_DARK_SKIN_TONE
+| mx claus: light skin tone    | 🧑🏻‍🎄    | U+1F9D1 U+1F3FB U+200D U+1F384    | MX_CLAUS_LIGHT_SKIN_TONE
+| mx claus: medium-light skin tone    | 🧑🏼‍🎄    | U+1F9D1 U+1F3FC U+200D U+1F384    | MX_CLAUS_MEDIUM_LIGHT_SKIN_TONE
+| mx claus: medium skin tone    | 🧑🏽‍🎄    | U+1F9D1 U+1F3FD U+200D U+1F384    | MX_CLAUS_MEDIUM_SKIN_TONE
+| mx claus: medium-dark skin tone    | 🧑🏾‍🎄    | U+1F9D1 U+1F3FE U+200D U+1F384    | MX_CLAUS_MEDIUM_DARK_SKIN_TONE
+| mx claus: dark skin tone    | 🧑🏿‍🎄    | U+1F9D1 U+1F3FF U+200D U+1F384    | MX_CLAUS_DARK_SKIN_TONE
 | superhero: light skin tone    | 🦸🏻    | U+1F9B8 U+1F3FB    | SUPERHERO_LIGHT_SKIN_TONE
 | superhero: medium-light skin tone    | 🦸🏼    | U+1F9B8 U+1F3FC    | SUPERHERO_MEDIUM_LIGHT_SKIN_TONE
 | superhero: medium skin tone    | 🦸🏽    | U+1F9B8 U+1F3FD    | SUPERHERO_MEDIUM_SKIN_TONE
@@ -2767,21 +2884,21 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman kneeling: medium skin tone    | 🧎🏽‍♀️    | U+1F9CE U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_KNEELING_MEDIUM_SKIN_TONE
 | woman kneeling: medium-dark skin tone    | 🧎🏾‍♀️    | U+1F9CE U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_KNEELING_MEDIUM_DARK_SKIN_TONE
 | woman kneeling: dark skin tone    | 🧎🏿‍♀️    | U+1F9CE U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_KNEELING_DARK_SKIN_TONE
-| person with probing cane: light skin tone    | 🧑🏻‍🦯    | U+1F9D1 U+1F3FB U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_LIGHT_SKIN_TONE
-| person with probing cane: medium-light skin tone    | 🧑🏼‍🦯    | U+1F9D1 U+1F3FC U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_MEDIUM_LIGHT_SKIN_TONE
-| person with probing cane: medium skin tone    | 🧑🏽‍🦯    | U+1F9D1 U+1F3FD U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_MEDIUM_SKIN_TONE
-| person with probing cane: medium-dark skin tone    | 🧑🏾‍🦯    | U+1F9D1 U+1F3FE U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_MEDIUM_DARK_SKIN_TONE
-| person with probing cane: dark skin tone    | 🧑🏿‍🦯    | U+1F9D1 U+1F3FF U+200D U+1F9AF    | PERSON_WITH_PROBING_CANE_DARK_SKIN_TONE
-| man with probing cane: light skin tone    | 👨🏻‍🦯    | U+1F468 U+1F3FB U+200D U+1F9AF    | MAN_WITH_PROBING_CANE_LIGHT_SKIN_TONE
-| man with probing cane: medium-light skin tone    | 👨🏼‍🦯    | U+1F468 U+1F3FC U+200D U+1F9AF    | MAN_WITH_PROBING_CANE_MEDIUM_LIGHT_SKIN_TONE
-| man with probing cane: medium skin tone    | 👨🏽‍🦯    | U+1F468 U+1F3FD U+200D U+1F9AF    | MAN_WITH_PROBING_CANE_MEDIUM_SKIN_TONE
-| man with probing cane: medium-dark skin tone    | 👨🏾‍🦯    | U+1F468 U+1F3FE U+200D U+1F9AF    | MAN_WITH_PROBING_CANE_MEDIUM_DARK_SKIN_TONE
-| man with probing cane: dark skin tone    | 👨🏿‍🦯    | U+1F468 U+1F3FF U+200D U+1F9AF    | MAN_WITH_PROBING_CANE_DARK_SKIN_TONE
-| woman with probing cane: light skin tone    | 👩🏻‍🦯    | U+1F469 U+1F3FB U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE_LIGHT_SKIN_TONE
-| woman with probing cane: medium-light skin tone    | 👩🏼‍🦯    | U+1F469 U+1F3FC U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE_MEDIUM_LIGHT_SKIN_TONE
-| woman with probing cane: medium skin tone    | 👩🏽‍🦯    | U+1F469 U+1F3FD U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE_MEDIUM_SKIN_TONE
-| woman with probing cane: medium-dark skin tone    | 👩🏾‍🦯    | U+1F469 U+1F3FE U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE_MEDIUM_DARK_SKIN_TONE
-| woman with probing cane: dark skin tone    | 👩🏿‍🦯    | U+1F469 U+1F3FF U+200D U+1F9AF    | WOMAN_WITH_PROBING_CANE_DARK_SKIN_TONE
+| person with white cane: light skin tone    | 🧑🏻‍🦯    | U+1F9D1 U+1F3FB U+200D U+1F9AF    | PERSON_WITH_WHITE_CANE_LIGHT_SKIN_TONE
+| person with white cane: medium-light skin tone    | 🧑🏼‍🦯    | U+1F9D1 U+1F3FC U+200D U+1F9AF    | PERSON_WITH_WHITE_CANE_MEDIUM_LIGHT_SKIN_TONE
+| person with white cane: medium skin tone    | 🧑🏽‍🦯    | U+1F9D1 U+1F3FD U+200D U+1F9AF    | PERSON_WITH_WHITE_CANE_MEDIUM_SKIN_TONE
+| person with white cane: medium-dark skin tone    | 🧑🏾‍🦯    | U+1F9D1 U+1F3FE U+200D U+1F9AF    | PERSON_WITH_WHITE_CANE_MEDIUM_DARK_SKIN_TONE
+| person with white cane: dark skin tone    | 🧑🏿‍🦯    | U+1F9D1 U+1F3FF U+200D U+1F9AF    | PERSON_WITH_WHITE_CANE_DARK_SKIN_TONE
+| man with white cane: light skin tone    | 👨🏻‍🦯    | U+1F468 U+1F3FB U+200D U+1F9AF    | MAN_WITH_WHITE_CANE_LIGHT_SKIN_TONE
+| man with white cane: medium-light skin tone    | 👨🏼‍🦯    | U+1F468 U+1F3FC U+200D U+1F9AF    | MAN_WITH_WHITE_CANE_MEDIUM_LIGHT_SKIN_TONE
+| man with white cane: medium skin tone    | 👨🏽‍🦯    | U+1F468 U+1F3FD U+200D U+1F9AF    | MAN_WITH_WHITE_CANE_MEDIUM_SKIN_TONE
+| man with white cane: medium-dark skin tone    | 👨🏾‍🦯    | U+1F468 U+1F3FE U+200D U+1F9AF    | MAN_WITH_WHITE_CANE_MEDIUM_DARK_SKIN_TONE
+| man with white cane: dark skin tone    | 👨🏿‍🦯    | U+1F468 U+1F3FF U+200D U+1F9AF    | MAN_WITH_WHITE_CANE_DARK_SKIN_TONE
+| woman with white cane: light skin tone    | 👩🏻‍🦯    | U+1F469 U+1F3FB U+200D U+1F9AF    | WOMAN_WITH_WHITE_CANE_LIGHT_SKIN_TONE
+| woman with white cane: medium-light skin tone    | 👩🏼‍🦯    | U+1F469 U+1F3FC U+200D U+1F9AF    | WOMAN_WITH_WHITE_CANE_MEDIUM_LIGHT_SKIN_TONE
+| woman with white cane: medium skin tone    | 👩🏽‍🦯    | U+1F469 U+1F3FD U+200D U+1F9AF    | WOMAN_WITH_WHITE_CANE_MEDIUM_SKIN_TONE
+| woman with white cane: medium-dark skin tone    | 👩🏾‍🦯    | U+1F469 U+1F3FE U+200D U+1F9AF    | WOMAN_WITH_WHITE_CANE_MEDIUM_DARK_SKIN_TONE
+| woman with white cane: dark skin tone    | 👩🏿‍🦯    | U+1F469 U+1F3FF U+200D U+1F9AF    | WOMAN_WITH_WHITE_CANE_DARK_SKIN_TONE
 | person in motorized wheelchair: light skin tone    | 🧑🏻‍🦼    | U+1F9D1 U+1F3FB U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE
 | person in motorized wheelchair: medium-light skin tone    | 🧑🏼‍🦼    | U+1F9D1 U+1F3FC U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE
 | person in motorized wheelchair: medium skin tone    | 🧑🏽‍🦼    | U+1F9D1 U+1F3FD U+200D U+1F9BC    | PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE
@@ -2837,11 +2954,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | man dancing: medium skin tone    | 🕺🏽    | U+1F57A U+1F3FD    | MAN_DANCING_MEDIUM_SKIN_TONE
 | man dancing: medium-dark skin tone    | 🕺🏾    | U+1F57A U+1F3FE    | MAN_DANCING_MEDIUM_DARK_SKIN_TONE
 | man dancing: dark skin tone    | 🕺🏿    | U+1F57A U+1F3FF    | MAN_DANCING_DARK_SKIN_TONE
-| man in suit levitating: light skin tone    | 🕴🏻    | U+1F574 U+1F3FB    | MAN_IN_SUIT_LEVITATING_LIGHT_SKIN_TONE
-| man in suit levitating: medium-light skin tone    | 🕴🏼    | U+1F574 U+1F3FC    | MAN_IN_SUIT_LEVITATING_MEDIUM_LIGHT_SKIN_TONE
-| man in suit levitating: medium skin tone    | 🕴🏽    | U+1F574 U+1F3FD    | MAN_IN_SUIT_LEVITATING_MEDIUM_SKIN_TONE
-| man in suit levitating: medium-dark skin tone    | 🕴🏾    | U+1F574 U+1F3FE    | MAN_IN_SUIT_LEVITATING_MEDIUM_DARK_SKIN_TONE
-| man in suit levitating: dark skin tone    | 🕴🏿    | U+1F574 U+1F3FF    | MAN_IN_SUIT_LEVITATING_DARK_SKIN_TONE
+| person in suit levitating: light skin tone    | 🕴🏻    | U+1F574 U+1F3FB    | PERSON_IN_SUIT_LEVITATING_LIGHT_SKIN_TONE
+| person in suit levitating: medium-light skin tone    | 🕴🏼    | U+1F574 U+1F3FC    | PERSON_IN_SUIT_LEVITATING_MEDIUM_LIGHT_SKIN_TONE
+| person in suit levitating: medium skin tone    | 🕴🏽    | U+1F574 U+1F3FD    | PERSON_IN_SUIT_LEVITATING_MEDIUM_SKIN_TONE
+| person in suit levitating: medium-dark skin tone    | 🕴🏾    | U+1F574 U+1F3FE    | PERSON_IN_SUIT_LEVITATING_MEDIUM_DARK_SKIN_TONE
+| person in suit levitating: dark skin tone    | 🕴🏿    | U+1F574 U+1F3FF    | PERSON_IN_SUIT_LEVITATING_DARK_SKIN_TONE
 | person in steamy room: light skin tone    | 🧖🏻    | U+1F9D6 U+1F3FB    | PERSON_IN_STEAMY_ROOM_LIGHT_SKIN_TONE
 | person in steamy room: medium-light skin tone    | 🧖🏼    | U+1F9D6 U+1F3FC    | PERSON_IN_STEAMY_ROOM_MEDIUM_LIGHT_SKIN_TONE
 | person in steamy room: medium skin tone    | 🧖🏽    | U+1F9D6 U+1F3FD    | PERSON_IN_STEAMY_ROOM_MEDIUM_SKIN_TONE
