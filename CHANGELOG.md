@@ -11,7 +11,11 @@
 
 ## Unreleased
 
+## [v2.0.0] - 2020-03-12
+
 ### Changed
+
+- [#6] Update to emoji v13
 
 ## [v1.2.0] - 2019-10-28
 
@@ -50,3 +54,5 @@
 [v1.1.0]: https://github.com/jawira/emoji-catalo/compare/v1.0.0...v1.1.0
 [#5]: https://github.com/jawira/emoji-catalo/pull/5
 [v1.2.0]: https://github.com/jawira/emoji-catalo/compare/v1.1.0...v1.2.0
+[#6]: https://github.com/jawira/emoji-catalog/pull/6
+[v2.0.0]: https://github.com/jawira/emoji-catalog/compare/v1.2.0...v2.0.0
