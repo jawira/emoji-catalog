@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<project name="Emoji catalog" default="diagnostics" phingVersion="3">
+<project name="Emoji catalog" default="help" phingVersion="3">
 
   <defaultexcludes default="true"/><!--Initializing default excludes-->
   <defaultexcludes add="**/.idea"/>
   <defaultexcludes add="**/.idea/**"/>
   <property name="phing.http.proxy" value="${env.http_proxy}"/>
 
-  <target name="diagnostics">
-    <diagnostics/>
+  <target name="help">
+    <exec executable="xdg-open" spawn="true">
+      <arg path="build.png"/>
+    </exec>
   </target>
 
-  <target name="setup" description="Prepare project for dev" depends="diagnostics, composer:install, phing:visualizer"/>
+  <target name="setup" description="Prepare project for dev" depends="composer:install, phing:visualizer"/>
   <target name="qa" description="Quality assurance" depends="composer:validate, php:lint"/>
   <target name="update" description="Update class and catalog" depends="emoji:update, catalog:update"/>
-  <target name="emoji:update" description="Update Emoji.php" depends="emoji-list:download, emoji:parse, emoji:build"/>
+  <target name="emoji:update" description="Update Emoji.php"
+          depends="emoji-list:download, emoji:parse, emoji:build, emoji:clean"/>
   <target name="catalog:update" description="Update catalog.md"
           depends="emoji-list:download, catalog:parse, catalog:build"/>
 
@@ -23,6 +26,7 @@
       <arg value="--no-interaction"/>
       <arg value="--profile"/>
       <arg value="--strict"/>
+      <arg value="--quiet"/>
     </composer>
   </target>
 
@@ -89,6 +93,17 @@
     <append file="resources/output/emoji-1.txt" destFile="src/Emoji.php"/>
     <append file="resources/output/emoji-2.txt" destFile="src/Emoji.php"/>
     <append file="resources/templates/emoji-footer.php.dist" destFile="src/Emoji.php"/>
+  </target>
+
+  <target name="emoji:clean" description="Reduce Emoji.php size">
+    <reflexive file="src/Emoji.php">
+      <filterchain>
+        <stripphpcomments/>
+        <linecontainsregexp>
+          <regexp pattern="\S"/>
+        </linecontainsregexp>
+      </filterchain>
+    </reflexive>
   </target>
 
   <target name="catalog:parse">

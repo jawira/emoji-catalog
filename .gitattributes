@@ -6,3 +6,6 @@
 /resources          export-ignore
 /build.xml          export-ignore
 /build.png          export-ignore
+/CONTRIBUTING.md    export-ignore
+/README.md          export-ignore
+/CHANGELOG.md       export-ignore
