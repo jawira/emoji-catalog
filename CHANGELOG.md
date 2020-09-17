@@ -11,6 +11,8 @@
 
 ## Unreleased
 
+## [v2.0.1] - 2020-09-17
+
 ### Changed
 
 - [#8] Cleaning Emoji class removing comments, from 468K to 157K.
