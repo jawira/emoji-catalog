@@ -11,6 +11,10 @@
 
 ## Unreleased
 
+### Changed
+
+- [#8] Cleaning Emoji class removing comments, from 468K to 157K.
+
 ## [v2.0.0] - 2020-03-12
 
 ### Changed
@@ -43,7 +47,7 @@
 - [#2] Constant `Emoji::FLAG_WALES` was changed to `Emoji::FLAG_GBWLS`.
 
 ## [v0.0.0] - 2019-08-30
-[!6F(t#}P9Uyq&98
+
 ### Added
 
 - First working version.
