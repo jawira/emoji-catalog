@@ -47,6 +47,20 @@ How to install
 $ composer require jawira/emoji-catalog
 ```
 
+Emoji sequences
+---------------
+
+An _emoji sequence_ is an emoji composed of other emojis. For example the 
+character "👨‍👩‍👧" is composed of five characters: _U+1F468 U+200D U+1F469 U+200D 
+U+1F467_.
+
+You don't need to compose your emojis, _jawira/emoji-catalog_ comes with all 
+possible sequences as class constants:
+
+```php
+echo Emoji::FAMILY_MAN_WOMAN_GIRL; // 👨‍👩‍👧
+```
+
 Contributing
 ------------
 
