@@ -1,7 +1,7 @@
 Emoji catalog 📔
 ==============
 
-Get access to +3300 emojis as class constants.
+Get access to +3500 emojis as class constants.
 
 Features:
 
@@ -12,12 +12,10 @@ Features:
 You can see the [full emoji list].
 
 [![Latest Stable Version](https://poser.pugx.org/jawira/emoji-catalog/v/stable)](https://packagist.org/packages/jawira/emoji-catalog)
-[![Emoji version](https://img.shields.io/badge/Emoji-v13.0-%23ff69b4)](https://home.unicode.org/unicode-emoji-13-0-now-final-for-2020/)
-[![Total Downloads](https://poser.pugx.org/jawira/emoji-catalog/downloads)](https://packagist.org/packages/jawira/emoji-catalog)
+[![Emoji version](https://img.shields.io/badge/Emoji-v13.1-%23ff69b4)](https://unicode.org/emoji/charts-13.1/emoji-released.html)
 [![License](https://poser.pugx.org/jawira/emoji-catalog/license)](https://packagist.org/packages/jawira/emoji-catalog)
 [![composer.lock](https://poser.pugx.org/jawira/emoji-catalog/composerlock)](https://packagist.org/packages/jawira/emoji-catalog)
 [![PDS Skeleton](https://img.shields.io/badge/pds-skeleton-blue.svg)](https://github.com/php-pds/skeleton)
-[![Issues](https://img.shields.io/github/issues/jawira/emoji-catalog.svg?label=HuBoard&color=694DC2)](https://huboard.com/jawira/emoji-catalog)
 [![HitCount](http://hits.dwyl.io/jawira/emoji-catalog.svg)](http://hits.dwyl.io/jawira/emoji-catalog)
 
 Usage
@@ -80,17 +78,27 @@ Packages from jawira
 --------------------
 
 <dl>
-  <dt><a href="https://packagist.org/packages/jawira/case-converter">jawira/case-converter</a> (library)</dt>
-  <dd>Convert strings between 13 naming conventions: Snake case, Camel case,
-      Pascal case, Kebab case, Ada case, Train case, Cobol case, Macro case,
-      Upper case, Lower case, Sentence case, Title case and Dot notation.
-  </dd>
 
-  <dt><a href="https://packagist.org/packages/jawira/plantuml">jawira/plantuml</a> (library)</dt>
-  <dd>Provides PlantUML integration: plantuml executable and plantuml.jar</dd>
+<dt>
+    <a href="https://packagist.org/packages/jawira/plantuml">jawira/plantuml
+    <img alt="GitHub stars" src="https://badgen.net/github/stars/jawira/plantuml?icon=github"/></a>
+</dt>
+<dd>Provides PlantUML executable and plantuml.jar</dd>
 
-  <dt><a href="https://packagist.org/packages/jawira/plantuml-encoding">jawira/plantuml-encoding</a> (library)</dt>
-  <dd>PlantUML encoding functions.</dd>
+<dt>
+    <a href="https://packagist.org/packages/jawira/plantuml-encoding"> jawira/plantuml-encoding
+    <img alt="GitHub stars" src="https://badgen.net/github/stars/jawira/plantuml-encoding?icon=github"/></a>
+</dt>
+<dd>PlantUML encoding functions.</dd>
 
-  <dt><a href="https://packagist.org/packages/jawira/">more...</a></dt>
+<dt>
+    <a href="https://packagist.org/packages/jawira/case-converter">jawira/case-converter 
+    <img alt="GitHub stars" src="https://badgen.net/github/stars/jawira/case-converter?icon=github"/></a>
+</dt>
+<dd>Convert strings between 13 naming conventions: Snake case, Camel case,
+  Pascal case, Kebab case, Ada case, Train case, Cobol case, Macro case,
+  Upper case, Lower case, Sentence case, Title case and Dot notation.
+</dd>
+
+<dt><a href="https://packagist.org/packages/jawira/">More...</a></dt>
 </dl>

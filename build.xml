@@ -13,7 +13,7 @@
     </exec>
   </target>
 
-  <target name="setup" description="Prepare project for dev" depends="composer:install, phing:visualizer"/>
+  <target name="setup" description="Prepare project for dev" depends="composer:install, visualizer"/>
   <target name="qa" description="Quality assurance" depends="composer:validate, php:lint"/>
   <target name="update" description="Update class and catalog" depends="emoji:update, catalog:update"/>
   <target name="emoji:update" description="Update Emoji.php"
@@ -30,7 +30,7 @@
     </composer>
   </target>
 
-  <target name="phing:visualizer">
+  <target name="visualizer">
     <visualizer/>
   </target>
 
@@ -51,15 +51,18 @@
     </exec>
   </target>
 
-  <target name="changelog:links" description="Update links in composer.json">
+  <target name="changelog:update" description="Update CHANGELOG.md">
     <composer command="require">
       <arg value="symplify/changelog-linker"/>
+      <arg value="--quiet"/>
     </composer>
-    <exec executable="vendor/bin/changelog-linker">
-      <arg value="link"/>
+    <exec executable="vendor/bin/changelog-linker" passthru="true" checkreturn="true">
+      <arg value="dump-merges"/>
+      <arg value="--in-categories"/>
     </exec>
     <composer command="remove">
       <arg value="symplify/changelog-linker"/>
+      <arg value="--quiet"/>
     </composer>
   </target>
 
