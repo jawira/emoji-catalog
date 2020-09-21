@@ -58,7 +58,6 @@
     </composer>
     <exec executable="vendor/bin/changelog-linker" passthru="true" checkreturn="true">
       <arg value="dump-merges"/>
-      <arg value="--in-categories"/>
     </exec>
     <composer command="remove">
       <arg value="symplify/changelog-linker"/>
