@@ -1,0 +1,3 @@
+# https://packagist.org/packages/symplify/changelog-linker
+parameters:
+  authors_to_ignore: ['jawira']

@@ -1,27 +1,25 @@
 # Changelog
 
-<!--
-### Added
-### Changed
-### Deprecated
-### Removed
-### Fixed
-### Security
--->
+<!-- changelog-linker -->
 
+<!-- dumped content start -->
 ## Unreleased
+
+### Changed
+
+- [#12] Explain emoji sequences in readme
 
 ## [v2.0.1] - 2020-09-17
 
-### Changed
+### Removed
 
-- [#8] Cleaning Emoji class removing comments, from 468K to 157K.
+- [#11] Remove comments to improve op_cache performance in production environments
 
 ## [v2.0.0] - 2020-03-12
 
 ### Changed
 
-- [#6] Update to emoji v13
+- [#7] Update library to emoji v13
 
 ## [v1.2.0] - 2019-10-28
 
@@ -33,7 +31,7 @@
 
 ### Added
 
-- [#1] Added catalog with the list of all emojis
+- [#4] Added catalog with the list of all emojis
 
 ## [v1.0.0] - 2019-10-01
 
@@ -54,11 +52,16 @@
 
 - First working version.
 
-[#2]: https://github.com/jawira/emoji-catalo/pull/2
-[v1.0.0]: https://github.com/jawira/emoji-catalo/compare/v0.0.0...v1.0.0
-[#1]: https://github.com/jawira/emoji-catalo/pull/1
-[v1.1.0]: https://github.com/jawira/emoji-catalo/compare/v1.0.0...v1.1.0
-[#5]: https://github.com/jawira/emoji-catalo/pull/5
-[v1.2.0]: https://github.com/jawira/emoji-catalo/compare/v1.1.0...v1.2.0
+<!-- dumped content end -->
+
+[#12]: https://github.com/jawira/emoji-catalog/pull/12
+[#11]: https://github.com/jawira/emoji-catalog/pull/11
+[#7]: https://github.com/jawira/emoji-catalog/pull/7
 [#6]: https://github.com/jawira/emoji-catalog/pull/6
-[v2.0.0]: https://github.com/jawira/emoji-catalog/compare/v1.2.0...v2.0.0
+[#4]: https://github.com/jawira/emoji-catalog/pull/4
+[#3]: https://github.com/jawira/emoji-catalog/pull/3
+[#2]: https://github.com/jawira/emoji-catalog/pull/2
+[#1]: https://github.com/jawira/emoji-catalog/pull/1
+[v2.0.1]: https://github.com/jawira/emoji-catalog/compare/v2.0.0...v2.0.1
+[v2.0.0]: https://github.com/jawira/emoji-catalog/compare/v1.1.0...v2.0.0
+[v1.1.0]: https://github.com/jawira/emoji-catalog/compare/v1.0.0...v1.1.0

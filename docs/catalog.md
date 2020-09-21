@@ -42,10 +42,12 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | neutral face    | 😐    | U+1F610    | NEUTRAL_FACE
 | expressionless face    | 😑    | U+1F611    | EXPRESSIONLESS_FACE
 | face without mouth    | 😶    | U+1F636    | FACE_WITHOUT_MOUTH
+| face in clouds    | 😶‍🌫️    | U+1F636 U+200D U+1F32B U+FE0F    | FACE_IN_CLOUDS
 | smirking face    | 😏    | U+1F60F    | SMIRKING_FACE
 | unamused face    | 😒    | U+1F612    | UNAMUSED_FACE
 | face with rolling eyes    | 🙄    | U+1F644    | FACE_WITH_ROLLING_EYES
 | grimacing face    | 😬    | U+1F62C    | GRIMACING_FACE
+| face exhaling    | 😮‍💨    | U+1F62E U+200D U+1F4A8    | FACE_EXHALING
 | lying face    | 🤥    | U+1F925    | LYING_FACE
 | relieved face    | 😌    | U+1F60C    | RELIEVED_FACE
 | pensive face    | 😔    | U+1F614    | PENSIVE_FACE
@@ -61,7 +63,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | hot face    | 🥵    | U+1F975    | HOT_FACE
 | cold face    | 🥶    | U+1F976    | COLD_FACE
 | woozy face    | 🥴    | U+1F974    | WOOZY_FACE
-| dizzy face    | 😵    | U+1F635    | DIZZY_FACE
+| knocked-out face    | 😵    | U+1F635    | KNOCKED_OUT_FACE
+| face with spiral eyes    | 😵‍💫    | U+1F635 U+200D U+1F4AB    | FACE_WITH_SPIRAL_EYES
 | exploding head    | 🤯    | U+1F92F    | EXPLODING_HEAD
 | cowboy hat face    | 🤠    | U+1F920    | COWBOY_HAT_FACE
 | partying face    | 🥳    | U+1F973    | PARTYING_FACE
@@ -133,6 +136,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | heart decoration    | 💟    | U+1F49F    | HEART_DECORATION
 | heart exclamation    | ❣    | U+2763    | HEART_EXCLAMATION
 | broken heart    | 💔    | U+1F494    | BROKEN_HEART
+| heart on fire    | ❤️‍🔥    | U+2764 U+FE0F U+200D U+1F525    | HEART_ON_FIRE
+| mending heart    | ❤️‍🩹    | U+2764 U+FE0F U+200D U+1FA79    | MENDING_HEART
 | red heart    | ❤    | U+2764    | RED_HEART
 | orange heart    | 🧡    | U+1F9E1    | ORANGE_HEART
 | yellow heart    | 💛    | U+1F49B    | YELLOW_HEART
@@ -214,7 +219,9 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | person    | 🧑    | U+1F9D1    | PERSON
 | person: blond hair    | 👱    | U+1F471    | PERSON_BLOND_HAIR
 | man    | 👨    | U+1F468    | MAN
-| man: beard    | 🧔    | U+1F9D4    | MAN_BEARD
+| person: beard    | 🧔    | U+1F9D4    | PERSON_BEARD
+| man: beard    | 🧔‍♂️    | U+1F9D4 U+200D U+2642 U+FE0F    | MAN_BEARD
+| woman: beard    | 🧔‍♀️    | U+1F9D4 U+200D U+2640 U+FE0F    | WOMAN_BEARD
 | man: red hair    | 👨‍🦰    | U+1F468 U+200D U+1F9B0    | MAN_RED_HAIR
 | man: curly hair    | 👨‍🦱    | U+1F468 U+200D U+1F9B1    | MAN_CURLY_HAIR
 | man: white hair    | 👨‍🦳    | U+1F468 U+200D U+1F9B3    | MAN_WHITE_HAIR
@@ -1045,7 +1052,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | skis    | 🎿    | U+1F3BF    | SKIS
 | sled    | 🛷    | U+1F6F7    | SLED
 | curling stone    | 🥌    | U+1F94C    | CURLING_STONE
-| direct hit    | 🎯    | U+1F3AF    | DIRECT_HIT
+| bullseye    | 🎯    | U+1F3AF    | BULLSEYE
 | yo-yo    | 🪀    | U+1FA80    | YO_YO
 | kite    | 🪁    | U+1FA81    | KITE
 | pool 8 ball    | 🎱    | U+1F3B1    | POOL_8_BALL
@@ -1058,7 +1065,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | game die    | 🎲    | U+1F3B2    | GAME_DIE
 | puzzle piece    | 🧩    | U+1F9E9    | PUZZLE_PIECE
 | teddy bear    | 🧸    | U+1F9F8    | TEDDY_BEAR
-| piñata    | 🪅    | U+1FA85    | PInATA
+| piñata    | 🪅    | U+1FA85    | PINATA
 | nesting dolls    | 🪆    | U+1FA86    | NESTING_DOLLS
 | spade suit    | ♠    | U+2660    | SPADE_SUIT
 | heart suit    | ♥    | U+2665    | HEART_SUIT
@@ -1265,7 +1272,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | hammer and wrench    | 🛠    | U+1F6E0    | HAMMER_AND_WRENCH
 | dagger    | 🗡    | U+1F5E1    | DAGGER
 | crossed swords    | ⚔    | U+2694    | CROSSED_SWORDS
-| pistol    | 🔫    | U+1F52B    | PISTOL
+| water pistol    | 🔫    | U+1F52B    | WATER_PISTOL
 | boomerang    | 🪃    | U+1FA83    | BOOMERANG
 | bow and arrow    | 🏹    | U+1F3F9    | BOW_AND_ARROW
 | shield    | 🛡    | U+1F6E1    | SHIELD
@@ -1431,10 +1438,10 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | infinity    | ♾    | U+267E    | INFINITY
 | double exclamation mark    | ‼    | U+203C    | DOUBLE_EXCLAMATION_MARK
 | exclamation question mark    | ⁉    | U+2049    | EXCLAMATION_QUESTION_MARK
-| question mark    | ❓    | U+2753    | QUESTION_MARK
+| red question mark    | ❓    | U+2753    | RED_QUESTION_MARK
 | white question mark    | ❔    | U+2754    | WHITE_QUESTION_MARK
 | white exclamation mark    | ❕    | U+2755    | WHITE_EXCLAMATION_MARK
-| exclamation mark    | ❗    | U+2757    | EXCLAMATION_MARK
+| red exclamation mark    | ❗    | U+2757    | RED_EXCLAMATION_MARK
 | wavy dash    | 〰    | U+3030    | WAVY_DASH
 | currency exchange    | 💱    | U+1F4B1    | CURRENCY_EXCHANGE
 | heavy dollar sign    | 💲    | U+1F4B2    | HEAVY_DOLLAR_SIGN
@@ -2044,11 +2051,21 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | man: medium skin tone    | 👨🏽    | U+1F468 U+1F3FD    | MAN_MEDIUM_SKIN_TONE
 | man: medium-dark skin tone    | 👨🏾    | U+1F468 U+1F3FE    | MAN_MEDIUM_DARK_SKIN_TONE
 | man: dark skin tone    | 👨🏿    | U+1F468 U+1F3FF    | MAN_DARK_SKIN_TONE
-| man: light skin tone, beard    | 🧔🏻    | U+1F9D4 U+1F3FB    | MAN_LIGHT_SKIN_TONE_BEARD
-| man: medium-light skin tone, beard    | 🧔🏼    | U+1F9D4 U+1F3FC    | MAN_MEDIUM_LIGHT_SKIN_TONE_BEARD
-| man: medium skin tone, beard    | 🧔🏽    | U+1F9D4 U+1F3FD    | MAN_MEDIUM_SKIN_TONE_BEARD
-| man: medium-dark skin tone, beard    | 🧔🏾    | U+1F9D4 U+1F3FE    | MAN_MEDIUM_DARK_SKIN_TONE_BEARD
-| man: dark skin tone, beard    | 🧔🏿    | U+1F9D4 U+1F3FF    | MAN_DARK_SKIN_TONE_BEARD
+| person: light skin tone, beard    | 🧔🏻    | U+1F9D4 U+1F3FB    | PERSON_LIGHT_SKIN_TONE_BEARD
+| person: medium-light skin tone, beard    | 🧔🏼    | U+1F9D4 U+1F3FC    | PERSON_MEDIUM_LIGHT_SKIN_TONE_BEARD
+| person: medium skin tone, beard    | 🧔🏽    | U+1F9D4 U+1F3FD    | PERSON_MEDIUM_SKIN_TONE_BEARD
+| person: medium-dark skin tone, beard    | 🧔🏾    | U+1F9D4 U+1F3FE    | PERSON_MEDIUM_DARK_SKIN_TONE_BEARD
+| person: dark skin tone, beard    | 🧔🏿    | U+1F9D4 U+1F3FF    | PERSON_DARK_SKIN_TONE_BEARD
+| man: light skin tone, beard    | 🧔🏻‍♂️    | U+1F9D4 U+1F3FB U+200D U+2642 U+FE0F    | MAN_LIGHT_SKIN_TONE_BEARD
+| man: medium-light skin tone, beard    | 🧔🏼‍♂️    | U+1F9D4 U+1F3FC U+200D U+2642 U+FE0F    | MAN_MEDIUM_LIGHT_SKIN_TONE_BEARD
+| man: medium skin tone, beard    | 🧔🏽‍♂️    | U+1F9D4 U+1F3FD U+200D U+2642 U+FE0F    | MAN_MEDIUM_SKIN_TONE_BEARD
+| man: medium-dark skin tone, beard    | 🧔🏾‍♂️    | U+1F9D4 U+1F3FE U+200D U+2642 U+FE0F    | MAN_MEDIUM_DARK_SKIN_TONE_BEARD
+| man: dark skin tone, beard    | 🧔🏿‍♂️    | U+1F9D4 U+1F3FF U+200D U+2642 U+FE0F    | MAN_DARK_SKIN_TONE_BEARD
+| woman: light skin tone, beard    | 🧔🏻‍♀️    | U+1F9D4 U+1F3FB U+200D U+2640 U+FE0F    | WOMAN_LIGHT_SKIN_TONE_BEARD
+| woman: medium-light skin tone, beard    | 🧔🏼‍♀️    | U+1F9D4 U+1F3FC U+200D U+2640 U+FE0F    | WOMAN_MEDIUM_LIGHT_SKIN_TONE_BEARD
+| woman: medium skin tone, beard    | 🧔🏽‍♀️    | U+1F9D4 U+1F3FD U+200D U+2640 U+FE0F    | WOMAN_MEDIUM_SKIN_TONE_BEARD
+| woman: medium-dark skin tone, beard    | 🧔🏾‍♀️    | U+1F9D4 U+1F3FE U+200D U+2640 U+FE0F    | WOMAN_MEDIUM_DARK_SKIN_TONE_BEARD
+| woman: dark skin tone, beard    | 🧔🏿‍♀️    | U+1F9D4 U+1F3FF U+200D U+2640 U+FE0F    | WOMAN_DARK_SKIN_TONE_BEARD
 | man: light skin tone, red hair    | 👨🏻‍🦰    | U+1F468 U+1F3FB U+200D U+1F9B0    | MAN_LIGHT_SKIN_TONE_RED_HAIR
 | man: medium-light skin tone, red hair    | 👨🏼‍🦰    | U+1F468 U+1F3FC U+200D U+1F9B0    | MAN_MEDIUM_LIGHT_SKIN_TONE_RED_HAIR
 | man: medium skin tone, red hair    | 👨🏽‍🦰    | U+1F468 U+1F3FD U+200D U+1F9B0    | MAN_MEDIUM_SKIN_TONE_RED_HAIR
@@ -3304,6 +3321,206 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | men holding hands: dark skin tone, medium skin tone    | 👨🏿‍🤝‍👨🏽    | U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FD    | MEN_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
 | men holding hands: dark skin tone, medium-dark skin tone    | 👨🏿‍🤝‍👨🏾    | U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FE    | MEN_HOLDING_HANDS_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
 | men holding hands: dark skin tone    | 👬🏿    | U+1F46C U+1F3FF    | MEN_HOLDING_HANDS_DARK_SKIN_TONE
+| kiss: light skin tone    | 💏🏻    | U+1F48F U+1F3FB    | KISS_LIGHT_SKIN_TONE
+| kiss: medium-light skin tone    | 💏🏼    | U+1F48F U+1F3FC    | KISS_MEDIUM_LIGHT_SKIN_TONE
+| kiss: medium skin tone    | 💏🏽    | U+1F48F U+1F3FD    | KISS_MEDIUM_SKIN_TONE
+| kiss: medium-dark skin tone    | 💏🏾    | U+1F48F U+1F3FE    | KISS_MEDIUM_DARK_SKIN_TONE
+| kiss: dark skin tone    | 💏🏿    | U+1F48F U+1F3FF    | KISS_DARK_SKIN_TONE
+| kiss: person, person, light skin tone, medium-light skin tone    | 🧑🏻‍❤️‍💋‍🧑🏼    | U+1F9D1 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FC    | KISS_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: person, person, light skin tone, medium skin tone    | 🧑🏻‍❤️‍💋‍🧑🏽    | U+1F9D1 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FD    | KISS_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: person, person, light skin tone, medium-dark skin tone    | 🧑🏻‍❤️‍💋‍🧑🏾    | U+1F9D1 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FE    | KISS_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: person, person, light skin tone, dark skin tone    | 🧑🏻‍❤️‍💋‍🧑🏿    | U+1F9D1 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FF    | KISS_PERSON_PERSON_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| kiss: person, person, medium-light skin tone, light skin tone    | 🧑🏼‍❤️‍💋‍🧑🏻    | U+1F9D1 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FB    | KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: person, person, medium-light skin tone, medium skin tone    | 🧑🏼‍❤️‍💋‍🧑🏽    | U+1F9D1 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FD    | KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: person, person, medium-light skin tone, medium-dark skin tone    | 🧑🏼‍❤️‍💋‍🧑🏾    | U+1F9D1 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FE    | KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: person, person, medium-light skin tone, dark skin tone    | 🧑🏼‍❤️‍💋‍🧑🏿    | U+1F9D1 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FF    | KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| kiss: person, person, medium skin tone, light skin tone    | 🧑🏽‍❤️‍💋‍🧑🏻    | U+1F9D1 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FB    | KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: person, person, medium skin tone, medium-light skin tone    | 🧑🏽‍❤️‍💋‍🧑🏼    | U+1F9D1 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FC    | KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: person, person, medium skin tone, medium-dark skin tone    | 🧑🏽‍❤️‍💋‍🧑🏾    | U+1F9D1 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FE    | KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: person, person, medium skin tone, dark skin tone    | 🧑🏽‍❤️‍💋‍🧑🏿    | U+1F9D1 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FF    | KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
+| kiss: person, person, medium-dark skin tone, light skin tone    | 🧑🏾‍❤️‍💋‍🧑🏻    | U+1F9D1 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FB    | KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: person, person, medium-dark skin tone, medium-light skin tone    | 🧑🏾‍❤️‍💋‍🧑🏼    | U+1F9D1 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FC    | KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: person, person, medium-dark skin tone, medium skin tone    | 🧑🏾‍❤️‍💋‍🧑🏽    | U+1F9D1 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FD    | KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: person, person, medium-dark skin tone, dark skin tone    | 🧑🏾‍❤️‍💋‍🧑🏿    | U+1F9D1 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FF    | KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
+| kiss: person, person, dark skin tone, light skin tone    | 🧑🏿‍❤️‍💋‍🧑🏻    | U+1F9D1 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FB    | KISS_PERSON_PERSON_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: person, person, dark skin tone, medium-light skin tone    | 🧑🏿‍❤️‍💋‍🧑🏼    | U+1F9D1 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FC    | KISS_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: person, person, dark skin tone, medium skin tone    | 🧑🏿‍❤️‍💋‍🧑🏽    | U+1F9D1 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FD    | KISS_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: person, person, dark skin tone, medium-dark skin tone    | 🧑🏿‍❤️‍💋‍🧑🏾    | U+1F9D1 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F9D1 U+1F3FE    | KISS_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, man, light skin tone    | 👩🏻‍❤️‍💋‍👨🏻    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_WOMAN_MAN_LIGHT_SKIN_TONE
+| kiss: woman, man, light skin tone, medium-light skin tone    | 👩🏻‍❤️‍💋‍👨🏼    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, man, light skin tone, medium skin tone    | 👩🏻‍❤️‍💋‍👨🏽    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: woman, man, light skin tone, medium-dark skin tone    | 👩🏻‍❤️‍💋‍👨🏾    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, man, light skin tone, dark skin tone    | 👩🏻‍❤️‍💋‍👨🏿    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_WOMAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| kiss: woman, man, medium-light skin tone, light skin tone    | 👩🏼‍❤️‍💋‍👨🏻    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: woman, man, medium-light skin tone    | 👩🏼‍❤️‍💋‍👨🏼    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, man, medium-light skin tone, medium skin tone    | 👩🏼‍❤️‍💋‍👨🏽    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: woman, man, medium-light skin tone, medium-dark skin tone    | 👩🏼‍❤️‍💋‍👨🏾    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, man, medium-light skin tone, dark skin tone    | 👩🏼‍❤️‍💋‍👨🏿    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| kiss: woman, man, medium skin tone, light skin tone    | 👩🏽‍❤️‍💋‍👨🏻    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: woman, man, medium skin tone, medium-light skin tone    | 👩🏽‍❤️‍💋‍👨🏼    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, man, medium skin tone    | 👩🏽‍❤️‍💋‍👨🏽    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_WOMAN_MAN_MEDIUM_SKIN_TONE
+| kiss: woman, man, medium skin tone, medium-dark skin tone    | 👩🏽‍❤️‍💋‍👨🏾    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, man, medium skin tone, dark skin tone    | 👩🏽‍❤️‍💋‍👨🏿    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
+| kiss: woman, man, medium-dark skin tone, light skin tone    | 👩🏾‍❤️‍💋‍👨🏻    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: woman, man, medium-dark skin tone, medium-light skin tone    | 👩🏾‍❤️‍💋‍👨🏼    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, man, medium-dark skin tone, medium skin tone    | 👩🏾‍❤️‍💋‍👨🏽    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: woman, man, medium-dark skin tone    | 👩🏾‍❤️‍💋‍👨🏾    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, man, medium-dark skin tone, dark skin tone    | 👩🏾‍❤️‍💋‍👨🏿    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
+| kiss: woman, man, dark skin tone, light skin tone    | 👩🏿‍❤️‍💋‍👨🏻    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_WOMAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: woman, man, dark skin tone, medium-light skin tone    | 👩🏿‍❤️‍💋‍👨🏼    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, man, dark skin tone, medium skin tone    | 👩🏿‍❤️‍💋‍👨🏽    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: woman, man, dark skin tone, medium-dark skin tone    | 👩🏿‍❤️‍💋‍👨🏾    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, man, dark skin tone    | 👩🏿‍❤️‍💋‍👨🏿    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_WOMAN_MAN_DARK_SKIN_TONE
+| kiss: man, man, light skin tone    | 👨🏻‍❤️‍💋‍👨🏻    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_MAN_MAN_LIGHT_SKIN_TONE
+| kiss: man, man, light skin tone, medium-light skin tone    | 👨🏻‍❤️‍💋‍👨🏼    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: man, man, light skin tone, medium skin tone    | 👨🏻‍❤️‍💋‍👨🏽    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: man, man, light skin tone, medium-dark skin tone    | 👨🏻‍❤️‍💋‍👨🏾    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: man, man, light skin tone, dark skin tone    | 👨🏻‍❤️‍💋‍👨🏿    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_MAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| kiss: man, man, medium-light skin tone, light skin tone    | 👨🏼‍❤️‍💋‍👨🏻    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: man, man, medium-light skin tone    | 👨🏼‍❤️‍💋‍👨🏼    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE
+| kiss: man, man, medium-light skin tone, medium skin tone    | 👨🏼‍❤️‍💋‍👨🏽    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: man, man, medium-light skin tone, medium-dark skin tone    | 👨🏼‍❤️‍💋‍👨🏾    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: man, man, medium-light skin tone, dark skin tone    | 👨🏼‍❤️‍💋‍👨🏿    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| kiss: man, man, medium skin tone, light skin tone    | 👨🏽‍❤️‍💋‍👨🏻    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_MAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: man, man, medium skin tone, medium-light skin tone    | 👨🏽‍❤️‍💋‍👨🏼    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: man, man, medium skin tone    | 👨🏽‍❤️‍💋‍👨🏽    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_MAN_MAN_MEDIUM_SKIN_TONE
+| kiss: man, man, medium skin tone, medium-dark skin tone    | 👨🏽‍❤️‍💋‍👨🏾    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: man, man, medium skin tone, dark skin tone    | 👨🏽‍❤️‍💋‍👨🏿    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_MAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
+| kiss: man, man, medium-dark skin tone, light skin tone    | 👨🏾‍❤️‍💋‍👨🏻    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: man, man, medium-dark skin tone, medium-light skin tone    | 👨🏾‍❤️‍💋‍👨🏼    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: man, man, medium-dark skin tone, medium skin tone    | 👨🏾‍❤️‍💋‍👨🏽    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: man, man, medium-dark skin tone    | 👨🏾‍❤️‍💋‍👨🏾    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE
+| kiss: man, man, medium-dark skin tone, dark skin tone    | 👨🏾‍❤️‍💋‍👨🏿    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
+| kiss: man, man, dark skin tone, light skin tone    | 👨🏿‍❤️‍💋‍👨🏻    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FB    | KISS_MAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: man, man, dark skin tone, medium-light skin tone    | 👨🏿‍❤️‍💋‍👨🏼    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FC    | KISS_MAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: man, man, dark skin tone, medium skin tone    | 👨🏿‍❤️‍💋‍👨🏽    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FD    | KISS_MAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: man, man, dark skin tone, medium-dark skin tone    | 👨🏿‍❤️‍💋‍👨🏾    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FE    | KISS_MAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: man, man, dark skin tone    | 👨🏿‍❤️‍💋‍👨🏿    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F3FF    | KISS_MAN_MAN_DARK_SKIN_TONE
+| kiss: woman, woman, light skin tone    | 👩🏻‍❤️‍💋‍👩🏻    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FB    | KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE
+| kiss: woman, woman, light skin tone, medium-light skin tone    | 👩🏻‍❤️‍💋‍👩🏼    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FC    | KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, woman, light skin tone, medium skin tone    | 👩🏻‍❤️‍💋‍👩🏽    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FD    | KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: woman, woman, light skin tone, medium-dark skin tone    | 👩🏻‍❤️‍💋‍👩🏾    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FE    | KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, woman, light skin tone, dark skin tone    | 👩🏻‍❤️‍💋‍👩🏿    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FF    | KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| kiss: woman, woman, medium-light skin tone, light skin tone    | 👩🏼‍❤️‍💋‍👩🏻    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FB    | KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: woman, woman, medium-light skin tone    | 👩🏼‍❤️‍💋‍👩🏼    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FC    | KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, woman, medium-light skin tone, medium skin tone    | 👩🏼‍❤️‍💋‍👩🏽    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FD    | KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: woman, woman, medium-light skin tone, medium-dark skin tone    | 👩🏼‍❤️‍💋‍👩🏾    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FE    | KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, woman, medium-light skin tone, dark skin tone    | 👩🏼‍❤️‍💋‍👩🏿    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FF    | KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| kiss: woman, woman, medium skin tone, light skin tone    | 👩🏽‍❤️‍💋‍👩🏻    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FB    | KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: woman, woman, medium skin tone, medium-light skin tone    | 👩🏽‍❤️‍💋‍👩🏼    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FC    | KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, woman, medium skin tone    | 👩🏽‍❤️‍💋‍👩🏽    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FD    | KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE
+| kiss: woman, woman, medium skin tone, medium-dark skin tone    | 👩🏽‍❤️‍💋‍👩🏾    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FE    | KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, woman, medium skin tone, dark skin tone    | 👩🏽‍❤️‍💋‍👩🏿    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FF    | KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
+| kiss: woman, woman, medium-dark skin tone, light skin tone    | 👩🏾‍❤️‍💋‍👩🏻    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FB    | KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: woman, woman, medium-dark skin tone, medium-light skin tone    | 👩🏾‍❤️‍💋‍👩🏼    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FC    | KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, woman, medium-dark skin tone, medium skin tone    | 👩🏾‍❤️‍💋‍👩🏽    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FD    | KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: woman, woman, medium-dark skin tone    | 👩🏾‍❤️‍💋‍👩🏾    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FE    | KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, woman, medium-dark skin tone, dark skin tone    | 👩🏾‍❤️‍💋‍👩🏿    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FF    | KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
+| kiss: woman, woman, dark skin tone, light skin tone    | 👩🏿‍❤️‍💋‍👩🏻    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FB    | KISS_WOMAN_WOMAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| kiss: woman, woman, dark skin tone, medium-light skin tone    | 👩🏿‍❤️‍💋‍👩🏼    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FC    | KISS_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| kiss: woman, woman, dark skin tone, medium skin tone    | 👩🏿‍❤️‍💋‍👩🏽    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FD    | KISS_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| kiss: woman, woman, dark skin tone, medium-dark skin tone    | 👩🏿‍❤️‍💋‍👩🏾    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FE    | KISS_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| kiss: woman, woman, dark skin tone    | 👩🏿‍❤️‍💋‍👩🏿    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 U+1F3FF    | KISS_WOMAN_WOMAN_DARK_SKIN_TONE
+| couple with heart: light skin tone    | 💑🏻    | U+1F491 U+1F3FB    | COUPLE_WITH_HEART_LIGHT_SKIN_TONE
+| couple with heart: medium-light skin tone    | 💑🏼    | U+1F491 U+1F3FC    | COUPLE_WITH_HEART_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: medium skin tone    | 💑🏽    | U+1F491 U+1F3FD    | COUPLE_WITH_HEART_MEDIUM_SKIN_TONE
+| couple with heart: medium-dark skin tone    | 💑🏾    | U+1F491 U+1F3FE    | COUPLE_WITH_HEART_MEDIUM_DARK_SKIN_TONE
+| couple with heart: dark skin tone    | 💑🏿    | U+1F491 U+1F3FF    | COUPLE_WITH_HEART_DARK_SKIN_TONE
+| couple with heart: person, person, light skin tone, medium-light skin tone    | 🧑🏻‍❤️‍🧑🏼    | U+1F9D1 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FC    | COUPLE_WITH_HEART_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: person, person, light skin tone, medium skin tone    | 🧑🏻‍❤️‍🧑🏽    | U+1F9D1 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FD    | COUPLE_WITH_HEART_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: person, person, light skin tone, medium-dark skin tone    | 🧑🏻‍❤️‍🧑🏾    | U+1F9D1 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FE    | COUPLE_WITH_HEART_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: person, person, light skin tone, dark skin tone    | 🧑🏻‍❤️‍🧑🏿    | U+1F9D1 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FF    | COUPLE_WITH_HEART_PERSON_PERSON_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: person, person, medium-light skin tone, light skin tone    | 🧑🏼‍❤️‍🧑🏻    | U+1F9D1 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FB    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: person, person, medium-light skin tone, medium skin tone    | 🧑🏼‍❤️‍🧑🏽    | U+1F9D1 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FD    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: person, person, medium-light skin tone, medium-dark skin tone    | 🧑🏼‍❤️‍🧑🏾    | U+1F9D1 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FE    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: person, person, medium-light skin tone, dark skin tone    | 🧑🏼‍❤️‍🧑🏿    | U+1F9D1 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FF    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: person, person, medium skin tone, light skin tone    | 🧑🏽‍❤️‍🧑🏻    | U+1F9D1 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FB    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: person, person, medium skin tone, medium-light skin tone    | 🧑🏽‍❤️‍🧑🏼    | U+1F9D1 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FC    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: person, person, medium skin tone, medium-dark skin tone    | 🧑🏽‍❤️‍🧑🏾    | U+1F9D1 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FE    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: person, person, medium skin tone, dark skin tone    | 🧑🏽‍❤️‍🧑🏿    | U+1F9D1 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FF    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: person, person, medium-dark skin tone, light skin tone    | 🧑🏾‍❤️‍🧑🏻    | U+1F9D1 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FB    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: person, person, medium-dark skin tone, medium-light skin tone    | 🧑🏾‍❤️‍🧑🏼    | U+1F9D1 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FC    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: person, person, medium-dark skin tone, medium skin tone    | 🧑🏾‍❤️‍🧑🏽    | U+1F9D1 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FD    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: person, person, medium-dark skin tone, dark skin tone    | 🧑🏾‍❤️‍🧑🏿    | U+1F9D1 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FF    | COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: person, person, dark skin tone, light skin tone    | 🧑🏿‍❤️‍🧑🏻    | U+1F9D1 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FB    | COUPLE_WITH_HEART_PERSON_PERSON_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: person, person, dark skin tone, medium-light skin tone    | 🧑🏿‍❤️‍🧑🏼    | U+1F9D1 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FC    | COUPLE_WITH_HEART_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: person, person, dark skin tone, medium skin tone    | 🧑🏿‍❤️‍🧑🏽    | U+1F9D1 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FD    | COUPLE_WITH_HEART_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: person, person, dark skin tone, medium-dark skin tone    | 🧑🏿‍❤️‍🧑🏾    | U+1F9D1 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F9D1 U+1F3FE    | COUPLE_WITH_HEART_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, man, light skin tone    | 👩🏻‍❤️‍👨🏻    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE
+| couple with heart: woman, man, light skin tone, medium-light skin tone    | 👩🏻‍❤️‍👨🏼    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, man, light skin tone, medium skin tone    | 👩🏻‍❤️‍👨🏽    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: woman, man, light skin tone, medium-dark skin tone    | 👩🏻‍❤️‍👨🏾    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, man, light skin tone, dark skin tone    | 👩🏻‍❤️‍👨🏿    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: woman, man, medium-light skin tone, light skin tone    | 👩🏼‍❤️‍👨🏻    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: woman, man, medium-light skin tone    | 👩🏼‍❤️‍👨🏼    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, man, medium-light skin tone, medium skin tone    | 👩🏼‍❤️‍👨🏽    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: woman, man, medium-light skin tone, medium-dark skin tone    | 👩🏼‍❤️‍👨🏾    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, man, medium-light skin tone, dark skin tone    | 👩🏼‍❤️‍👨🏿    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: woman, man, medium skin tone, light skin tone    | 👩🏽‍❤️‍👨🏻    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: woman, man, medium skin tone, medium-light skin tone    | 👩🏽‍❤️‍👨🏼    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, man, medium skin tone    | 👩🏽‍❤️‍👨🏽    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE
+| couple with heart: woman, man, medium skin tone, medium-dark skin tone    | 👩🏽‍❤️‍👨🏾    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, man, medium skin tone, dark skin tone    | 👩🏽‍❤️‍👨🏿    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: woman, man, medium-dark skin tone, light skin tone    | 👩🏾‍❤️‍👨🏻    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: woman, man, medium-dark skin tone, medium-light skin tone    | 👩🏾‍❤️‍👨🏼    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, man, medium-dark skin tone, medium skin tone    | 👩🏾‍❤️‍👨🏽    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: woman, man, medium-dark skin tone    | 👩🏾‍❤️‍👨🏾    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, man, medium-dark skin tone, dark skin tone    | 👩🏾‍❤️‍👨🏿    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: woman, man, dark skin tone, light skin tone    | 👩🏿‍❤️‍👨🏻    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: woman, man, dark skin tone, medium-light skin tone    | 👩🏿‍❤️‍👨🏼    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, man, dark skin tone, medium skin tone    | 👩🏿‍❤️‍👨🏽    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: woman, man, dark skin tone, medium-dark skin tone    | 👩🏿‍❤️‍👨🏾    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, man, dark skin tone    | 👩🏿‍❤️‍👨🏿    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE
+| couple with heart: man, man, light skin tone    | 👨🏻‍❤️‍👨🏻    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE
+| couple with heart: man, man, light skin tone, medium-light skin tone    | 👨🏻‍❤️‍👨🏼    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: man, man, light skin tone, medium skin tone    | 👨🏻‍❤️‍👨🏽    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: man, man, light skin tone, medium-dark skin tone    | 👨🏻‍❤️‍👨🏾    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: man, man, light skin tone, dark skin tone    | 👨🏻‍❤️‍👨🏿    | U+1F468 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: man, man, medium-light skin tone, light skin tone    | 👨🏼‍❤️‍👨🏻    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: man, man, medium-light skin tone    | 👨🏼‍❤️‍👨🏼    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: man, man, medium-light skin tone, medium skin tone    | 👨🏼‍❤️‍👨🏽    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: man, man, medium-light skin tone, medium-dark skin tone    | 👨🏼‍❤️‍👨🏾    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: man, man, medium-light skin tone, dark skin tone    | 👨🏼‍❤️‍👨🏿    | U+1F468 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: man, man, medium skin tone, light skin tone    | 👨🏽‍❤️‍👨🏻    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: man, man, medium skin tone, medium-light skin tone    | 👨🏽‍❤️‍👨🏼    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: man, man, medium skin tone    | 👨🏽‍❤️‍👨🏽    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE
+| couple with heart: man, man, medium skin tone, medium-dark skin tone    | 👨🏽‍❤️‍👨🏾    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: man, man, medium skin tone, dark skin tone    | 👨🏽‍❤️‍👨🏿    | U+1F468 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: man, man, medium-dark skin tone, light skin tone    | 👨🏾‍❤️‍👨🏻    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: man, man, medium-dark skin tone, medium-light skin tone    | 👨🏾‍❤️‍👨🏼    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: man, man, medium-dark skin tone, medium skin tone    | 👨🏾‍❤️‍👨🏽    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: man, man, medium-dark skin tone    | 👨🏾‍❤️‍👨🏾    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE
+| couple with heart: man, man, medium-dark skin tone, dark skin tone    | 👨🏾‍❤️‍👨🏿    | U+1F468 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: man, man, dark skin tone, light skin tone    | 👨🏿‍❤️‍👨🏻    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FB    | COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: man, man, dark skin tone, medium-light skin tone    | 👨🏿‍❤️‍👨🏼    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FC    | COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: man, man, dark skin tone, medium skin tone    | 👨🏿‍❤️‍👨🏽    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FD    | COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: man, man, dark skin tone, medium-dark skin tone    | 👨🏿‍❤️‍👨🏾    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FE    | COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: man, man, dark skin tone    | 👨🏿‍❤️‍👨🏿    | U+1F468 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F468 U+1F3FF    | COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE
+| couple with heart: woman, woman, light skin tone    | 👩🏻‍❤️‍👩🏻    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, light skin tone, medium-light skin tone    | 👩🏻‍❤️‍👩🏼    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, light skin tone, medium skin tone    | 👩🏻‍❤️‍👩🏽    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: woman, woman, light skin tone, medium-dark skin tone    | 👩🏻‍❤️‍👩🏾    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, woman, light skin tone, dark skin tone    | 👩🏻‍❤️‍👩🏿    | U+1F469 U+1F3FB U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: woman, woman, medium-light skin tone, light skin tone    | 👩🏼‍❤️‍👩🏻    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, medium-light skin tone    | 👩🏼‍❤️‍👩🏼    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, medium-light skin tone, medium skin tone    | 👩🏼‍❤️‍👩🏽    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: woman, woman, medium-light skin tone, medium-dark skin tone    | 👩🏼‍❤️‍👩🏾    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, woman, medium-light skin tone, dark skin tone    | 👩🏼‍❤️‍👩🏿    | U+1F469 U+1F3FC U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: woman, woman, medium skin tone, light skin tone    | 👩🏽‍❤️‍👩🏻    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, medium skin tone, medium-light skin tone    | 👩🏽‍❤️‍👩🏼    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, medium skin tone    | 👩🏽‍❤️‍👩🏽    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE
+| couple with heart: woman, woman, medium skin tone, medium-dark skin tone    | 👩🏽‍❤️‍👩🏾    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, woman, medium skin tone, dark skin tone    | 👩🏽‍❤️‍👩🏿    | U+1F469 U+1F3FD U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: woman, woman, medium-dark skin tone, light skin tone    | 👩🏾‍❤️‍👩🏻    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, medium-dark skin tone, medium-light skin tone    | 👩🏾‍❤️‍👩🏼    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, medium-dark skin tone, medium skin tone    | 👩🏾‍❤️‍👩🏽    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: woman, woman, medium-dark skin tone    | 👩🏾‍❤️‍👩🏾    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, woman, medium-dark skin tone, dark skin tone    | 👩🏾‍❤️‍👩🏿    | U+1F469 U+1F3FE U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE
+| couple with heart: woman, woman, dark skin tone, light skin tone    | 👩🏿‍❤️‍👩🏻    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FB    | COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, dark skin tone, medium-light skin tone    | 👩🏿‍❤️‍👩🏼    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FC    | COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE
+| couple with heart: woman, woman, dark skin tone, medium skin tone    | 👩🏿‍❤️‍👩🏽    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FD    | COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE
+| couple with heart: woman, woman, dark skin tone, medium-dark skin tone    | 👩🏿‍❤️‍👩🏾    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FE    | COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE
+| couple with heart: woman, woman, dark skin tone    | 👩🏿‍❤️‍👩🏿    | U+1F469 U+1F3FF U+200D U+2764 U+FE0F U+200D U+1F469 U+1F3FF    | COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE
 | light skin tone    | 🏻    | U+1F3FB    | LIGHT_SKIN_TONE
 | medium-light skin tone    | 🏼    | U+1F3FC    | MEDIUM_LIGHT_SKIN_TONE
 | medium skin tone    | 🏽    | U+1F3FD    | MEDIUM_SKIN_TONE
