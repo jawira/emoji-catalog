@@ -19,7 +19,7 @@
 
 ### Changed
 
-- [#7] Update library to emoji v13 [#6]
+- [#7] Update library to emoji v13
 
 ## [v1.2.0] - 2019-10-28
 
@@ -31,7 +31,7 @@
 
 ### Added
 
-- [#4] Added catalog with the list of all emojis [#1]
+- [#4] Added catalog with the list of all emojis
 
 ## [v1.0.0] - 2019-10-01
 
