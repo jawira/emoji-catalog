@@ -2,7 +2,14 @@
 
 <!-- changelog-linker -->
 
+
 <!-- dumped content start -->
+## Unreleased
+
+## [v3.0.1] - 2020-10-14
+
+- [#16] Reduce Emoji.php size
+
 ## [v3.0.0] - 2020-09-21
 
 - [#14] Update to Emoji v13.1
@@ -54,3 +61,5 @@
 [v3.0.0]: https://github.com/jawira/emoji-catalog/compare/v2.0.1...v3.0.0
 [v1.2.0]: https://github.com/jawira/emoji-catalog/compare/v1.1.0...v1.2.0
 [v1.0.0]: https://github.com/jawira/emoji-catalog/compare/v0.0.0...v1.0.0
+[#16]: https://github.com/jawira/emoji-catalog/pull/16
+[v3.0.1]: https://github.com/jawira/emoji-catalog/compare/v3.0.0...v3.0.1
