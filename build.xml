@@ -13,13 +13,13 @@
     </exec>
   </target>
 
-  <target name="setup" description="Prepare project for dev" depends="composer:install, visualizer"/>
-  <target name="qa" description="Quality assurance" depends="composer:validate, php:lint"/>
-  <target name="update" description="Update class and catalog" depends="emoji:update, catalog:update"/>
+  <target name="setup" description="Prepare project for dev" depends="composer:install,visualizer"/>
+  <target name="qa" description="Quality assurance" depends="composer:validate,php:lint"/>
+  <target name="update" description="Update class and catalog" depends="emoji:update,catalog:update,emoji:count"/>
   <target name="emoji:update" description="Update Emoji.php"
-          depends="emoji-list:download, emoji:parse, emoji:build, emoji:clean"/>
+          depends="emoji-list:download,emoji:parse,emoji:build"/>
   <target name="catalog:update" description="Update catalog.md"
-          depends="emoji-list:download, catalog:parse, catalog:build"/>
+          depends="emoji-list:download,catalog:parse,catalog:build"/>
 
   <target name="composer:validate" description="Validate composer.json">
     <composer command="validate">
@@ -36,6 +36,7 @@
 
   <target name="composer:install" description="Install for dev">
     <composer command="install">
+      <arg value="--quiet"/>
       <arg value="--no-suggest"/>
       <arg value="--no-interaction"/>
       <arg value="--profile"/>
@@ -66,9 +67,9 @@
   </target>
 
   <target name="emoji-list:download">
-    <mkdir dir="resources/unicode/"/>
-    <httpget dir="resources/unicode/" url="https://unicode.org/emoji/charts/full-emoji-list.html"/>
-    <httpget dir="resources/unicode/" url="https://unicode.org/emoji/charts/full-emoji-modifiers.html"/>
+    <mkdir dir="resources/unicode"/>
+    <httpget dir="resources/unicode" url="https://unicode.org/emoji/charts/full-emoji-list.html"/>
+    <httpget dir="resources/unicode" url="https://unicode.org/emoji/charts/full-emoji-modifiers.html"/>
   </target>
 
   <target name="emoji:parse">
@@ -95,17 +96,6 @@
     <append file="resources/output/emoji-1.txt" destFile="src/Emoji.php"/>
     <append file="resources/output/emoji-2.txt" destFile="src/Emoji.php"/>
     <append file="resources/templates/emoji-footer.php.dist" destFile="src/Emoji.php"/>
-  </target>
-
-  <target name="emoji:clean" description="Reduce Emoji.php size">
-    <reflexive file="src/Emoji.php">
-      <filterchain>
-        <stripphpcomments/>
-        <linecontainsregexp>
-          <regexp pattern="\S"/>
-        </linecontainsregexp>
-      </filterchain>
-    </reflexive>
   </target>
 
   <target name="catalog:parse">
