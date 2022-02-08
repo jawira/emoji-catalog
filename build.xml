@@ -1,25 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<project name="Emoji catalog" default="help" phingVersion="3">
+<project name="jawira/emoji-catalog" default="help" phingVersion="3">
 
   <defaultexcludes default="true"/><!--Initializing default excludes-->
   <defaultexcludes add="**/.idea"/>
   <defaultexcludes add="**/.idea/**"/>
   <property name="phing.http.proxy" value="${env.http_proxy}"/>
 
-  <target name="help">
-    <exec executable="xdg-open" spawn="true">
-      <arg path="build.png"/>
-    </exec>
-  </target>
 
-  <target name="setup" description="Prepare project for dev" depends="composer:install,visualizer"/>
+  <target name="setup" description="Prepare project for dev" depends="composer:install"/>
   <target name="qa" description="Quality assurance" depends="composer:validate,php:lint"/>
   <target name="update" description="Update class and catalog" depends="emoji:update,catalog:update,emoji:count"/>
   <target name="emoji:update" description="Update Emoji.php"
           depends="emoji-list:download,emoji:parse,emoji:build"/>
   <target name="catalog:update" description="Update catalog.md"
           depends="emoji-list:download,catalog:parse,catalog:build"/>
+
 
   <target name="composer:validate" description="Validate composer.json">
     <composer command="validate">
@@ -41,28 +37,6 @@
       <arg value="--no-interaction"/>
       <arg value="--profile"/>
       <arg value="--prefer-dist"/>
-    </composer>
-  </target>
-
-  <target name="git:tag-listing" description="List all git tags">
-    <!--https://stackoverflow.com/a/34239190/4345061-->
-    <exec executable="git" passthru="true">
-      <arg value="log"/>
-      <arg line="--graph --all --decorate --oneline --simplify-by-decoration"/>
-    </exec>
-  </target>
-
-  <target name="changelog:update" description="Update CHANGELOG.md">
-    <composer command="require">
-      <arg value="symplify/changelog-linker"/>
-      <arg value="--quiet"/>
-    </composer>
-    <exec executable="vendor/bin/changelog-linker" passthru="true" checkreturn="true">
-      <arg value="dump-merges"/>
-    </exec>
-    <composer command="remove">
-      <arg value="symplify/changelog-linker"/>
-      <arg value="--quiet"/>
     </composer>
   </target>
 
@@ -125,7 +99,7 @@
   </target>
 
   <target name="php:lint" description="Check PHP syntax">
-    <phplint deprecatedAsError="true">
+    <phplint deprecatedAsError="true" haltonfailure="true">
       <fileset dir="src">
         <include name="**/*.php"/>
       </fileset>
@@ -135,7 +109,7 @@
   <target name="emoji:count" description="Count constants in Emoji class">
     <autoloader autoloaderpath="vendor/autoload.php"/>
     <adhoc-task name="emoji-count"><![CDATA[
-    class EmojiCountTask extends Task {
+    class EmojiCountTask extends \Phing\Task {
         function main() {
             $emojiReflection = new ReflectionClass(\Jawira\EmojiCatalog\Emoji::class);
             $constants = $emojiReflection->getConstants();
@@ -146,6 +120,16 @@
     }
 ]]></adhoc-task>
     <emoji-count/>
+  </target>
+
+  <target name="help">
+    <uptodate property="uptodate.visualizer" srcfile="build.xml" targetfile="build.png"/>
+    <runtarget target="visualizer"/>
+    <open path="build.png"/>
+  </target>
+
+  <target name="visualizer" unless="uptodate.visualizer" description="Create buildfile map">
+    <visualizer/>
   </target>
 
 </project>
