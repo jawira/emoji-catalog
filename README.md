@@ -1,7 +1,6 @@
-Emoji catalog 📔
-==============
+# Emoji catalog 📔
 
-Get access to +3500 emojis as class constants.
+Get access to +3600 emojis as class constants.
 
 Features:
 
@@ -12,14 +11,10 @@ Features:
 You can see the [full emoji list].
 
 [![Latest Stable Version](https://poser.pugx.org/jawira/emoji-catalog/v/stable)](https://packagist.org/packages/jawira/emoji-catalog)
-[![Emoji version](https://img.shields.io/badge/Emoji-v13.1-%23ff69b4)](https://unicode.org/emoji/charts-13.1/emoji-released.html)
+[![Emoji version](https://img.shields.io/badge/Emoji-v14.0-%23ff69b4)](https://www.unicode.org/emoji/charts-14.0/emoji-released.html)
 [![License](https://poser.pugx.org/jawira/emoji-catalog/license)](https://packagist.org/packages/jawira/emoji-catalog)
-[![composer.lock](https://poser.pugx.org/jawira/emoji-catalog/composerlock)](https://packagist.org/packages/jawira/emoji-catalog)
-[![PDS Skeleton](https://img.shields.io/badge/pds-skeleton-blue.svg)](https://github.com/php-pds/skeleton)
-[![HitCount](http://hits.dwyl.io/jawira/emoji-catalog.svg)](http://hits.dwyl.io/jawira/emoji-catalog)
 
-Usage
------
+## Usage
 
 You have access to emojis as `\Jawira\EmojiCatalog\Emoji` constants:
 
@@ -33,49 +28,48 @@ echo Emoji::HOURGLASS_DONE; // ⌛
 echo Emoji::EJECT_BUTTON;   // ⏏
 ```
 
-Your favorite IDE should give you autocomplete since you are simply calling 
+Your favorite IDE should give you autocomplete since you are simply calling
 class constants:
 
 ![Autocomplete](docs/images/autocomplete.png)
 
-How to install
---------------
+## How to install
 
 ```
 $ composer require jawira/emoji-catalog
 ```
 
-Emoji sequences
----------------
+## Emoji sequences
 
-An _emoji sequence_ is an emoji composed of other emojis. For example the 
-character "👨‍👩‍👧" is composed of five characters: _U+1F468 U+200D U+1F469 U+200D 
-U+1F467_.
+An _emoji sequence_ is an emoji composed of other emojis. For example the
+character "👨‍👩‍👧" is composed of five characters: _U+1F468 U+200D U+1F469
+U+200D U+1F467_.
 
-You don't need to compose your emojis, _jawira/emoji-catalog_ comes with all 
+You don't need to compose your emojis, _jawira/emoji-catalog_ comes with all
 possible sequences as class constants:
 
 ```php
 echo Emoji::FAMILY_MAN_WOMAN_GIRL; // 👨‍👩‍👧
 ```
 
-Contributing
-------------
+## Contributing
 
-If you liked this project, ⭐ star it on [GitHub].
+- If you liked this project, ⭐ star it on [GitHub]
+  . [![GitHub Repo stars](https://img.shields.io/github/stars/jawira/emoji-catalog?style=social)][GitHub]
+- Or follow me on
+  Twitter. [![Twitter Follow](https://img.shields.io/twitter/follow/jawira?style=social)](https://twitter.com/jawira)
 
-License
--------
+## License
 
 This library is licensed under the [MIT license](LICENSE.md).
 
 [GitHub]: https://github.com/jawira/emoji-catalog
+
 [full emoji list]: https://github.com/jawira/emoji-catalog/blob/master/docs/catalog.md
 
 ***
 
-Packages from jawira
---------------------
+## Packages from jawira
 
 <dl>
 

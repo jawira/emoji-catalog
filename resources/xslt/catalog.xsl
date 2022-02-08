@@ -17,7 +17,7 @@
       <xsl:text>    </xsl:text>
       <xsl:text>| </xsl:text>
       <xsl:call-template name="get-constant-name"/>
-      <xsl:text>&#10;</xsl:text>
+      <xsl:text> |&#10;</xsl:text>
     </xsl:for-each>
   </xsl:template>
 
