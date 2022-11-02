@@ -53,6 +53,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | grimacing face    | 😬    | U+1F62C    | GRIMACING_FACE |
 | face exhaling    | 😮‍💨    | U+1F62E U+200D U+1F4A8    | FACE_EXHALING |
 | lying face    | 🤥    | U+1F925    | LYING_FACE |
+| shaking face    | 🫨    | U+1FAE8    | SHAKING_FACE |
 | relieved face    | 😌    | U+1F60C    | RELIEVED_FACE |
 | pensive face    | 😔    | U+1F614    | PENSIVE_FACE |
 | sleepy face    | 😪    | U+1F62A    | SLEEPY_FACE |
@@ -103,7 +104,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | tired face    | 😫    | U+1F62B    | TIRED_FACE |
 | yawning face    | 🥱    | U+1F971    | YAWNING_FACE |
 | face with steam from nose    | 😤    | U+1F624    | FACE_WITH_STEAM_FROM_NOSE |
-| pouting face    | 😡    | U+1F621    | POUTING_FACE |
+| enraged face    | 😡    | U+1F621    | ENRAGED_FACE |
 | angry face    | 😠    | U+1F620    | ANGRY_FACE |
 | face with symbols on mouth    | 🤬    | U+1F92C    | FACE_WITH_SYMBOLS_ON_MOUTH |
 | smiling face with horns    | 😈    | U+1F608    | SMILING_FACE_WITH_HORNS |
@@ -130,7 +131,6 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | see-no-evil monkey    | 🙈    | U+1F648    | SEE_NO_EVIL_MONKEY |
 | hear-no-evil monkey    | 🙉    | U+1F649    | HEAR_NO_EVIL_MONKEY |
 | speak-no-evil monkey    | 🙊    | U+1F64A    | SPEAK_NO_EVIL_MONKEY |
-| kiss mark    | 💋    | U+1F48B    | KISS_MARK |
 | love letter    | 💌    | U+1F48C    | LOVE_LETTER |
 | heart with arrow    | 💘    | U+1F498    | HEART_WITH_ARROW |
 | heart with ribbon    | 💝    | U+1F49D    | HEART_WITH_RIBBON |
@@ -145,14 +145,18 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | heart on fire    | ❤️‍🔥    | U+2764 U+FE0F U+200D U+1F525    | HEART_ON_FIRE |
 | mending heart    | ❤️‍🩹    | U+2764 U+FE0F U+200D U+1FA79    | MENDING_HEART |
 | red heart    | ❤    | U+2764    | RED_HEART |
+| pink heart    | 🩷    | U+1FA77    | PINK_HEART |
 | orange heart    | 🧡    | U+1F9E1    | ORANGE_HEART |
 | yellow heart    | 💛    | U+1F49B    | YELLOW_HEART |
 | green heart    | 💚    | U+1F49A    | GREEN_HEART |
 | blue heart    | 💙    | U+1F499    | BLUE_HEART |
+| light blue heart    | 🩵    | U+1FA75    | LIGHT_BLUE_HEART |
 | purple heart    | 💜    | U+1F49C    | PURPLE_HEART |
 | brown heart    | 🤎    | U+1F90E    | BROWN_HEART |
 | black heart    | 🖤    | U+1F5A4    | BLACK_HEART |
+| grey heart    | 🩶    | U+1FA76    | GREY_HEART |
 | white heart    | 🤍    | U+1F90D    | WHITE_HEART |
+| kiss mark    | 💋    | U+1F48B    | KISS_MARK |
 | hundred points    | 💯    | U+1F4AF    | HUNDRED_POINTS |
 | anger symbol    | 💢    | U+1F4A2    | ANGER_SYMBOL |
 | collision    | 💥    | U+1F4A5    | COLLISION |
@@ -160,13 +164,12 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | sweat droplets    | 💦    | U+1F4A6    | SWEAT_DROPLETS |
 | dashing away    | 💨    | U+1F4A8    | DASHING_AWAY |
 | hole    | 🕳    | U+1F573    | HOLE |
-| bomb    | 💣    | U+1F4A3    | BOMB |
 | speech balloon    | 💬    | U+1F4AC    | SPEECH_BALLOON |
 | eye in speech bubble    | 👁️‍🗨️    | U+1F441 U+FE0F U+200D U+1F5E8 U+FE0F    | EYE_IN_SPEECH_BUBBLE |
 | left speech bubble    | 🗨    | U+1F5E8    | LEFT_SPEECH_BUBBLE |
 | right anger bubble    | 🗯    | U+1F5EF    | RIGHT_ANGER_BUBBLE |
 | thought balloon    | 💭    | U+1F4AD    | THOUGHT_BALLOON |
-| zzz    | 💤    | U+1F4A4    | ZZZ |
+| ZZZ    | 💤    | U+1F4A4    | ZZZ |
 | waving hand    | 👋    | U+1F44B    | WAVING_HAND |
 | raised back of hand    | 🤚    | U+1F91A    | RAISED_BACK_OF_HAND |
 | hand with fingers splayed    | 🖐    | U+1F590    | HAND_WITH_FINGERS_SPLAYED |
@@ -176,6 +179,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | leftwards hand    | 🫲    | U+1FAF2    | LEFTWARDS_HAND |
 | palm down hand    | 🫳    | U+1FAF3    | PALM_DOWN_HAND |
 | palm up hand    | 🫴    | U+1FAF4    | PALM_UP_HAND |
+| leftwards pushing hand    | 🫷    | U+1FAF7    | LEFTWARDS_PUSHING_HAND |
+| rightwards pushing hand    | 🫸    | U+1FAF8    | RIGHTWARDS_PUSHING_HAND |
 | OK hand    | 👌    | U+1F44C    | OK_HAND |
 | pinched fingers    | 🤌    | U+1F90C    | PINCHED_FINGERS |
 | pinching hand    | 🤏    | U+1F90F    | PINCHING_HAND |
@@ -552,6 +557,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | tiger    | 🐅    | U+1F405    | TIGER |
 | leopard    | 🐆    | U+1F406    | LEOPARD |
 | horse face    | 🐴    | U+1F434    | HORSE_FACE |
+| moose    | 🫎    | U+1FACE    | MOOSE |
+| donkey    | 🫏    | U+1FACF    | DONKEY |
 | horse    | 🐎    | U+1F40E    | HORSE |
 | unicorn    | 🦄    | U+1F984    | UNICORN |
 | zebra    | 🦓    | U+1F993    | ZEBRA |
@@ -614,6 +621,9 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | flamingo    | 🦩    | U+1F9A9    | FLAMINGO |
 | peacock    | 🦚    | U+1F99A    | PEACOCK |
 | parrot    | 🦜    | U+1F99C    | PARROT |
+| wing    | 🪽    | U+1FABD    | WING |
+| black bird    | 🐦‍⬛    | U+1F426 U+200D U+2B1B    | BLACK_BIRD |
+| goose    | 🪿    | U+1FABF    | GOOSE |
 | frog    | 🐸    | U+1F438    | FROG |
 | crocodile    | 🐊    | U+1F40A    | CROCODILE |
 | turtle    | 🐢    | U+1F422    | TURTLE |
@@ -634,6 +644,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | octopus    | 🐙    | U+1F419    | OCTOPUS |
 | spiral shell    | 🐚    | U+1F41A    | SPIRAL_SHELL |
 | coral    | 🪸    | U+1FAB8    | CORAL |
+| jellyfish    | 🪼    | U+1FABC    | JELLYFISH |
 | snail    | 🐌    | U+1F40C    | SNAIL |
 | butterfly    | 🦋    | U+1F98B    | BUTTERFLY |
 | bug    | 🐛    | U+1F41B    | BUG |
@@ -661,6 +672,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | sunflower    | 🌻    | U+1F33B    | SUNFLOWER |
 | blossom    | 🌼    | U+1F33C    | BLOSSOM |
 | tulip    | 🌷    | U+1F337    | TULIP |
+| hyacinth    | 🪻    | U+1FABB    | HYACINTH |
 | seedling    | 🌱    | U+1F331    | SEEDLING |
 | potted plant    | 🪴    | U+1FAB4    | POTTED_PLANT |
 | evergreen tree    | 🌲    | U+1F332    | EVERGREEN_TREE |
@@ -676,6 +688,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | leaf fluttering in wind    | 🍃    | U+1F343    | LEAF_FLUTTERING_IN_WIND |
 | empty nest    | 🪹    | U+1FAB9    | EMPTY_NEST |
 | nest with eggs    | 🪺    | U+1FABA    | NEST_WITH_EGGS |
+| mushroom    | 🍄    | U+1F344    | MUSHROOM |
 | grapes    | 🍇    | U+1F347    | GRAPES |
 | melon    | 🍈    | U+1F348    | MELON |
 | watermelon    | 🍉    | U+1F349    | WATERMELON |
@@ -707,10 +720,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | broccoli    | 🥦    | U+1F966    | BROCCOLI |
 | garlic    | 🧄    | U+1F9C4    | GARLIC |
 | onion    | 🧅    | U+1F9C5    | ONION |
-| mushroom    | 🍄    | U+1F344    | MUSHROOM |
 | peanuts    | 🥜    | U+1F95C    | PEANUTS |
 | beans    | 🫘    | U+1FAD8    | BEANS |
 | chestnut    | 🌰    | U+1F330    | CHESTNUT |
+| ginger root    | 🫚    | U+1FADA    | GINGER_ROOT |
+| pea pod    | 🫛    | U+1FADB    | PEA_POD |
 | bread    | 🍞    | U+1F35E    | BREAD |
 | croissant    | 🥐    | U+1F950    | CROISSANT |
 | baguette bread    | 🥖    | U+1F956    | BAGUETTE_BREAD |
@@ -1083,11 +1097,10 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | bullseye    | 🎯    | U+1F3AF    | BULLSEYE |
 | yo-yo    | 🪀    | U+1FA80    | YO_YO |
 | kite    | 🪁    | U+1FA81    | KITE |
+| water pistol    | 🔫    | U+1F52B    | WATER_PISTOL |
 | pool 8 ball    | 🎱    | U+1F3B1    | POOL_8_BALL |
 | crystal ball    | 🔮    | U+1F52E    | CRYSTAL_BALL |
 | magic wand    | 🪄    | U+1FA84    | MAGIC_WAND |
-| nazar amulet    | 🧿    | U+1F9FF    | NAZAR_AMULET |
-| hamsa    | 🪬    | U+1FAAC    | HAMSA |
 | video game    | 🎮    | U+1F3AE    | VIDEO_GAME |
 | joystick    | 🕹    | U+1F579    | JOYSTICK |
 | slot machine    | 🎰    | U+1F3B0    | SLOT_MACHINE |
@@ -1132,6 +1145,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | shorts    | 🩳    | U+1FA73    | SHORTS |
 | bikini    | 👙    | U+1F459    | BIKINI |
 | woman’s clothes    | 👚    | U+1F45A    | WOMANS_CLOTHES |
+| folding hand fan    | 🪭    | U+1FAAD    | FOLDING_HAND_FAN |
 | purse    | 👛    | U+1F45B    | PURSE |
 | handbag    | 👜    | U+1F45C    | HANDBAG |
 | clutch bag    | 👝    | U+1F45D    | CLUTCH_BAG |
@@ -1146,6 +1160,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman’s sandal    | 👡    | U+1F461    | WOMANS_SANDAL |
 | ballet shoes    | 🩰    | U+1FA70    | BALLET_SHOES |
 | woman’s boot    | 👢    | U+1F462    | WOMANS_BOOT |
+| hair pick    | 🪮    | U+1FAAE    | HAIR_PICK |
 | crown    | 👑    | U+1F451    | CROWN |
 | woman’s hat    | 👒    | U+1F452    | WOMANS_HAT |
 | top hat    | 🎩    | U+1F3A9    | TOP_HAT |
@@ -1184,6 +1199,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | banjo    | 🪕    | U+1FA95    | BANJO |
 | drum    | 🥁    | U+1F941    | DRUM |
 | long drum    | 🪘    | U+1FA98    | LONG_DRUM |
+| maracas    | 🪇    | U+1FA87    | MARACAS |
+| flute    | 🪈    | U+1FA88    | FLUTE |
 | mobile phone    | 📱    | U+1F4F1    | MOBILE_PHONE |
 | mobile phone with arrow    | 📲    | U+1F4F2    | MOBILE_PHONE_WITH_ARROW |
 | telephone    | ☎    | U+260E    | TELEPHONE |
@@ -1303,7 +1320,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | hammer and wrench    | 🛠    | U+1F6E0    | HAMMER_AND_WRENCH |
 | dagger    | 🗡    | U+1F5E1    | DAGGER |
 | crossed swords    | ⚔    | U+2694    | CROSSED_SWORDS |
-| water pistol    | 🔫    | U+1F52B    | WATER_PISTOL |
+| bomb    | 💣    | U+1F4A3    | BOMB |
 | boomerang    | 🪃    | U+1FA83    | BOOMERANG |
 | bow and arrow    | 🏹    | U+1F3F9    | BOW_AND_ARROW |
 | shield    | 🛡    | U+1F6E1    | SHIELD |
@@ -1364,6 +1381,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | coffin    | ⚰    | U+26B0    | COFFIN |
 | headstone    | 🪦    | U+1FAA6    | HEADSTONE |
 | funeral urn    | ⚱    | U+26B1    | FUNERAL_URN |
+| nazar amulet    | 🧿    | U+1F9FF    | NAZAR_AMULET |
+| hamsa    | 🪬    | U+1FAAC    | HAMSA |
 | moai    | 🗿    | U+1F5FF    | MOAI |
 | placard    | 🪧    | U+1FAA7    | PLACARD |
 | identification card    | 🪪    | U+1FAAA    | IDENTIFICATION_CARD |
@@ -1426,6 +1445,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | peace symbol    | ☮    | U+262E    | PEACE_SYMBOL |
 | menorah    | 🕎    | U+1F54E    | MENORAH |
 | dotted six-pointed star    | 🔯    | U+1F52F    | DOTTED_SIX_POINTED_STAR |
+| khanda    | 🪯    | U+1FAAF    | KHANDA |
 | Aries    | ♈    | U+2648    | ARIES |
 | Taurus    | ♉    | U+2649    | TAURUS |
 | Gemini    | ♊    | U+264A    | GEMINI |
@@ -1461,6 +1481,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | dim button    | 🔅    | U+1F505    | DIM_BUTTON |
 | bright button    | 🔆    | U+1F506    | BRIGHT_BUTTON |
 | antenna bars    | 📶    | U+1F4F6    | ANTENNA_BARS |
+| wireless    | 🛜    | U+1F6DC    | WIRELESS |
 | vibration mode    | 📳    | U+1F4F3    | VIBRATION_MODE |
 | mobile phone off    | 📴    | U+1F4F4    | MOBILE_PHONE_OFF |
 | female sign    | ♀    | U+2640    | FEMALE_SIGN |
@@ -1902,6 +1923,16 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | palm up hand: medium skin tone    | 🫴🏽    | U+1FAF4 U+1F3FD    | PALM_UP_HAND_MEDIUM_SKIN_TONE |
 | palm up hand: medium-dark skin tone    | 🫴🏾    | U+1FAF4 U+1F3FE    | PALM_UP_HAND_MEDIUM_DARK_SKIN_TONE |
 | palm up hand: dark skin tone    | 🫴🏿    | U+1FAF4 U+1F3FF    | PALM_UP_HAND_DARK_SKIN_TONE |
+| leftwards pushing hand: light skin tone    | 🫷🏻    | U+1FAF7 U+1F3FB    | LEFTWARDS_PUSHING_HAND_LIGHT_SKIN_TONE |
+| leftwards pushing hand: medium-light skin tone    | 🫷🏼    | U+1FAF7 U+1F3FC    | LEFTWARDS_PUSHING_HAND_MEDIUM_LIGHT_SKIN_TONE |
+| leftwards pushing hand: medium skin tone    | 🫷🏽    | U+1FAF7 U+1F3FD    | LEFTWARDS_PUSHING_HAND_MEDIUM_SKIN_TONE |
+| leftwards pushing hand: medium-dark skin tone    | 🫷🏾    | U+1FAF7 U+1F3FE    | LEFTWARDS_PUSHING_HAND_MEDIUM_DARK_SKIN_TONE |
+| leftwards pushing hand: dark skin tone    | 🫷🏿    | U+1FAF7 U+1F3FF    | LEFTWARDS_PUSHING_HAND_DARK_SKIN_TONE |
+| rightwards pushing hand: light skin tone    | 🫸🏻    | U+1FAF8 U+1F3FB    | RIGHTWARDS_PUSHING_HAND_LIGHT_SKIN_TONE |
+| rightwards pushing hand: medium-light skin tone    | 🫸🏼    | U+1FAF8 U+1F3FC    | RIGHTWARDS_PUSHING_HAND_MEDIUM_LIGHT_SKIN_TONE |
+| rightwards pushing hand: medium skin tone    | 🫸🏽    | U+1FAF8 U+1F3FD    | RIGHTWARDS_PUSHING_HAND_MEDIUM_SKIN_TONE |
+| rightwards pushing hand: medium-dark skin tone    | 🫸🏾    | U+1FAF8 U+1F3FE    | RIGHTWARDS_PUSHING_HAND_MEDIUM_DARK_SKIN_TONE |
+| rightwards pushing hand: dark skin tone    | 🫸🏿    | U+1FAF8 U+1F3FF    | RIGHTWARDS_PUSHING_HAND_DARK_SKIN_TONE |
 | OK hand: light skin tone    | 👌🏻    | U+1F44C U+1F3FB    | OK_HAND_LIGHT_SKIN_TONE |
 | OK hand: medium-light skin tone    | 👌🏼    | U+1F44C U+1F3FC    | OK_HAND_MEDIUM_LIGHT_SKIN_TONE |
 | OK hand: medium skin tone    | 👌🏽    | U+1F44C U+1F3FD    | OK_HAND_MEDIUM_SKIN_TONE |
