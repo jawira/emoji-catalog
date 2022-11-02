@@ -11,7 +11,6 @@ Features:
 You can see the [full emoji list].
 
 [![Latest Stable Version](https://poser.pugx.org/jawira/emoji-catalog/v/stable)](https://packagist.org/packages/jawira/emoji-catalog)
-[![Emoji version](https://img.shields.io/badge/Emoji-v14.0-%23ff69b4)](https://www.unicode.org/emoji/charts-14.0/emoji-released.html)
 [![License](https://poser.pugx.org/jawira/emoji-catalog/license)](https://packagist.org/packages/jawira/emoji-catalog)
 
 ## Usage
