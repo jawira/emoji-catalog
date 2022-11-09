@@ -1,7 +1,8 @@
 {
   "name": "jawira/emoji-catalog",
-  "type": "library",
   "description": "Get access to +3600 emojis as class constants",
+  "license": "MIT",
+  "type": "library",
   "keywords": [
     "emoji",
     "emojis",
@@ -11,24 +12,39 @@
     "unicode",
     "catalog"
   ],
-  "license": "MIT",
   "authors": [
     {
       "name": "Jawira Portugal",
       "email": "dev@tugal.be"
     }
   ],
-  "require": {
-    "php": ">=5.6"
-  },
-  "require-dev": {},
-  "config": {
-    "preferred-install": "dist",
-    "sort-packages": true
+  "require-dev": {
+    "php": "^7.3 || ^8.0",
+    "ext-intl": "*",
+    "ext-mbstring": "*",
+    "ergebnis/composer-normalize": "^2.28",
+    "jawira/skeleton": "^2.16",
+    "phing/phing": "^2.17 || ^3"
   },
   "autoload": {
     "psr-4": {
       "Jawira\\EmojiCatalog\\": "src"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jawira\\EmojiTask\\": "tasks"
+    },
+    "files": [
+      "tests/vanilla.php"
+    ]
+  },
+  "config": {
+    "allow-plugins": {
+      "ergebnis/composer-normalize": true
+    },
+    "platform-check": true,
+    "preferred-install": "dist",
+    "sort-packages": true
   }
 }

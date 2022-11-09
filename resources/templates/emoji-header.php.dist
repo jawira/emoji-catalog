@@ -3,11 +3,8 @@
 namespace Jawira\EmojiCatalog;
 
 /**
- * Class Emoji
- *
  * Get access to all emojis as class constants.
  *
- * @package Jawira\EmojiCatalog
  * @author  Jawira Portugal <dev@tugal.be>
  */
 class Emoji

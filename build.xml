@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project name="jawira/emoji-catalog" default="help" phingVersion="3">
 
-  <defaultexcludes default="true"/><!--Initializing default excludes-->
-  <defaultexcludes add="**/.idea"/>
-  <defaultexcludes add="**/.idea/**"/>
-  <property name="phing.http.proxy" value="${env.http_proxy}"/>
+
+  <property name="emoji.source" value="https://unicode.org/Public/emoji/15.0/emoji-test.txt"/>
 
 
   <target name="setup" description="Prepare project for dev" depends="composer:install"/>
-  <target name="qa" description="Quality assurance" depends="composer:validate,php:lint"/>
-  <target name="update" description="Update class and catalog" depends="emoji:update,catalog:update,emoji:count"/>
-  <target name="emoji:update" description="Update Emoji.php"
-          depends="emoji-list:download,emoji:parse,emoji:build"/>
-  <target name="catalog:update" description="Update catalog.md"
-          depends="emoji-list:download,catalog:parse,catalog:build"/>
+  <target name="qa" description="Quality assurance"
+          depends="composer:normalize,composer:validate,php:lint,emoji:tests"/>
+  <target name="update" description="Update class and catalog"
+          depends="emoji:download-source,emoji:update,doc:update,emoji:count"/>
 
 
   <target name="composer:validate" description="Validate composer.json">
@@ -24,10 +19,6 @@
       <arg value="--strict"/>
       <arg value="--quiet"/>
     </composer>
-  </target>
-
-  <target name="visualizer">
-    <visualizer/>
   </target>
 
   <target name="composer:install" description="Install for dev">
@@ -40,62 +31,31 @@
     </composer>
   </target>
 
-  <target name="emoji-list:download">
+  <target name="composer:normalize" description="Normalize composer.json">
+    <composer command="normalize">
+      <arg value="--ansi"/>
+      <arg value="--no-interaction"/>
+      <arg value="--diff"/>
+      <arg value="--indent-size=2"/>
+      <arg value="--indent-style=space"/>
+    </composer>
+  </target>
+
+  <target name="emoji:download-source">
     <mkdir dir="resources/unicode"/>
-    <httpget dir="resources/unicode" url="https://unicode.org/emoji/charts/full-emoji-list.html"/>
-    <httpget dir="resources/unicode" url="https://unicode.org/emoji/charts/full-emoji-modifiers.html"/>
+    <httpget dir="resources/unicode" url="${emoji.source}"/>
   </target>
 
-  <target name="emoji:parse">
-    <mkdir dir="resources/output"/>
-    <delete file="resources/output/emoji-1.txt"/>
-    <xslt file="resources/unicode/full-emoji-list.html"
-          tofile="resources/output/emoji-1.txt"
-          style="resources/xslt/emoji.xsl"
-          haltonerror="false"
-          overwrite="true"
-          html="true"/>
-
-    <delete file="resources/output/emoji-2.txt"/>
-    <xslt file="resources/unicode/full-emoji-modifiers.html"
-          tofile="resources/output/emoji-2.txt"
-          style="resources/xslt/emoji.xsl"
-          haltonerror="false"
-          overwrite="true"
-          html="true"/>
+  <target name="emoji:update" description="Generate Emoji class">
+    <autoloader autoloaderpath="vendor/autoload.php"/>
+    <taskdef name="emoji-update" classname="\Jawira\EmojiTask\EmojiUpdateTask"/>
+    <emoji-update/>
   </target>
 
-  <target name="emoji:build">
-    <append file="resources/templates/emoji-header.php.dist" destFile="src/Emoji.php" append="false" overwrite="true"/>
-    <append file="resources/output/emoji-1.txt" destFile="src/Emoji.php"/>
-    <append file="resources/output/emoji-2.txt" destFile="src/Emoji.php"/>
-    <append file="resources/templates/emoji-footer.php.dist" destFile="src/Emoji.php"/>
-  </target>
-
-  <target name="catalog:parse">
-    <mkdir dir="resources/output"/>
-    <delete file="resources/output/catalog-1.txt"/>
-    <xslt file="resources/unicode/full-emoji-list.html"
-          tofile="resources/output/catalog-1.txt"
-          style="resources/xslt/catalog.xsl"
-          haltonerror="false"
-          overwrite="true"
-          html="true"/>
-
-    <delete file="resources/output/catalog-2.txt"/>
-    <xslt file="resources/unicode/full-emoji-modifiers.html"
-          tofile="resources/output/catalog-2.txt"
-          style="resources/xslt/catalog.xsl"
-          haltonerror="false"
-          overwrite="true"
-          html="true"/>
-  </target>
-
-  <target name="catalog:build">
-    <append file="resources/templates/catalog-header.md.dist" destFile="docs/catalog.md" append="false"
-            overwrite="true"/>
-    <append file="resources/output/catalog-1.txt" destFile="docs/catalog.md"/>
-    <append file="resources/output/catalog-2.txt" destFile="docs/catalog.md"/>
+  <target name="doc:update">
+    <autoloader autoloaderpath="vendor/autoload.php"/>
+    <taskdef name="catalog-update" classname="\Jawira\EmojiTask\CatalogUpdateTask"/>
+    <catalog-update/>
   </target>
 
   <target name="php:lint" description="Check PHP syntax">
@@ -106,19 +66,24 @@
     </phplint>
   </target>
 
+  <target name="emoji:tests" description="Test some fully-qualified emojis">
+    <autoloader autoloaderpath="vendor/autoload.php"/>
+    <php function="vanilla"/>
+  </target>
+
   <target name="emoji:count" description="Count constants in Emoji class">
     <autoloader autoloaderpath="vendor/autoload.php"/>
-    <adhoc-task name="emoji-count"><![CDATA[
-    class EmojiCountTask extends \Phing\Task {
-        function main() {
-            $emojiReflection = new ReflectionClass(\Jawira\EmojiCatalog\Emoji::class);
-            $constants = $emojiReflection->getConstants();
-            $count = count($constants);
-            $this->log("Emoji count: $count");
-            $this->project->setProperty('emoji-count', $count);
+    <adhoc-task name="emoji-count">
+        class EmojiCountTask extends \Phing\Task {
+            function main() {
+                $emojiReflection = new ReflectionClass(\Jawira\EmojiCatalog\Emoji::class);
+                $constants = $emojiReflection-&gt;getConstants();
+                $count = count($constants);
+                $this-&gt;log("Emoji count: $count");
+                $this-&gt;project-&gt;setProperty('emoji-count', $count);
+            }
         }
-    }
-]]></adhoc-task>
+    </adhoc-task>
     <emoji-count/>
   </target>
 
