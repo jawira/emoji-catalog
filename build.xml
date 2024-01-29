@@ -2,7 +2,7 @@
 <project name="jawira/emoji-catalog" default="help" phingVersion="3">
 
 
-  <property name="emoji.source" value="https://unicode.org/Public/emoji/15.0/emoji-test.txt"/>
+  <property name="emoji.source" value="https://unicode.org/Public/emoji/15.1/emoji-test.txt"/>
 
 
   <target name="setup" description="Prepare project for dev" depends="composer:install"/>
