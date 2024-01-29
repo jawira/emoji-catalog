@@ -54,6 +54,8 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | face exhaling | 😮‍💨 | 1F62E 200D 1F4A8 | FACE_EXHALING |
 | lying face | 🤥 | 1F925 | LYING_FACE |
 | shaking face | 🫨 | 1FAE8 | SHAKING_FACE |
+| head shaking horizontally | 🙂‍↔️ | 1F642 200D 2194 FE0F | HEAD_SHAKING_HORIZONTALLY |
+| head shaking vertically | 🙂‍↕️ | 1F642 200D 2195 FE0F | HEAD_SHAKING_VERTICALLY |
 | relieved face | 😌 | 1F60C | RELIEVED_FACE |
 | pensive face | 😔 | 1F614 | PENSIVE_FACE |
 | sleepy face | 😪 | 1F62A | SLEEPY_FACE |
@@ -1547,6 +1549,24 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman walking: medium skin tone | 🚶🏽‍♀️ | 1F6B6 1F3FD 200D 2640 FE0F | WOMAN_WALKING_MEDIUM_SKIN_TONE |
 | woman walking: medium-dark skin tone | 🚶🏾‍♀️ | 1F6B6 1F3FE 200D 2640 FE0F | WOMAN_WALKING_MEDIUM_DARK_SKIN_TONE |
 | woman walking: dark skin tone | 🚶🏿‍♀️ | 1F6B6 1F3FF 200D 2640 FE0F | WOMAN_WALKING_DARK_SKIN_TONE |
+| person walking facing right | 🚶‍➡️ | 1F6B6 200D 27A1 FE0F | PERSON_WALKING_FACING_RIGHT |
+| person walking facing right: light skin tone | 🚶🏻‍➡️ | 1F6B6 1F3FB 200D 27A1 FE0F | PERSON_WALKING_FACING_RIGHT_LIGHT_SKIN_TONE |
+| person walking facing right: medium-light skin tone | 🚶🏼‍➡️ | 1F6B6 1F3FC 200D 27A1 FE0F | PERSON_WALKING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| person walking facing right: medium skin tone | 🚶🏽‍➡️ | 1F6B6 1F3FD 200D 27A1 FE0F | PERSON_WALKING_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| person walking facing right: medium-dark skin tone | 🚶🏾‍➡️ | 1F6B6 1F3FE 200D 27A1 FE0F | PERSON_WALKING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| person walking facing right: dark skin tone | 🚶🏿‍➡️ | 1F6B6 1F3FF 200D 27A1 FE0F | PERSON_WALKING_FACING_RIGHT_DARK_SKIN_TONE |
+| woman walking facing right | 🚶‍♀️‍➡️ | 1F6B6 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_WALKING_FACING_RIGHT |
+| woman walking facing right: light skin tone | 🚶🏻‍♀️‍➡️ | 1F6B6 1F3FB 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_WALKING_FACING_RIGHT_LIGHT_SKIN_TONE |
+| woman walking facing right: medium-light skin tone | 🚶🏼‍♀️‍➡️ | 1F6B6 1F3FC 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_WALKING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| woman walking facing right: medium skin tone | 🚶🏽‍♀️‍➡️ | 1F6B6 1F3FD 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_WALKING_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| woman walking facing right: medium-dark skin tone | 🚶🏾‍♀️‍➡️ | 1F6B6 1F3FE 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_WALKING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| woman walking facing right: dark skin tone | 🚶🏿‍♀️‍➡️ | 1F6B6 1F3FF 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_WALKING_FACING_RIGHT_DARK_SKIN_TONE |
+| man walking facing right | 🚶‍♂️‍➡️ | 1F6B6 200D 2642 FE0F 200D 27A1 FE0F | MAN_WALKING_FACING_RIGHT |
+| man walking facing right: light skin tone | 🚶🏻‍♂️‍➡️ | 1F6B6 1F3FB 200D 2642 FE0F 200D 27A1 FE0F | MAN_WALKING_FACING_RIGHT_LIGHT_SKIN_TONE |
+| man walking facing right: medium-light skin tone | 🚶🏼‍♂️‍➡️ | 1F6B6 1F3FC 200D 2642 FE0F 200D 27A1 FE0F | MAN_WALKING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| man walking facing right: medium skin tone | 🚶🏽‍♂️‍➡️ | 1F6B6 1F3FD 200D 2642 FE0F 200D 27A1 FE0F | MAN_WALKING_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| man walking facing right: medium-dark skin tone | 🚶🏾‍♂️‍➡️ | 1F6B6 1F3FE 200D 2642 FE0F 200D 27A1 FE0F | MAN_WALKING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| man walking facing right: dark skin tone | 🚶🏿‍♂️‍➡️ | 1F6B6 1F3FF 200D 2642 FE0F 200D 27A1 FE0F | MAN_WALKING_FACING_RIGHT_DARK_SKIN_TONE |
 | person standing | 🧍 | 1F9CD | PERSON_STANDING |
 | person standing: light skin tone | 🧍🏻 | 1F9CD 1F3FB | PERSON_STANDING_LIGHT_SKIN_TONE |
 | person standing: medium-light skin tone | 🧍🏼 | 1F9CD 1F3FC | PERSON_STANDING_MEDIUM_LIGHT_SKIN_TONE |
@@ -1583,60 +1603,132 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman kneeling: medium skin tone | 🧎🏽‍♀️ | 1F9CE 1F3FD 200D 2640 FE0F | WOMAN_KNEELING_MEDIUM_SKIN_TONE |
 | woman kneeling: medium-dark skin tone | 🧎🏾‍♀️ | 1F9CE 1F3FE 200D 2640 FE0F | WOMAN_KNEELING_MEDIUM_DARK_SKIN_TONE |
 | woman kneeling: dark skin tone | 🧎🏿‍♀️ | 1F9CE 1F3FF 200D 2640 FE0F | WOMAN_KNEELING_DARK_SKIN_TONE |
+| person kneeling facing right | 🧎‍➡️ | 1F9CE 200D 27A1 FE0F | PERSON_KNEELING_FACING_RIGHT |
+| person kneeling facing right: light skin tone | 🧎🏻‍➡️ | 1F9CE 1F3FB 200D 27A1 FE0F | PERSON_KNEELING_FACING_RIGHT_LIGHT_SKIN_TONE |
+| person kneeling facing right: medium-light skin tone | 🧎🏼‍➡️ | 1F9CE 1F3FC 200D 27A1 FE0F | PERSON_KNEELING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| person kneeling facing right: medium skin tone | 🧎🏽‍➡️ | 1F9CE 1F3FD 200D 27A1 FE0F | PERSON_KNEELING_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| person kneeling facing right: medium-dark skin tone | 🧎🏾‍➡️ | 1F9CE 1F3FE 200D 27A1 FE0F | PERSON_KNEELING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| person kneeling facing right: dark skin tone | 🧎🏿‍➡️ | 1F9CE 1F3FF 200D 27A1 FE0F | PERSON_KNEELING_FACING_RIGHT_DARK_SKIN_TONE |
+| woman kneeling facing right | 🧎‍♀️‍➡️ | 1F9CE 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_KNEELING_FACING_RIGHT |
+| woman kneeling facing right: light skin tone | 🧎🏻‍♀️‍➡️ | 1F9CE 1F3FB 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_KNEELING_FACING_RIGHT_LIGHT_SKIN_TONE |
+| woman kneeling facing right: medium-light skin tone | 🧎🏼‍♀️‍➡️ | 1F9CE 1F3FC 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_KNEELING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| woman kneeling facing right: medium skin tone | 🧎🏽‍♀️‍➡️ | 1F9CE 1F3FD 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_KNEELING_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| woman kneeling facing right: medium-dark skin tone | 🧎🏾‍♀️‍➡️ | 1F9CE 1F3FE 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_KNEELING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| woman kneeling facing right: dark skin tone | 🧎🏿‍♀️‍➡️ | 1F9CE 1F3FF 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_KNEELING_FACING_RIGHT_DARK_SKIN_TONE |
+| man kneeling facing right | 🧎‍♂️‍➡️ | 1F9CE 200D 2642 FE0F 200D 27A1 FE0F | MAN_KNEELING_FACING_RIGHT |
+| man kneeling facing right: light skin tone | 🧎🏻‍♂️‍➡️ | 1F9CE 1F3FB 200D 2642 FE0F 200D 27A1 FE0F | MAN_KNEELING_FACING_RIGHT_LIGHT_SKIN_TONE |
+| man kneeling facing right: medium-light skin tone | 🧎🏼‍♂️‍➡️ | 1F9CE 1F3FC 200D 2642 FE0F 200D 27A1 FE0F | MAN_KNEELING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| man kneeling facing right: medium skin tone | 🧎🏽‍♂️‍➡️ | 1F9CE 1F3FD 200D 2642 FE0F 200D 27A1 FE0F | MAN_KNEELING_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| man kneeling facing right: medium-dark skin tone | 🧎🏾‍♂️‍➡️ | 1F9CE 1F3FE 200D 2642 FE0F 200D 27A1 FE0F | MAN_KNEELING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| man kneeling facing right: dark skin tone | 🧎🏿‍♂️‍➡️ | 1F9CE 1F3FF 200D 2642 FE0F 200D 27A1 FE0F | MAN_KNEELING_FACING_RIGHT_DARK_SKIN_TONE |
 | person with white cane | 🧑‍🦯 | 1F9D1 200D 1F9AF | PERSON_WITH_WHITE_CANE |
 | person with white cane: light skin tone | 🧑🏻‍🦯 | 1F9D1 1F3FB 200D 1F9AF | PERSON_WITH_WHITE_CANE_LIGHT_SKIN_TONE |
 | person with white cane: medium-light skin tone | 🧑🏼‍🦯 | 1F9D1 1F3FC 200D 1F9AF | PERSON_WITH_WHITE_CANE_MEDIUM_LIGHT_SKIN_TONE |
 | person with white cane: medium skin tone | 🧑🏽‍🦯 | 1F9D1 1F3FD 200D 1F9AF | PERSON_WITH_WHITE_CANE_MEDIUM_SKIN_TONE |
 | person with white cane: medium-dark skin tone | 🧑🏾‍🦯 | 1F9D1 1F3FE 200D 1F9AF | PERSON_WITH_WHITE_CANE_MEDIUM_DARK_SKIN_TONE |
 | person with white cane: dark skin tone | 🧑🏿‍🦯 | 1F9D1 1F3FF 200D 1F9AF | PERSON_WITH_WHITE_CANE_DARK_SKIN_TONE |
+| person with white cane facing right | 🧑‍🦯‍➡️ | 1F9D1 200D 1F9AF 200D 27A1 FE0F | PERSON_WITH_WHITE_CANE_FACING_RIGHT |
+| person with white cane facing right: light skin tone | 🧑🏻‍🦯‍➡️ | 1F9D1 1F3FB 200D 1F9AF 200D 27A1 FE0F | PERSON_WITH_WHITE_CANE_FACING_RIGHT_LIGHT_SKIN_TONE |
+| person with white cane facing right: medium-light skin tone | 🧑🏼‍🦯‍➡️ | 1F9D1 1F3FC 200D 1F9AF 200D 27A1 FE0F | PERSON_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| person with white cane facing right: medium skin tone | 🧑🏽‍🦯‍➡️ | 1F9D1 1F3FD 200D 1F9AF 200D 27A1 FE0F | PERSON_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| person with white cane facing right: medium-dark skin tone | 🧑🏾‍🦯‍➡️ | 1F9D1 1F3FE 200D 1F9AF 200D 27A1 FE0F | PERSON_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| person with white cane facing right: dark skin tone | 🧑🏿‍🦯‍➡️ | 1F9D1 1F3FF 200D 1F9AF 200D 27A1 FE0F | PERSON_WITH_WHITE_CANE_FACING_RIGHT_DARK_SKIN_TONE |
 | man with white cane | 👨‍🦯 | 1F468 200D 1F9AF | MAN_WITH_WHITE_CANE |
 | man with white cane: light skin tone | 👨🏻‍🦯 | 1F468 1F3FB 200D 1F9AF | MAN_WITH_WHITE_CANE_LIGHT_SKIN_TONE |
 | man with white cane: medium-light skin tone | 👨🏼‍🦯 | 1F468 1F3FC 200D 1F9AF | MAN_WITH_WHITE_CANE_MEDIUM_LIGHT_SKIN_TONE |
 | man with white cane: medium skin tone | 👨🏽‍🦯 | 1F468 1F3FD 200D 1F9AF | MAN_WITH_WHITE_CANE_MEDIUM_SKIN_TONE |
 | man with white cane: medium-dark skin tone | 👨🏾‍🦯 | 1F468 1F3FE 200D 1F9AF | MAN_WITH_WHITE_CANE_MEDIUM_DARK_SKIN_TONE |
 | man with white cane: dark skin tone | 👨🏿‍🦯 | 1F468 1F3FF 200D 1F9AF | MAN_WITH_WHITE_CANE_DARK_SKIN_TONE |
+| man with white cane facing right | 👨‍🦯‍➡️ | 1F468 200D 1F9AF 200D 27A1 FE0F | MAN_WITH_WHITE_CANE_FACING_RIGHT |
+| man with white cane facing right: light skin tone | 👨🏻‍🦯‍➡️ | 1F468 1F3FB 200D 1F9AF 200D 27A1 FE0F | MAN_WITH_WHITE_CANE_FACING_RIGHT_LIGHT_SKIN_TONE |
+| man with white cane facing right: medium-light skin tone | 👨🏼‍🦯‍➡️ | 1F468 1F3FC 200D 1F9AF 200D 27A1 FE0F | MAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| man with white cane facing right: medium skin tone | 👨🏽‍🦯‍➡️ | 1F468 1F3FD 200D 1F9AF 200D 27A1 FE0F | MAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| man with white cane facing right: medium-dark skin tone | 👨🏾‍🦯‍➡️ | 1F468 1F3FE 200D 1F9AF 200D 27A1 FE0F | MAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| man with white cane facing right: dark skin tone | 👨🏿‍🦯‍➡️ | 1F468 1F3FF 200D 1F9AF 200D 27A1 FE0F | MAN_WITH_WHITE_CANE_FACING_RIGHT_DARK_SKIN_TONE |
 | woman with white cane | 👩‍🦯 | 1F469 200D 1F9AF | WOMAN_WITH_WHITE_CANE |
 | woman with white cane: light skin tone | 👩🏻‍🦯 | 1F469 1F3FB 200D 1F9AF | WOMAN_WITH_WHITE_CANE_LIGHT_SKIN_TONE |
 | woman with white cane: medium-light skin tone | 👩🏼‍🦯 | 1F469 1F3FC 200D 1F9AF | WOMAN_WITH_WHITE_CANE_MEDIUM_LIGHT_SKIN_TONE |
 | woman with white cane: medium skin tone | 👩🏽‍🦯 | 1F469 1F3FD 200D 1F9AF | WOMAN_WITH_WHITE_CANE_MEDIUM_SKIN_TONE |
 | woman with white cane: medium-dark skin tone | 👩🏾‍🦯 | 1F469 1F3FE 200D 1F9AF | WOMAN_WITH_WHITE_CANE_MEDIUM_DARK_SKIN_TONE |
 | woman with white cane: dark skin tone | 👩🏿‍🦯 | 1F469 1F3FF 200D 1F9AF | WOMAN_WITH_WHITE_CANE_DARK_SKIN_TONE |
+| woman with white cane facing right | 👩‍🦯‍➡️ | 1F469 200D 1F9AF 200D 27A1 FE0F | WOMAN_WITH_WHITE_CANE_FACING_RIGHT |
+| woman with white cane facing right: light skin tone | 👩🏻‍🦯‍➡️ | 1F469 1F3FB 200D 1F9AF 200D 27A1 FE0F | WOMAN_WITH_WHITE_CANE_FACING_RIGHT_LIGHT_SKIN_TONE |
+| woman with white cane facing right: medium-light skin tone | 👩🏼‍🦯‍➡️ | 1F469 1F3FC 200D 1F9AF 200D 27A1 FE0F | WOMAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| woman with white cane facing right: medium skin tone | 👩🏽‍🦯‍➡️ | 1F469 1F3FD 200D 1F9AF 200D 27A1 FE0F | WOMAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| woman with white cane facing right: medium-dark skin tone | 👩🏾‍🦯‍➡️ | 1F469 1F3FE 200D 1F9AF 200D 27A1 FE0F | WOMAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| woman with white cane facing right: dark skin tone | 👩🏿‍🦯‍➡️ | 1F469 1F3FF 200D 1F9AF 200D 27A1 FE0F | WOMAN_WITH_WHITE_CANE_FACING_RIGHT_DARK_SKIN_TONE |
 | person in motorized wheelchair | 🧑‍🦼 | 1F9D1 200D 1F9BC | PERSON_IN_MOTORIZED_WHEELCHAIR |
 | person in motorized wheelchair: light skin tone | 🧑🏻‍🦼 | 1F9D1 1F3FB 200D 1F9BC | PERSON_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE |
 | person in motorized wheelchair: medium-light skin tone | 🧑🏼‍🦼 | 1F9D1 1F3FC 200D 1F9BC | PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE |
 | person in motorized wheelchair: medium skin tone | 🧑🏽‍🦼 | 1F9D1 1F3FD 200D 1F9BC | PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE |
 | person in motorized wheelchair: medium-dark skin tone | 🧑🏾‍🦼 | 1F9D1 1F3FE 200D 1F9BC | PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE |
 | person in motorized wheelchair: dark skin tone | 🧑🏿‍🦼 | 1F9D1 1F3FF 200D 1F9BC | PERSON_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE |
+| person in motorized wheelchair facing right | 🧑‍🦼‍➡️ | 1F9D1 200D 1F9BC 200D 27A1 FE0F | PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT |
+| person in motorized wheelchair facing right: light skin tone | 🧑🏻‍🦼‍➡️ | 1F9D1 1F3FB 200D 1F9BC 200D 27A1 FE0F | PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE |
+| person in motorized wheelchair facing right: medium-light skin tone | 🧑🏼‍🦼‍➡️ | 1F9D1 1F3FC 200D 1F9BC 200D 27A1 FE0F | PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| person in motorized wheelchair facing right: medium skin tone | 🧑🏽‍🦼‍➡️ | 1F9D1 1F3FD 200D 1F9BC 200D 27A1 FE0F | PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| person in motorized wheelchair facing right: medium-dark skin tone | 🧑🏾‍🦼‍➡️ | 1F9D1 1F3FE 200D 1F9BC 200D 27A1 FE0F | PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| person in motorized wheelchair facing right: dark skin tone | 🧑🏿‍🦼‍➡️ | 1F9D1 1F3FF 200D 1F9BC 200D 27A1 FE0F | PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE |
 | man in motorized wheelchair | 👨‍🦼 | 1F468 200D 1F9BC | MAN_IN_MOTORIZED_WHEELCHAIR |
 | man in motorized wheelchair: light skin tone | 👨🏻‍🦼 | 1F468 1F3FB 200D 1F9BC | MAN_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE |
 | man in motorized wheelchair: medium-light skin tone | 👨🏼‍🦼 | 1F468 1F3FC 200D 1F9BC | MAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE |
 | man in motorized wheelchair: medium skin tone | 👨🏽‍🦼 | 1F468 1F3FD 200D 1F9BC | MAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE |
 | man in motorized wheelchair: medium-dark skin tone | 👨🏾‍🦼 | 1F468 1F3FE 200D 1F9BC | MAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE |
 | man in motorized wheelchair: dark skin tone | 👨🏿‍🦼 | 1F468 1F3FF 200D 1F9BC | MAN_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE |
+| man in motorized wheelchair facing right | 👨‍🦼‍➡️ | 1F468 200D 1F9BC 200D 27A1 FE0F | MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT |
+| man in motorized wheelchair facing right: light skin tone | 👨🏻‍🦼‍➡️ | 1F468 1F3FB 200D 1F9BC 200D 27A1 FE0F | MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE |
+| man in motorized wheelchair facing right: medium-light skin tone | 👨🏼‍🦼‍➡️ | 1F468 1F3FC 200D 1F9BC 200D 27A1 FE0F | MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| man in motorized wheelchair facing right: medium skin tone | 👨🏽‍🦼‍➡️ | 1F468 1F3FD 200D 1F9BC 200D 27A1 FE0F | MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| man in motorized wheelchair facing right: medium-dark skin tone | 👨🏾‍🦼‍➡️ | 1F468 1F3FE 200D 1F9BC 200D 27A1 FE0F | MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| man in motorized wheelchair facing right: dark skin tone | 👨🏿‍🦼‍➡️ | 1F468 1F3FF 200D 1F9BC 200D 27A1 FE0F | MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE |
 | woman in motorized wheelchair | 👩‍🦼 | 1F469 200D 1F9BC | WOMAN_IN_MOTORIZED_WHEELCHAIR |
 | woman in motorized wheelchair: light skin tone | 👩🏻‍🦼 | 1F469 1F3FB 200D 1F9BC | WOMAN_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE |
 | woman in motorized wheelchair: medium-light skin tone | 👩🏼‍🦼 | 1F469 1F3FC 200D 1F9BC | WOMAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE |
 | woman in motorized wheelchair: medium skin tone | 👩🏽‍🦼 | 1F469 1F3FD 200D 1F9BC | WOMAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE |
 | woman in motorized wheelchair: medium-dark skin tone | 👩🏾‍🦼 | 1F469 1F3FE 200D 1F9BC | WOMAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE |
 | woman in motorized wheelchair: dark skin tone | 👩🏿‍🦼 | 1F469 1F3FF 200D 1F9BC | WOMAN_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE |
+| woman in motorized wheelchair facing right | 👩‍🦼‍➡️ | 1F469 200D 1F9BC 200D 27A1 FE0F | WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT |
+| woman in motorized wheelchair facing right: light skin tone | 👩🏻‍🦼‍➡️ | 1F469 1F3FB 200D 1F9BC 200D 27A1 FE0F | WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE |
+| woman in motorized wheelchair facing right: medium-light skin tone | 👩🏼‍🦼‍➡️ | 1F469 1F3FC 200D 1F9BC 200D 27A1 FE0F | WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| woman in motorized wheelchair facing right: medium skin tone | 👩🏽‍🦼‍➡️ | 1F469 1F3FD 200D 1F9BC 200D 27A1 FE0F | WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| woman in motorized wheelchair facing right: medium-dark skin tone | 👩🏾‍🦼‍➡️ | 1F469 1F3FE 200D 1F9BC 200D 27A1 FE0F | WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| woman in motorized wheelchair facing right: dark skin tone | 👩🏿‍🦼‍➡️ | 1F469 1F3FF 200D 1F9BC 200D 27A1 FE0F | WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE |
 | person in manual wheelchair | 🧑‍🦽 | 1F9D1 200D 1F9BD | PERSON_IN_MANUAL_WHEELCHAIR |
 | person in manual wheelchair: light skin tone | 🧑🏻‍🦽 | 1F9D1 1F3FB 200D 1F9BD | PERSON_IN_MANUAL_WHEELCHAIR_LIGHT_SKIN_TONE |
 | person in manual wheelchair: medium-light skin tone | 🧑🏼‍🦽 | 1F9D1 1F3FC 200D 1F9BD | PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE |
 | person in manual wheelchair: medium skin tone | 🧑🏽‍🦽 | 1F9D1 1F3FD 200D 1F9BD | PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_SKIN_TONE |
 | person in manual wheelchair: medium-dark skin tone | 🧑🏾‍🦽 | 1F9D1 1F3FE 200D 1F9BD | PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE |
 | person in manual wheelchair: dark skin tone | 🧑🏿‍🦽 | 1F9D1 1F3FF 200D 1F9BD | PERSON_IN_MANUAL_WHEELCHAIR_DARK_SKIN_TONE |
+| person in manual wheelchair facing right | 🧑‍🦽‍➡️ | 1F9D1 200D 1F9BD 200D 27A1 FE0F | PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT |
+| person in manual wheelchair facing right: light skin tone | 🧑🏻‍🦽‍➡️ | 1F9D1 1F3FB 200D 1F9BD 200D 27A1 FE0F | PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE |
+| person in manual wheelchair facing right: medium-light skin tone | 🧑🏼‍🦽‍➡️ | 1F9D1 1F3FC 200D 1F9BD 200D 27A1 FE0F | PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| person in manual wheelchair facing right: medium skin tone | 🧑🏽‍🦽‍➡️ | 1F9D1 1F3FD 200D 1F9BD 200D 27A1 FE0F | PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| person in manual wheelchair facing right: medium-dark skin tone | 🧑🏾‍🦽‍➡️ | 1F9D1 1F3FE 200D 1F9BD 200D 27A1 FE0F | PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| person in manual wheelchair facing right: dark skin tone | 🧑🏿‍🦽‍➡️ | 1F9D1 1F3FF 200D 1F9BD 200D 27A1 FE0F | PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE |
 | man in manual wheelchair | 👨‍🦽 | 1F468 200D 1F9BD | MAN_IN_MANUAL_WHEELCHAIR |
 | man in manual wheelchair: light skin tone | 👨🏻‍🦽 | 1F468 1F3FB 200D 1F9BD | MAN_IN_MANUAL_WHEELCHAIR_LIGHT_SKIN_TONE |
 | man in manual wheelchair: medium-light skin tone | 👨🏼‍🦽 | 1F468 1F3FC 200D 1F9BD | MAN_IN_MANUAL_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE |
 | man in manual wheelchair: medium skin tone | 👨🏽‍🦽 | 1F468 1F3FD 200D 1F9BD | MAN_IN_MANUAL_WHEELCHAIR_MEDIUM_SKIN_TONE |
 | man in manual wheelchair: medium-dark skin tone | 👨🏾‍🦽 | 1F468 1F3FE 200D 1F9BD | MAN_IN_MANUAL_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE |
 | man in manual wheelchair: dark skin tone | 👨🏿‍🦽 | 1F468 1F3FF 200D 1F9BD | MAN_IN_MANUAL_WHEELCHAIR_DARK_SKIN_TONE |
+| man in manual wheelchair facing right | 👨‍🦽‍➡️ | 1F468 200D 1F9BD 200D 27A1 FE0F | MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT |
+| man in manual wheelchair facing right: light skin tone | 👨🏻‍🦽‍➡️ | 1F468 1F3FB 200D 1F9BD 200D 27A1 FE0F | MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE |
+| man in manual wheelchair facing right: medium-light skin tone | 👨🏼‍🦽‍➡️ | 1F468 1F3FC 200D 1F9BD 200D 27A1 FE0F | MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| man in manual wheelchair facing right: medium skin tone | 👨🏽‍🦽‍➡️ | 1F468 1F3FD 200D 1F9BD 200D 27A1 FE0F | MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| man in manual wheelchair facing right: medium-dark skin tone | 👨🏾‍🦽‍➡️ | 1F468 1F3FE 200D 1F9BD 200D 27A1 FE0F | MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| man in manual wheelchair facing right: dark skin tone | 👨🏿‍🦽‍➡️ | 1F468 1F3FF 200D 1F9BD 200D 27A1 FE0F | MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE |
 | woman in manual wheelchair | 👩‍🦽 | 1F469 200D 1F9BD | WOMAN_IN_MANUAL_WHEELCHAIR |
 | woman in manual wheelchair: light skin tone | 👩🏻‍🦽 | 1F469 1F3FB 200D 1F9BD | WOMAN_IN_MANUAL_WHEELCHAIR_LIGHT_SKIN_TONE |
 | woman in manual wheelchair: medium-light skin tone | 👩🏼‍🦽 | 1F469 1F3FC 200D 1F9BD | WOMAN_IN_MANUAL_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE |
 | woman in manual wheelchair: medium skin tone | 👩🏽‍🦽 | 1F469 1F3FD 200D 1F9BD | WOMAN_IN_MANUAL_WHEELCHAIR_MEDIUM_SKIN_TONE |
 | woman in manual wheelchair: medium-dark skin tone | 👩🏾‍🦽 | 1F469 1F3FE 200D 1F9BD | WOMAN_IN_MANUAL_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE |
 | woman in manual wheelchair: dark skin tone | 👩🏿‍🦽 | 1F469 1F3FF 200D 1F9BD | WOMAN_IN_MANUAL_WHEELCHAIR_DARK_SKIN_TONE |
+| woman in manual wheelchair facing right | 👩‍🦽‍➡️ | 1F469 200D 1F9BD 200D 27A1 FE0F | WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT |
+| woman in manual wheelchair facing right: light skin tone | 👩🏻‍🦽‍➡️ | 1F469 1F3FB 200D 1F9BD 200D 27A1 FE0F | WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE |
+| woman in manual wheelchair facing right: medium-light skin tone | 👩🏼‍🦽‍➡️ | 1F469 1F3FC 200D 1F9BD 200D 27A1 FE0F | WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| woman in manual wheelchair facing right: medium skin tone | 👩🏽‍🦽‍➡️ | 1F469 1F3FD 200D 1F9BD 200D 27A1 FE0F | WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| woman in manual wheelchair facing right: medium-dark skin tone | 👩🏾‍🦽‍➡️ | 1F469 1F3FE 200D 1F9BD 200D 27A1 FE0F | WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| woman in manual wheelchair facing right: dark skin tone | 👩🏿‍🦽‍➡️ | 1F469 1F3FF 200D 1F9BD 200D 27A1 FE0F | WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE |
 | person running | 🏃 | 1F3C3 | PERSON_RUNNING |
 | person running: light skin tone | 🏃🏻 | 1F3C3 1F3FB | PERSON_RUNNING_LIGHT_SKIN_TONE |
 | person running: medium-light skin tone | 🏃🏼 | 1F3C3 1F3FC | PERSON_RUNNING_MEDIUM_LIGHT_SKIN_TONE |
@@ -1655,6 +1747,24 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | woman running: medium skin tone | 🏃🏽‍♀️ | 1F3C3 1F3FD 200D 2640 FE0F | WOMAN_RUNNING_MEDIUM_SKIN_TONE |
 | woman running: medium-dark skin tone | 🏃🏾‍♀️ | 1F3C3 1F3FE 200D 2640 FE0F | WOMAN_RUNNING_MEDIUM_DARK_SKIN_TONE |
 | woman running: dark skin tone | 🏃🏿‍♀️ | 1F3C3 1F3FF 200D 2640 FE0F | WOMAN_RUNNING_DARK_SKIN_TONE |
+| person running facing right | 🏃‍➡️ | 1F3C3 200D 27A1 FE0F | PERSON_RUNNING_FACING_RIGHT |
+| person running facing right: light skin tone | 🏃🏻‍➡️ | 1F3C3 1F3FB 200D 27A1 FE0F | PERSON_RUNNING_FACING_RIGHT_LIGHT_SKIN_TONE |
+| person running facing right: medium-light skin tone | 🏃🏼‍➡️ | 1F3C3 1F3FC 200D 27A1 FE0F | PERSON_RUNNING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| person running facing right: medium skin tone | 🏃🏽‍➡️ | 1F3C3 1F3FD 200D 27A1 FE0F | PERSON_RUNNING_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| person running facing right: medium-dark skin tone | 🏃🏾‍➡️ | 1F3C3 1F3FE 200D 27A1 FE0F | PERSON_RUNNING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| person running facing right: dark skin tone | 🏃🏿‍➡️ | 1F3C3 1F3FF 200D 27A1 FE0F | PERSON_RUNNING_FACING_RIGHT_DARK_SKIN_TONE |
+| woman running facing right | 🏃‍♀️‍➡️ | 1F3C3 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_RUNNING_FACING_RIGHT |
+| woman running facing right: light skin tone | 🏃🏻‍♀️‍➡️ | 1F3C3 1F3FB 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_RUNNING_FACING_RIGHT_LIGHT_SKIN_TONE |
+| woman running facing right: medium-light skin tone | 🏃🏼‍♀️‍➡️ | 1F3C3 1F3FC 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_RUNNING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| woman running facing right: medium skin tone | 🏃🏽‍♀️‍➡️ | 1F3C3 1F3FD 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_RUNNING_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| woman running facing right: medium-dark skin tone | 🏃🏾‍♀️‍➡️ | 1F3C3 1F3FE 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_RUNNING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| woman running facing right: dark skin tone | 🏃🏿‍♀️‍➡️ | 1F3C3 1F3FF 200D 2640 FE0F 200D 27A1 FE0F | WOMAN_RUNNING_FACING_RIGHT_DARK_SKIN_TONE |
+| man running facing right | 🏃‍♂️‍➡️ | 1F3C3 200D 2642 FE0F 200D 27A1 FE0F | MAN_RUNNING_FACING_RIGHT |
+| man running facing right: light skin tone | 🏃🏻‍♂️‍➡️ | 1F3C3 1F3FB 200D 2642 FE0F 200D 27A1 FE0F | MAN_RUNNING_FACING_RIGHT_LIGHT_SKIN_TONE |
+| man running facing right: medium-light skin tone | 🏃🏼‍♂️‍➡️ | 1F3C3 1F3FC 200D 2642 FE0F 200D 27A1 FE0F | MAN_RUNNING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE |
+| man running facing right: medium skin tone | 🏃🏽‍♂️‍➡️ | 1F3C3 1F3FD 200D 2642 FE0F 200D 27A1 FE0F | MAN_RUNNING_FACING_RIGHT_MEDIUM_SKIN_TONE |
+| man running facing right: medium-dark skin tone | 🏃🏾‍♂️‍➡️ | 1F3C3 1F3FE 200D 2642 FE0F 200D 27A1 FE0F | MAN_RUNNING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE |
+| man running facing right: dark skin tone | 🏃🏿‍♂️‍➡️ | 1F3C3 1F3FF 200D 2642 FE0F 200D 27A1 FE0F | MAN_RUNNING_FACING_RIGHT_DARK_SKIN_TONE |
 | woman dancing | 💃 | 1F483 | WOMAN_DANCING |
 | woman dancing: light skin tone | 💃🏻 | 1F483 1F3FB | WOMAN_DANCING_LIGHT_SKIN_TONE |
 | woman dancing: medium-light skin tone | 💃🏼 | 1F483 1F3FC | WOMAN_DANCING_MEDIUM_LIGHT_SKIN_TONE |
@@ -2287,7 +2397,6 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | couple with heart: woman, woman, dark skin tone, medium skin tone | 👩🏿‍❤️‍👩🏽 | 1F469 1F3FF 200D 2764 FE0F 200D 1F469 1F3FD | COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE |
 | couple with heart: woman, woman, dark skin tone, medium-dark skin tone | 👩🏿‍❤️‍👩🏾 | 1F469 1F3FF 200D 2764 FE0F 200D 1F469 1F3FE | COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE |
 | couple with heart: woman, woman, dark skin tone | 👩🏿‍❤️‍👩🏿 | 1F469 1F3FF 200D 2764 FE0F 200D 1F469 1F3FF | COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE |
-| family | 👪 | 1F46A | FAMILY |
 | family: man, woman, boy | 👨‍👩‍👦 | 1F468 200D 1F469 200D 1F466 | FAMILY_MAN_WOMAN_BOY |
 | family: man, woman, girl | 👨‍👩‍👧 | 1F468 200D 1F469 200D 1F467 | FAMILY_MAN_WOMAN_GIRL |
 | family: man, woman, girl, boy | 👨‍👩‍👧‍👦 | 1F468 200D 1F469 200D 1F467 200D 1F466 | FAMILY_MAN_WOMAN_GIRL_BOY |
@@ -2317,6 +2426,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | bust in silhouette | 👤 | 1F464 | BUST_IN_SILHOUETTE |
 | busts in silhouette | 👥 | 1F465 | BUSTS_IN_SILHOUETTE |
 | people hugging | 🫂 | 1FAC2 | PEOPLE_HUGGING |
+| family | 👪 | 1F46A | FAMILY |
+| family: adult, adult, child | 🧑‍🧑‍🧒 | 1F9D1 200D 1F9D1 200D 1F9D2 | FAMILY_ADULT_ADULT_CHILD |
+| family: adult, adult, child, child | 🧑‍🧑‍🧒‍🧒 | 1F9D1 200D 1F9D1 200D 1F9D2 200D 1F9D2 | FAMILY_ADULT_ADULT_CHILD_CHILD |
+| family: adult, child | 🧑‍🧒 | 1F9D1 200D 1F9D2 | FAMILY_ADULT_CHILD |
+| family: adult, child, child | 🧑‍🧒‍🧒 | 1F9D1 200D 1F9D2 200D 1F9D2 | FAMILY_ADULT_CHILD_CHILD |
 | footprints | 👣 | 1F463 | FOOTPRINTS |
 | monkey face | 🐵 | 1F435 | MONKEY_FACE |
 | monkey | 🐒 | 1F412 | MONKEY |
@@ -2405,6 +2519,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | wing | 🪽 | 1FABD | WING |
 | black bird | 🐦‍⬛ | 1F426 200D 2B1B | BLACK_BIRD |
 | goose | 🪿 | 1FABF | GOOSE |
+| phoenix | 🐦‍🔥 | 1F426 200D 1F525 | PHOENIX |
 | frog | 🐸 | 1F438 | FROG |
 | crocodile | 🐊 | 1F40A | CROCODILE |
 | turtle | 🐢 | 1F422 | TURTLE |
@@ -2475,6 +2590,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | watermelon | 🍉 | 1F349 | WATERMELON |
 | tangerine | 🍊 | 1F34A | TANGERINE |
 | lemon | 🍋 | 1F34B | LEMON |
+| lime | 🍋‍🟩 | 1F34B 200D 1F7E9 | LIME |
 | banana | 🍌 | 1F34C | BANANA |
 | pineapple | 🍍 | 1F34D | PINEAPPLE |
 | mango | 🥭 | 1F96D | MANGO |
@@ -2506,6 +2622,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | chestnut | 🌰 | 1F330 | CHESTNUT |
 | ginger root | 🫚 | 1FADA | GINGER_ROOT |
 | pea pod | 🫛 | 1FADB | PEA_POD |
+| brown mushroom | 🍄‍🟫 | 1F344 200D 1F7EB | BROWN_MUSHROOM |
 | bread | 🍞 | 1F35E | BREAD |
 | croissant | 🥐 | 1F950 | CROISSANT |
 | baguette bread | 🥖 | 1F956 | BAGUETTE_BREAD |
@@ -3114,6 +3231,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | balance scale | ⚖️ | 2696 FE0F | BALANCE_SCALE |
 | white cane | 🦯 | 1F9AF | WHITE_CANE |
 | link | 🔗 | 1F517 | LINK |
+| broken chain | ⛓️‍💥 | 26D3 FE0F 200D 1F4A5 | BROKEN_CHAIN |
 | chains | ⛓️ | 26D3 FE0F | CHAINS |
 | hook | 🪝 | 1FA9D | HOOK |
 | toolbox | 🧰 | 1F9F0 | TOOLBOX |
@@ -3629,7 +3747,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | flag: Turkmenistan | 🇹🇲 | 1F1F9 1F1F2 | FLAG_TURKMENISTAN |
 | flag: Tunisia | 🇹🇳 | 1F1F9 1F1F3 | FLAG_TUNISIA |
 | flag: Tonga | 🇹🇴 | 1F1F9 1F1F4 | FLAG_TONGA |
-| flag: Turkey | 🇹🇷 | 1F1F9 1F1F7 | FLAG_TURKEY |
+| flag: Türkiye | 🇹🇷 | 1F1F9 1F1F7 | FLAG_TURKIYE |
 | flag: Trinidad & Tobago | 🇹🇹 | 1F1F9 1F1F9 | FLAG_TRINIDAD_TOBAGO |
 | flag: Tuvalu | 🇹🇻 | 1F1F9 1F1FB | FLAG_TUVALU |
 | flag: Taiwan | 🇹🇼 | 1F1F9 1F1FC | FLAG_TAIWAN |
