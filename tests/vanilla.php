@@ -18,13 +18,14 @@ function vanilla()
         'E4.0' => [Emoji::FLAG_UNITED_NATIONS, "\u{1F1FA}\u{1F1F3}"],
         'E13.1' => [Emoji::HEART_ON_FIRE, "\u{2764}\u{FE0F}\u{200D}\u{1F525}"],
         'E15.0' => [Emoji::PINK_HEART, "\u{1FA77}"],
+        'E16.0' => [Emoji::HARP, "\u{1FA89}"],
     ];
 
     foreach ($provider as $key => $testCase) {
         if ($testCase[0] !== $testCase[1]) {
             throw new Exception("Test '$key' failed!");
         }
-        echo $testCase[0];
+        echo "OK $testCase[0] \n";
     }
     $count = count($provider);
     echo PHP_EOL, "All $count tests ok!", PHP_EOL;

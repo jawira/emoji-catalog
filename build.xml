@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="jawira/emoji-catalog" default="help" phingVersion="3">
+<project name="jawira/emoji-catalog" default="help">
 
 
-  <property name="emoji.source" value="https://unicode.org/Public/emoji/15.1/emoji-test.txt"/>
+  <property name="emoji.source" value="https://unicode.org/Public/emoji/16.0/emoji-test.txt"/>
 
 
   <target name="setup" description="Prepare project for dev" depends="composer:install"/>
   <target name="qa" description="Quality assurance"
-          depends="composer:normalize,composer:validate,php:lint,emoji:tests"/>
+          depends="composer:validate,php:lint,emoji:tests"/>
   <target name="update" description="Update class and catalog"
           depends="emoji:download-source,emoji:update,doc:update,emoji:count"/>
 
@@ -28,16 +28,6 @@
       <arg value="--no-interaction"/>
       <arg value="--profile"/>
       <arg value="--prefer-dist"/>
-    </composer>
-  </target>
-
-  <target name="composer:normalize" description="Normalize composer.json">
-    <composer command="normalize">
-      <arg value="--ansi"/>
-      <arg value="--no-interaction"/>
-      <arg value="--diff"/>
-      <arg value="--indent-size=2"/>
-      <arg value="--indent-style=space"/>
     </composer>
   </target>
 

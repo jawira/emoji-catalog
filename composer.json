@@ -1,6 +1,6 @@
 {
   "name": "jawira/emoji-catalog",
-  "description": "Get access to +3600 emojis as class constants",
+  "description": "Get access to +3700 emojis as class constants",
   "license": "MIT",
   "type": "library",
   "keywords": [
@@ -15,14 +15,13 @@
   "authors": [
     {
       "name": "Jawira Portugal",
-      "email": "dev@tugal.be"
+      "homepage": "https://jawira.com/"
     }
   ],
   "require-dev": {
     "php": "^7.3 || ^8.0",
     "ext-intl": "*",
     "ext-mbstring": "*",
-    "ergebnis/composer-normalize": "^2.28",
     "jawira/skeleton": "^2.16",
     "phing/phing": "^2.17 || ^3"
   },
@@ -40,9 +39,6 @@
     ]
   },
   "config": {
-    "allow-plugins": {
-      "ergebnis/composer-normalize": true
-    },
     "platform-check": true,
     "preferred-install": "dist",
     "sort-packages": true
