@@ -61,6 +61,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | sleepy face | 😪 | 1F62A | SLEEPY_FACE |
 | drooling face | 🤤 | 1F924 | DROOLING_FACE |
 | sleeping face | 😴 | 1F634 | SLEEPING_FACE |
+| face with bags under eyes | 🫩 | 1FAE9 | FACE_WITH_BAGS_UNDER_EYES |
 | face with medical mask | 😷 | 1F637 | FACE_WITH_MEDICAL_MASK |
 | face with thermometer | 🤒 | 1F912 | FACE_WITH_THERMOMETER |
 | face with head-bandage | 🤕 | 1F915 | FACE_WITH_HEAD_BANDAGE |
@@ -1356,12 +1357,12 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | Mrs. Claus: medium skin tone | 🤶🏽 | 1F936 1F3FD | MRS_CLAUS_MEDIUM_SKIN_TONE |
 | Mrs. Claus: medium-dark skin tone | 🤶🏾 | 1F936 1F3FE | MRS_CLAUS_MEDIUM_DARK_SKIN_TONE |
 | Mrs. Claus: dark skin tone | 🤶🏿 | 1F936 1F3FF | MRS_CLAUS_DARK_SKIN_TONE |
-| mx claus | 🧑‍🎄 | 1F9D1 200D 1F384 | MX_CLAUS |
-| mx claus: light skin tone | 🧑🏻‍🎄 | 1F9D1 1F3FB 200D 1F384 | MX_CLAUS_LIGHT_SKIN_TONE |
-| mx claus: medium-light skin tone | 🧑🏼‍🎄 | 1F9D1 1F3FC 200D 1F384 | MX_CLAUS_MEDIUM_LIGHT_SKIN_TONE |
-| mx claus: medium skin tone | 🧑🏽‍🎄 | 1F9D1 1F3FD 200D 1F384 | MX_CLAUS_MEDIUM_SKIN_TONE |
-| mx claus: medium-dark skin tone | 🧑🏾‍🎄 | 1F9D1 1F3FE 200D 1F384 | MX_CLAUS_MEDIUM_DARK_SKIN_TONE |
-| mx claus: dark skin tone | 🧑🏿‍🎄 | 1F9D1 1F3FF 200D 1F384 | MX_CLAUS_DARK_SKIN_TONE |
+| Mx Claus | 🧑‍🎄 | 1F9D1 200D 1F384 | MX_CLAUS |
+| Mx Claus: light skin tone | 🧑🏻‍🎄 | 1F9D1 1F3FB 200D 1F384 | MX_CLAUS_LIGHT_SKIN_TONE |
+| Mx Claus: medium-light skin tone | 🧑🏼‍🎄 | 1F9D1 1F3FC 200D 1F384 | MX_CLAUS_MEDIUM_LIGHT_SKIN_TONE |
+| Mx Claus: medium skin tone | 🧑🏽‍🎄 | 1F9D1 1F3FD 200D 1F384 | MX_CLAUS_MEDIUM_SKIN_TONE |
+| Mx Claus: medium-dark skin tone | 🧑🏾‍🎄 | 1F9D1 1F3FE 200D 1F384 | MX_CLAUS_MEDIUM_DARK_SKIN_TONE |
+| Mx Claus: dark skin tone | 🧑🏿‍🎄 | 1F9D1 1F3FF 200D 1F384 | MX_CLAUS_DARK_SKIN_TONE |
 | superhero | 🦸 | 1F9B8 | SUPERHERO |
 | superhero: light skin tone | 🦸🏻 | 1F9B8 1F3FB | SUPERHERO_LIGHT_SKIN_TONE |
 | superhero: medium-light skin tone | 🦸🏼 | 1F9B8 1F3FC | SUPERHERO_MEDIUM_LIGHT_SKIN_TONE |
@@ -2432,6 +2433,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | family: adult, child | 🧑‍🧒 | 1F9D1 200D 1F9D2 | FAMILY_ADULT_CHILD |
 | family: adult, child, child | 🧑‍🧒‍🧒 | 1F9D1 200D 1F9D2 200D 1F9D2 | FAMILY_ADULT_CHILD_CHILD |
 | footprints | 👣 | 1F463 | FOOTPRINTS |
+| fingerprint | 🫆 | 1FAC6 | FINGERPRINT |
 | monkey face | 🐵 | 1F435 | MONKEY_FACE |
 | monkey | 🐒 | 1F412 | MONKEY |
 | gorilla | 🦍 | 1F98D | GORILLA |
@@ -2541,6 +2543,11 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | spiral shell | 🐚 | 1F41A | SPIRAL_SHELL |
 | coral | 🪸 | 1FAB8 | CORAL |
 | jellyfish | 🪼 | 1FABC | JELLYFISH |
+| crab | 🦀 | 1F980 | CRAB |
+| lobster | 🦞 | 1F99E | LOBSTER |
+| shrimp | 🦐 | 1F990 | SHRIMP |
+| squid | 🦑 | 1F991 | SQUID |
+| oyster | 🦪 | 1F9AA | OYSTER |
 | snail | 🐌 | 1F40C | SNAIL |
 | butterfly | 🦋 | 1F98B | BUTTERFLY |
 | bug | 🐛 | 1F41B | BUG |
@@ -2585,6 +2592,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | empty nest | 🪹 | 1FAB9 | EMPTY_NEST |
 | nest with eggs | 🪺 | 1FABA | NEST_WITH_EGGS |
 | mushroom | 🍄 | 1F344 | MUSHROOM |
+| leafless tree | 🪾 | 1FABE | LEAFLESS_TREE |
 | grapes | 🍇 | 1F347 | GRAPES |
 | melon | 🍈 | 1F348 | MELON |
 | watermelon | 🍉 | 1F349 | WATERMELON |
@@ -2623,6 +2631,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | ginger root | 🫚 | 1FADA | GINGER_ROOT |
 | pea pod | 🫛 | 1FADB | PEA_POD |
 | brown mushroom | 🍄‍🟫 | 1F344 200D 1F7EB | BROWN_MUSHROOM |
+| root vegetable | 🫜 | 1FADC | ROOT_VEGETABLE |
 | bread | 🍞 | 1F35E | BREAD |
 | croissant | 🥐 | 1F950 | CROISSANT |
 | baguette bread | 🥖 | 1F956 | BAGUETTE_BREAD |
@@ -2674,11 +2683,6 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | dumpling | 🥟 | 1F95F | DUMPLING |
 | fortune cookie | 🥠 | 1F960 | FORTUNE_COOKIE |
 | takeout box | 🥡 | 1F961 | TAKEOUT_BOX |
-| crab | 🦀 | 1F980 | CRAB |
-| lobster | 🦞 | 1F99E | LOBSTER |
-| shrimp | 🦐 | 1F990 | SHRIMP |
-| squid | 🦑 | 1F991 | SQUID |
-| oyster | 🦪 | 1F9AA | OYSTER |
 | soft ice cream | 🍦 | 1F366 | SOFT_ICE_CREAM |
 | shaved ice | 🍧 | 1F367 | SHAVED_ICE |
 | ice cream | 🍨 | 1F368 | ICE_CREAM |
@@ -3099,6 +3103,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | long drum | 🪘 | 1FA98 | LONG_DRUM |
 | maracas | 🪇 | 1FA87 | MARACAS |
 | flute | 🪈 | 1FA88 | FLUTE |
+| harp | 🪉 | 1FA89 | HARP |
 | mobile phone | 📱 | 1F4F1 | MOBILE_PHONE |
 | mobile phone with arrow | 📲 | 1F4F2 | MOBILE_PHONE_WITH_ARROW |
 | telephone | ☎️ | 260E FE0F | TELEPHONE |
@@ -3237,6 +3242,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | toolbox | 🧰 | 1F9F0 | TOOLBOX |
 | magnet | 🧲 | 1F9F2 | MAGNET |
 | ladder | 🪜 | 1FA9C | LADDER |
+| shovel | 🪏 | 1FA8F | SHOVEL |
 | alembic | ⚗️ | 2697 FE0F | ALEMBIC |
 | test tube | 🧪 | 1F9EA | TEST_TUBE |
 | petri dish | 🧫 | 1F9EB | PETRI_DISH |
@@ -3422,6 +3428,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | copyright | ©️ | 00A9 FE0F | COPYRIGHT |
 | registered | ®️ | 00AE FE0F | REGISTERED |
 | trade mark | ™️ | 2122 FE0F | TRADE_MARK |
+| splatter | 🫟 | 1FADF | SPLATTER |
 | keycap: # | #️⃣ | 0023 FE0F 20E3 | KEYCAP_NUMBER |
 | keycap: * | *️⃣ | 002A FE0F 20E3 | KEYCAP_ASTERISK |
 | keycap: 0 | 0️⃣ | 0030 FE0F 20E3 | KEYCAP_0 |
@@ -3567,6 +3574,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | flag: China | 🇨🇳 | 1F1E8 1F1F3 | FLAG_CHINA |
 | flag: Colombia | 🇨🇴 | 1F1E8 1F1F4 | FLAG_COLOMBIA |
 | flag: Clipperton Island | 🇨🇵 | 1F1E8 1F1F5 | FLAG_CLIPPERTON_ISLAND |
+| flag: Sark | 🇨🇶 | 1F1E8 1F1F6 | FLAG_SARK |
 | flag: Costa Rica | 🇨🇷 | 1F1E8 1F1F7 | FLAG_COSTA_RICA |
 | flag: Cuba | 🇨🇺 | 1F1E8 1F1FA | FLAG_CUBA |
 | flag: Cape Verde | 🇨🇻 | 1F1E8 1F1FB | FLAG_CAPE_VERDE |

@@ -1,6 +1,6 @@
 {
   "name": "jawira/emoji-catalog",
-  "description": "Get access to +3600 emojis as class constants",
+  "description": "Get access to +3700 emojis as class constants",
   "license": "MIT",
   "type": "library",
   "keywords": [
@@ -15,7 +15,7 @@
   "authors": [
     {
       "name": "Jawira Portugal",
-      "email": "dev@tugal.be"
+      "homepage": "https://jawira.com/"
     }
   ],
   "require-dev": {

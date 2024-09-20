@@ -1,6 +1,6 @@
 # Emoji catalog 📔
 
-Get access to +3600 emojis as class constants.
+Get access to +3700 emojis as class constants.
 
 Features:
 
@@ -34,8 +34,8 @@ class constants:
 
 ## How to install
 
-```
-$ composer require jawira/emoji-catalog
+```console
+composer require jawira/emoji-catalog
 ```
 
 ## Emoji sequences
