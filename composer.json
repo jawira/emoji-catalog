@@ -22,7 +22,7 @@
     "php": "^7.3 || ^8.0",
     "ext-intl": "*",
     "ext-mbstring": "*",
-    "jawira/skeleton": "^2.16",
+    "jawira/skeleton": "^2.33",
     "phing/phing": "^2.17 || ^3"
   },
   "autoload": {
