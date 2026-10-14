@@ -1,6 +1,6 @@
 # Emoji catalog 📔
 
-Get access to +3900 emojis as class constants.
+Get access to +3950 emojis as class constants.
 
 Features:
 

@@ -15,6 +15,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | slightly smiling face | 🙂 | 1F642 | SLIGHTLY_SMILING_FACE |
 | upside-down face | 🙃 | 1F643 | UPSIDE_DOWN_FACE |
 | melting face | 🫠 | 1FAE0 | MELTING_FACE |
+| cracking face | 🫫 | 1FAEB | CRACKING_FACE |
 | winking face | 😉 | 1F609 | WINKING_FACE |
 | smiling face with smiling eyes | 😊 | 1F60A | SMILING_FACE_WITH_SMILING_EYES |
 | smiling face with halo | 😇 | 1F607 | SMILING_FACE_WITH_HALO |
@@ -349,6 +350,18 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | thumbs down: medium skin tone | 👎🏽 | 1F44E 1F3FD | THUMBS_DOWN_MEDIUM_SKIN_TONE |
 | thumbs down: medium-dark skin tone | 👎🏾 | 1F44E 1F3FE | THUMBS_DOWN_MEDIUM_DARK_SKIN_TONE |
 | thumbs down: dark skin tone | 👎🏿 | 1F44E 1F3FF | THUMBS_DOWN_DARK_SKIN_TONE |
+| leftwards thumb sign | 🫹 | 1FAF9 | LEFTWARDS_THUMB_SIGN |
+| leftwards thumb sign: light skin tone | 🫹🏻 | 1FAF9 1F3FB | LEFTWARDS_THUMB_SIGN_LIGHT_SKIN_TONE |
+| leftwards thumb sign: medium-light skin tone | 🫹🏼 | 1FAF9 1F3FC | LEFTWARDS_THUMB_SIGN_MEDIUM_LIGHT_SKIN_TONE |
+| leftwards thumb sign: medium skin tone | 🫹🏽 | 1FAF9 1F3FD | LEFTWARDS_THUMB_SIGN_MEDIUM_SKIN_TONE |
+| leftwards thumb sign: medium-dark skin tone | 🫹🏾 | 1FAF9 1F3FE | LEFTWARDS_THUMB_SIGN_MEDIUM_DARK_SKIN_TONE |
+| leftwards thumb sign: dark skin tone | 🫹🏿 | 1FAF9 1F3FF | LEFTWARDS_THUMB_SIGN_DARK_SKIN_TONE |
+| rightwards thumb sign | 🫺 | 1FAFA | RIGHTWARDS_THUMB_SIGN |
+| rightwards thumb sign: light skin tone | 🫺🏻 | 1FAFA 1F3FB | RIGHTWARDS_THUMB_SIGN_LIGHT_SKIN_TONE |
+| rightwards thumb sign: medium-light skin tone | 🫺🏼 | 1FAFA 1F3FC | RIGHTWARDS_THUMB_SIGN_MEDIUM_LIGHT_SKIN_TONE |
+| rightwards thumb sign: medium skin tone | 🫺🏽 | 1FAFA 1F3FD | RIGHTWARDS_THUMB_SIGN_MEDIUM_SKIN_TONE |
+| rightwards thumb sign: medium-dark skin tone | 🫺🏾 | 1FAFA 1F3FE | RIGHTWARDS_THUMB_SIGN_MEDIUM_DARK_SKIN_TONE |
+| rightwards thumb sign: dark skin tone | 🫺🏿 | 1FAFA 1F3FF | RIGHTWARDS_THUMB_SIGN_DARK_SKIN_TONE |
 | raised fist | ✊ | 270A | RAISED_FIST |
 | raised fist: light skin tone | ✊🏻 | 270A 1F3FB | RAISED_FIST_LIGHT_SKIN_TONE |
 | raised fist: medium-light skin tone | ✊🏼 | 270A 1F3FC | RAISED_FIST_MEDIUM_LIGHT_SKIN_TONE |
@@ -2710,6 +2723,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | oyster | 🦪 | 1F9AA | OYSTER |
 | snail | 🐌 | 1F40C | SNAIL |
 | butterfly | 🦋 | 1F98B | BUTTERFLY |
+| monarch butterfly | 🫌 | 1FACC | MONARCH_BUTTERFLY |
 | bug | 🐛 | 1F41B | BUG |
 | ant | 🐜 | 1F41C | ANT |
 | honeybee | 🐝 | 1F41D | HONEYBEE |
@@ -2763,7 +2777,6 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | pineapple | 🍍 | 1F34D | PINEAPPLE |
 | mango | 🥭 | 1F96D | MANGO |
 | red apple | 🍎 | 1F34E | RED_APPLE |
-| apple core | 🫝 | 1FADD | APPLE_CORE |
 | green apple | 🍏 | 1F34F | GREEN_APPLE |
 | pear | 🍐 | 1F350 | PEAR |
 | peach | 🍑 | 1F351 | PEACH |
@@ -2782,6 +2795,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | hot pepper | 🌶️ | 1F336 FE0F | HOT_PEPPER |
 | bell pepper | 🫑 | 1FAD1 | BELL_PEPPER |
 | cucumber | 🥒 | 1F952 | CUCUMBER |
+| pickle | 🫝 | 1FADD | PICKLE |
 | leafy green | 🥬 | 1F96C | LEAFY_GREEN |
 | broccoli | 🥦 | 1F966 | BROCCOLI |
 | garlic | 🧄 | 1F9C4 | GARLIC |
@@ -3002,6 +3016,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | vertical traffic light | 🚦 | 1F6A6 | VERTICAL_TRAFFIC_LIGHT |
 | stop sign | 🛑 | 1F6D1 | STOP_SIGN |
 | construction | 🚧 | 1F6A7 | CONSTRUCTION |
+| lighthouse | 🛙 | 1F6D9 | LIGHTHOUSE |
 | anchor | ⚓ | 2693 | ANCHOR |
 | ring buoy | 🛟 | 1F6DF | RING_BUOY |
 | sailboat | ⛵ | 26F5 | SAILBOAT |
@@ -3101,6 +3116,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | snowman | ☃️ | 2603 FE0F | SNOWMAN |
 | snowman without snow | ⛄ | 26C4 | SNOWMAN_WITHOUT_SNOW |
 | comet | ☄️ | 2604 FE0F | COMET |
+| meteor | 🪋 | 1FA8B | METEOR |
 | fire | 🔥 | 1F525 | FIRE |
 | droplet | 💧 | 1F4A7 | DROPLET |
 | water wave | 🌊 | 1F30A | WATER_WAVE |
@@ -3351,6 +3367,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | paintbrush | 🖌️ | 1F58C FE0F | PAINTBRUSH |
 | crayon | 🖍️ | 1F58D FE0F | CRAYON |
 | memo | 📝 | 1F4DD | MEMO |
+| eraser | 🪌 | 1FA8C | ERASER |
 | briefcase | 💼 | 1F4BC | BRIEFCASE |
 | file folder | 📁 | 1F4C1 | FILE_FOLDER |
 | open file folder | 📂 | 1F4C2 | OPEN_FILE_FOLDER |
@@ -3380,6 +3397,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | locked with key | 🔐 | 1F510 | LOCKED_WITH_KEY |
 | key | 🔑 | 1F511 | KEY |
 | old key | 🗝️ | 1F5DD FE0F | OLD_KEY |
+| net with handle | 🪍 | 1FA8D | NET_WITH_HANDLE |
 | hammer | 🔨 | 1F528 | HAMMER |
 | axe | 🪓 | 1FA93 | AXE |
 | pick | ⛏️ | 26CF FE0F | PICK |
@@ -3788,7 +3806,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | flag: Guinea-Bissau | 🇬🇼 | 1F1EC 1F1FC | FLAG_GUINEA_BISSAU |
 | flag: Guyana | 🇬🇾 | 1F1EC 1F1FE | FLAG_GUYANA |
 | flag: Hong Kong SAR China | 🇭🇰 | 1F1ED 1F1F0 | FLAG_HONG_KONG_SAR_CHINA |
-| flag: Heard & McDonald Islands | 🇭🇲 | 1F1ED 1F1F2 | FLAG_HEARD_MCDONALD_ISLANDS |
+| flag: Heard Island & McDonald Islands | 🇭🇲 | 1F1ED 1F1F2 | FLAG_HEARD_ISLAND_MCDONALD_ISLANDS |
 | flag: Honduras | 🇭🇳 | 1F1ED 1F1F3 | FLAG_HONDURAS |
 | flag: Croatia | 🇭🇷 | 1F1ED 1F1F7 | FLAG_CROATIA |
 | flag: Haiti | 🇭🇹 | 1F1ED 1F1F9 | FLAG_HAITI |
@@ -3892,7 +3910,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | flag: Sudan | 🇸🇩 | 1F1F8 1F1E9 | FLAG_SUDAN |
 | flag: Sweden | 🇸🇪 | 1F1F8 1F1EA | FLAG_SWEDEN |
 | flag: Singapore | 🇸🇬 | 1F1F8 1F1EC | FLAG_SINGAPORE |
-| flag: St. Helena | 🇸🇭 | 1F1F8 1F1ED | FLAG_ST_HELENA |
+| flag: St. Helena, Ascension & Tristan da Cunha | 🇸🇭 | 1F1F8 1F1ED | FLAG_ST_HELENA_ASCENSION_TRISTAN_DA_CUNHA |
 | flag: Slovenia | 🇸🇮 | 1F1F8 1F1EE | FLAG_SLOVENIA |
 | flag: Svalbard & Jan Mayen | 🇸🇯 | 1F1F8 1F1EF | FLAG_SVALBARD_JAN_MAYEN |
 | flag: Slovakia | 🇸🇰 | 1F1F8 1F1F0 | FLAG_SLOVAKIA |
@@ -3910,7 +3928,7 @@ This list contains all the _emojis_ from `\Jawira\EmojiCatalog\Emoji`.
 | flag: Tristan da Cunha | 🇹🇦 | 1F1F9 1F1E6 | FLAG_TRISTAN_DA_CUNHA |
 | flag: Turks & Caicos Islands | 🇹🇨 | 1F1F9 1F1E8 | FLAG_TURKS_CAICOS_ISLANDS |
 | flag: Chad | 🇹🇩 | 1F1F9 1F1E9 | FLAG_CHAD |
-| flag: French Southern Territories | 🇹🇫 | 1F1F9 1F1EB | FLAG_FRENCH_SOUTHERN_TERRITORIES |
+| flag: French Southern and Antarctic Lands | 🇹🇫 | 1F1F9 1F1EB | FLAG_FRENCH_SOUTHERN_AND_ANTARCTIC_LANDS |
 | flag: Togo | 🇹🇬 | 1F1F9 1F1EC | FLAG_TOGO |
 | flag: Thailand | 🇹🇭 | 1F1F9 1F1ED | FLAG_THAILAND |
 | flag: Tajikistan | 🇹🇯 | 1F1F9 1F1EF | FLAG_TAJIKISTAN |

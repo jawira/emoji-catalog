@@ -2,12 +2,11 @@
 <project name="jawira/emoji-catalog" default="help">
 
 
-  <property name="emoji.source" value="https://unicode.org/Public/emoji/17.0/emoji-test.txt"/>
+  <property name="emoji.source" value="https://unicode.org/Public/emoji/latest/emoji-test.txt"/>
 
 
   <target name="setup" description="Prepare project for dev" depends="composer:install"/>
-  <target name="qa" description="Quality assurance"
-          depends="composer:validate,php:lint,emoji:tests"/>
+  <target name="qa" description="Quality assurance" depends="composer:validate,php:lint,emoji:tests"/>
   <target name="update" description="Update class and catalog"
           depends="emoji:download-source,emoji:update,doc:update,emoji:count"/>
 
@@ -64,15 +63,15 @@
   <target name="emoji:count" description="Count constants in Emoji class">
     <autoloader autoloaderpath="vendor/autoload.php"/>
     <adhoc-task name="emoji-count">
-        class EmojiCountTask extends \Phing\Task {
-            function main() {
-                $emojiReflection = new ReflectionClass(\Jawira\EmojiCatalog\Emoji::class);
-                $constants = $emojiReflection-&gt;getConstants();
-                $count = count($constants);
-                $this-&gt;log("Emoji count: $count");
-                $this-&gt;project-&gt;setProperty('emoji-count', $count);
-            }
-        }
+      class EmojiCountTask extends \Phing\Task {
+      function main() {
+      $emojiReflection = new ReflectionClass(\Jawira\EmojiCatalog\Emoji::class);
+      $constants = $emojiReflection-&gt;getConstants();
+      $count = count($constants);
+      $this-&gt;log("Emoji count: $count");
+      $this-&gt;project-&gt;setProperty('emoji-count', $count);
+      }
+      }
     </adhoc-task>
     <emoji-count/>
   </target>

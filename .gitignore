@@ -19,3 +19,5 @@
 /composer.lock
 /resources/deleteme.txt
 /resources/output/
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
