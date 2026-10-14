@@ -1,11 +1,12 @@
-<?php /** @noinspection PhpUnused */
+<?php
 
 namespace Jawira\EmojiCatalog;
 
 /**
  * Get access to all emojis as class constants.
  *
- * @author  Jawira Portugal <dev@tugal.be>
+ * @author Jawira Portugal <dev@tugal.be>
+ * @copyright © 2019-2026 Jawira Portugal
  */
 class Emoji
 {
@@ -20,6 +21,7 @@ const FACE_WITH_TEARS_OF_JOY = '😂';
 const SLIGHTLY_SMILING_FACE = '🙂';
 const UPSIDE_DOWN_FACE = '🙃';
 const MELTING_FACE = '🫠';
+const CRACKING_FACE = '🫫';
 const WINKING_FACE = '😉';
 const SMILING_FACE_WITH_SMILING_EYES = '😊';
 const SMILING_FACE_WITH_HALO = '😇';
@@ -354,6 +356,18 @@ const THUMBS_DOWN_MEDIUM_LIGHT_SKIN_TONE = '👎🏼';
 const THUMBS_DOWN_MEDIUM_SKIN_TONE = '👎🏽';
 const THUMBS_DOWN_MEDIUM_DARK_SKIN_TONE = '👎🏾';
 const THUMBS_DOWN_DARK_SKIN_TONE = '👎🏿';
+const LEFTWARDS_THUMB_SIGN = '🫹';
+const LEFTWARDS_THUMB_SIGN_LIGHT_SKIN_TONE = '🫹🏻';
+const LEFTWARDS_THUMB_SIGN_MEDIUM_LIGHT_SKIN_TONE = '🫹🏼';
+const LEFTWARDS_THUMB_SIGN_MEDIUM_SKIN_TONE = '🫹🏽';
+const LEFTWARDS_THUMB_SIGN_MEDIUM_DARK_SKIN_TONE = '🫹🏾';
+const LEFTWARDS_THUMB_SIGN_DARK_SKIN_TONE = '🫹🏿';
+const RIGHTWARDS_THUMB_SIGN = '🫺';
+const RIGHTWARDS_THUMB_SIGN_LIGHT_SKIN_TONE = '🫺🏻';
+const RIGHTWARDS_THUMB_SIGN_MEDIUM_LIGHT_SKIN_TONE = '🫺🏼';
+const RIGHTWARDS_THUMB_SIGN_MEDIUM_SKIN_TONE = '🫺🏽';
+const RIGHTWARDS_THUMB_SIGN_MEDIUM_DARK_SKIN_TONE = '🫺🏾';
+const RIGHTWARDS_THUMB_SIGN_DARK_SKIN_TONE = '🫺🏿';
 const RAISED_FIST = '✊';
 const RAISED_FIST_LIGHT_SKIN_TONE = '✊🏻';
 const RAISED_FIST_MEDIUM_LIGHT_SKIN_TONE = '✊🏼';
@@ -2715,6 +2729,7 @@ const SQUID = '🦑';
 const OYSTER = '🦪';
 const SNAIL = '🐌';
 const BUTTERFLY = '🦋';
+const MONARCH_BUTTERFLY = '🫌';
 const BUG = '🐛';
 const ANT = '🐜';
 const HONEYBEE = '🐝';
@@ -2768,7 +2783,6 @@ const BANANA = '🍌';
 const PINEAPPLE = '🍍';
 const MANGO = '🥭';
 const RED_APPLE = '🍎';
-const APPLE_CORE = '🫝';
 const GREEN_APPLE = '🍏';
 const PEAR = '🍐';
 const PEACH = '🍑';
@@ -2787,6 +2801,7 @@ const EAR_OF_CORN = '🌽';
 const HOT_PEPPER = '🌶️';
 const BELL_PEPPER = '🫑';
 const CUCUMBER = '🥒';
+const PICKLE = '🫝';
 const LEAFY_GREEN = '🥬';
 const BROCCOLI = '🥦';
 const GARLIC = '🧄';
@@ -3007,6 +3022,7 @@ const HORIZONTAL_TRAFFIC_LIGHT = '🚥';
 const VERTICAL_TRAFFIC_LIGHT = '🚦';
 const STOP_SIGN = '🛑';
 const CONSTRUCTION = '🚧';
+const LIGHTHOUSE = '🛙';
 const ANCHOR = '⚓';
 const RING_BUOY = '🛟';
 const SAILBOAT = '⛵';
@@ -3106,6 +3122,7 @@ const SNOWFLAKE = '❄️';
 const SNOWMAN = '☃️';
 const SNOWMAN_WITHOUT_SNOW = '⛄';
 const COMET = '☄️';
+const METEOR = '🪋';
 const FIRE = '🔥';
 const DROPLET = '💧';
 const WATER_WAVE = '🌊';
@@ -3356,6 +3373,7 @@ const PEN = '🖊️';
 const PAINTBRUSH = '🖌️';
 const CRAYON = '🖍️';
 const MEMO = '📝';
+const ERASER = '🪌';
 const BRIEFCASE = '💼';
 const FILE_FOLDER = '📁';
 const OPEN_FILE_FOLDER = '📂';
@@ -3385,6 +3403,7 @@ const LOCKED_WITH_PEN = '🔏';
 const LOCKED_WITH_KEY = '🔐';
 const KEY = '🔑';
 const OLD_KEY = '🗝️';
+const NET_WITH_HANDLE = '🪍';
 const HAMMER = '🔨';
 const AXE = '🪓';
 const PICK = '⛏️';
@@ -3793,7 +3812,7 @@ const FLAG_GUAM = '🇬🇺';
 const FLAG_GUINEA_BISSAU = '🇬🇼';
 const FLAG_GUYANA = '🇬🇾';
 const FLAG_HONG_KONG_SAR_CHINA = '🇭🇰';
-const FLAG_HEARD_MCDONALD_ISLANDS = '🇭🇲';
+const FLAG_HEARD_ISLAND_MCDONALD_ISLANDS = '🇭🇲';
 const FLAG_HONDURAS = '🇭🇳';
 const FLAG_CROATIA = '🇭🇷';
 const FLAG_HAITI = '🇭🇹';
@@ -3897,7 +3916,7 @@ const FLAG_SEYCHELLES = '🇸🇨';
 const FLAG_SUDAN = '🇸🇩';
 const FLAG_SWEDEN = '🇸🇪';
 const FLAG_SINGAPORE = '🇸🇬';
-const FLAG_ST_HELENA = '🇸🇭';
+const FLAG_ST_HELENA_ASCENSION_TRISTAN_DA_CUNHA = '🇸🇭';
 const FLAG_SLOVENIA = '🇸🇮';
 const FLAG_SVALBARD_JAN_MAYEN = '🇸🇯';
 const FLAG_SLOVAKIA = '🇸🇰';
@@ -3915,7 +3934,7 @@ const FLAG_ESWATINI = '🇸🇿';
 const FLAG_TRISTAN_DA_CUNHA = '🇹🇦';
 const FLAG_TURKS_CAICOS_ISLANDS = '🇹🇨';
 const FLAG_CHAD = '🇹🇩';
-const FLAG_FRENCH_SOUTHERN_TERRITORIES = '🇹🇫';
+const FLAG_FRENCH_SOUTHERN_AND_ANTARCTIC_LANDS = '🇹🇫';
 const FLAG_TOGO = '🇹🇬';
 const FLAG_THAILAND = '🇹🇭';
 const FLAG_TAJIKISTAN = '🇹🇯';

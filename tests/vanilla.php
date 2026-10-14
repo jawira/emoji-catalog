@@ -19,6 +19,8 @@ function vanilla()
         'E13.1' => [Emoji::HEART_ON_FIRE, "\u{2764}\u{FE0F}\u{200D}\u{1F525}"],
         'E15.0' => [Emoji::PINK_HEART, "\u{1FA77}"],
         'E16.0' => [Emoji::HARP, "\u{1FA89}"],
+        'E17.0' => [Emoji::DISTORTED_FACE, "\u{1FAEA}"],
+        'E18.0' => [Emoji::MONARCH_BUTTERFLY, "\u{1FACC}"],
     ];
 
     foreach ($provider as $key => $testCase) {
@@ -30,4 +32,3 @@ function vanilla()
     $count = count($provider);
     echo PHP_EOL, "All $count tests ok!", PHP_EOL;
 }
-
