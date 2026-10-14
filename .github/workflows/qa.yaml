@@ -11,8 +11,8 @@ jobs:
   qa:
     strategy:
       matrix:
-        php: [ '7.4','8.0','8.1','8.2','8.3','8.4' ]
-    runs-on: ubuntu-22.04
+        php: [ '7.4','8.0','8.1','8.2','8.3','8.4','8.5' ]
+    runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
 
@@ -30,4 +30,4 @@ jobs:
         run: composer install --no-interaction
 
       - name: qa target
-        run: vendor/bin/phing qa
+        run: vendor/bin/phing php:lint composer:validate emoji:tests
