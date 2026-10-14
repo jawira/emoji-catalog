@@ -24,7 +24,7 @@ jobs:
           coverage: xdebug
           tools: composer:v2
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       - name: Install dependencies
         run: composer install --no-interaction
